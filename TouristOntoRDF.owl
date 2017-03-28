@@ -1,0 +1,923 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#"
+     xml:base="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:TouristOnto="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#activityDuration -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#activityDuration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Duration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#aged -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#aged">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Age"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#availableDuring -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#availableDuring">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#OpeningHours"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#costs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#costs">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Accommodation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Activity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Price"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#departure -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#departure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#destination -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#destination">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#foodType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#foodType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cuisine"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#friendOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#friendOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#interestedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#interestedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#locatedAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#locatedAt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Accommodation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#rated -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#rated">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Accommodation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#review -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#review">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Comment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sex -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sex">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Gender"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Category"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#visitTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#visitTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Season"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Accommodation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Accommodation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Activity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Age"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Category"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Comment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Comment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cuisine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cuisine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Duration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Duration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Gender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Gender"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Accommodation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#OpeningHours -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#OpeningHours"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Price -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Price"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Accommodation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Season -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Season"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Alf_Leila_wa_Leila -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Alf_Leila_wa_Leila">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <activityDuration rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#3_Hours"/>
+        <availableDuring rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#18_to_22"/>
+        <costs rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#200"/>
+        <rated rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#5"/>
+        <review rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_experience_was_amazing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#All_Day -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#All_Day">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#OpeningHours"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bad_quality -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bad_quality">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Comment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Canoeing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Canoeing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <activityDuration rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day"/>
+        <availableDuring rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#9_to_18"/>
+        <costs rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#100"/>
+        <rated rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1"/>
+        <review rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sucks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Comfort -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Comfort">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Di_Napoli -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Di_Napoli">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <activityDuration rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2_Hours"/>
+        <availableDuring rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#18_to_22"/>
+        <costs rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#200"/>
+        <foodType rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Italian"/>
+        <rated rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#5"/>
+        <review rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_experience_was_amazing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Season"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Female -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Female">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Gender"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight_606 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight_606">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <costs rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1700"/>
+        <departure rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+        <destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Santorini"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight_939 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight_939">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <costs rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1500"/>
+        <departure rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
+        <destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Duration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hiking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hiking">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <activityDuration rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day"/>
+        <availableDuring rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#9_to_18"/>
+        <costs rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#100"/>
+        <rated rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#4"/>
+        <review rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#I_love_it"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hilton_Luxor_Resort -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hilton_Luxor_Resort">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <costs rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2000"/>
+        <locatedAt rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+        <rated rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#History -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#History">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#I_love_it -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#I_love_it">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Comment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Italian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Italian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cuisine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#John -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#John">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <aged rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#23"/>
+        <interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture"/>
+        <sex rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Male"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Local -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Local">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cuisine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historic"/>
+        <visitTime rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Winter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Male -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Male">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Gender"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Monica -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Monica">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <aged rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#35"/>
+        <interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#History"/>
+        <sex rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Female"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Nefertiti_Hotel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Nefertiti_Hotel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <costs rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2500"/>
+        <locatedAt rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+        <rated rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Outgoing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Outgoing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Peking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Peking">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <activityDuration rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2_Hours"/>
+        <availableDuring rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#18_to_22"/>
+        <costs rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#100"/>
+        <foodType rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Thai"/>
+        <rated rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#4"/>
+        <review rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#I_love_it"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Relaxation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Relaxation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Richard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Richard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <aged rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#40"/>
+        <interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Comfort"/>
+        <sex rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Male"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historic"/>
+        <visitTime rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Winter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Santorini -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Santorini">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Relaxation"/>
+        <visitTime rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Winter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sound_and_Light_show -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sound_and_Light_show">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <activityDuration rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2_Hours"/>
+        <availableDuring rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#23_to_6"/>
+        <costs rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#500"/>
+        <rated rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#4"/>
+        <review rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#I_love_it"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Spring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Spring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Season"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sucks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sucks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Comment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Summer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Summer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Season"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Temple_of_Karnak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Temple_of_Karnak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <activityDuration rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#3_Hours"/>
+        <availableDuring rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#9_to_18"/>
+        <costs rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#200"/>
+        <rated rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#5"/>
+        <review rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#I_love_it"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Temple_of_Madinat_Habu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Temple_of_Madinat_Habu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <activityDuration rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#3_Hours"/>
+        <availableDuring rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#9_to_18"/>
+        <costs rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#400"/>
+        <rated rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1"/>
+        <review rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bad_quality"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Thai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Thai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cuisine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_experience_was_amazing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_experience_was_amazing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Comment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Valley_of_the_Kings -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Valley_of_the_Kings">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <activityDuration rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2_Hours"/>
+        <availableDuring rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#9_to_18"/>
+        <costs rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#200"/>
+        <rated rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#5"/>
+        <review rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_experience_was_amazing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Villa_Diletta_Pink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Villa_Diletta_Pink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <costs rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2200"/>
+        <locatedAt rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+        <rated rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Villa_Rosamund -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Villa_Rosamund">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <costs rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2300"/>
+        <locatedAt rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+        <rated rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Winter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Winter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Season"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#100 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#100">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Price"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1500 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1500">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Price"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1700 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1700">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Price"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#18_to_22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#18_to_22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#OpeningHours"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2_Hours -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2_Hours">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Duration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#200 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#200">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Price"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2000 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2000">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Price"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2200 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2200">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Price"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#23">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Age"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#23_to_6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#23_to_6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#OpeningHours"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2300 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2300">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Price"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2500 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2500">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Price"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#3_Hours -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#3_Hours">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Duration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#35">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Age"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#40 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#40">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Age"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#400 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#400">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Price"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#500 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#500">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Price"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#9_to_18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#9_to_18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#OpeningHours"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
