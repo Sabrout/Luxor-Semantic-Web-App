@@ -24,13 +24,17 @@ and enjoy their stay in Luxor. This is done by:
 2. Suggesting the best time of visit
 3. Suggesting restaurants with
 4. Suggesting activities based on the tourist’s interests
-5. Plan for the whole trip
+5. Plan for the whole trip.
+
 Tourists are not expected to know semantic web, RDF and SPARQL. Thus, the final task of the
 project is to implement the frontend, friendly interface that allows tourists to create their
 profile, add their interests and finally ask for suggestions and recommendations.
 
 # Milestones Distribution - Weekly
 Milestone 1: Ontology
+
 Milestone 2: Instances
+
 Milestone 3: Querying
+
 Milestone 4: Frontend
