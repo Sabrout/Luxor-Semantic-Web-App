@@ -6,28 +6,45 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto">
+    <Prefix name="" IRI="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://xmlns.com/foaf/0.1/</Import>
     <Declaration>
         <Class IRI="#City"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Richard"/>
+        <DataProperty IRI="#name"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Price"/>
+        <NamedIndividual IRI="#1700"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#locatedAt"/>
+        <NamedIndividual IRI="#2_Hours"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Valley_of_the_Kings"/>
+        <NamedIndividual IRI="#2300"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#35"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#23"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#from"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Sucks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Full_Day"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#interestedIn"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Summer"/>
@@ -36,7 +53,13 @@
         <NamedIndividual IRI="#1"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Age"/>
+        <DataProperty IRI="#rate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#season"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#5"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Relaxation"/>
@@ -45,31 +68,79 @@
         <Class IRI="#Activity"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Interest"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Rental"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Local"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Female"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Fall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bad_quality"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cuisine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3_Hours"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#23_to_6"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2200"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Gender"/>
+        <DataProperty IRI="#departureTime"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Canoeing"/>
+        <NamedIndividual IRI="#400"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#History"/>
+        <ObjectProperty IRI="#to"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#40"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#18_to_22"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#aged"/>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recommends"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entertainment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spring"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#duration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Villa_Diletta_Pink"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Historic"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Food"/>
@@ -78,43 +149,55 @@
         <Class IRI="#Flight"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Comment"/>
+        <NamedIndividual IRI="#1500"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2500"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#openingHours"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#500"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Flight_939"/>
+        <NamedIndividual IRI="#I_love_it"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#100"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#9_to_18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Italian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Historical"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Sports"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#review"/>
+        <ObjectProperty IRI="#foodType"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Hiking"/>
+        <NamedIndividual IRI="#Villa_Rosamund"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Alf_Leila_wa_Leila"/>
+        <Class IRI="#Hotel"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Duration"/>
+        <ObjectProperty IRI="#destination"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2000"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Male"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#rated"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Category"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#200"/>
@@ -129,190 +212,19 @@
         <NamedIndividual IRI="#The_experience_was_amazing"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#activityDuration"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#departure"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#1700"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#2_Hours"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#2300"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#35"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#23"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Culture"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Full_Day"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#interestedIn"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Food"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Flight_606"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#5"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Interest"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Local"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#User"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#costs"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Bad_quality"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Hilton_Luxor_Resort"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#3_Hours"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OpeningHours"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#23_to_6"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Rate"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#400"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#40"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Peking"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Sound_and_Light_show"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cuisine"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#4"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Rome"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Nefertiti_Hotel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Entertainment"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Spring"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Villa_Diletta_Pink"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Monica"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Historic"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Temple_of_Madinat_Habu"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#1500"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#I_love_it"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#100"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#visitTime"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#John"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#9_to_18"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Luxor"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Italian"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Thai"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Historical"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#availableDuring"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#foodType"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Villa_Rosamund"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Hotel"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Comfort"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Santorini"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#type"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#destination"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Outgoing"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#sex"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Season"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Temple_of_Karnak"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Di_Napoli"/>
+        <DataProperty IRI="#comments"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Accommodation"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#departure"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Winter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#price"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Entertainment"/>
@@ -338,166 +250,10 @@
         <Class IRI="#Sports"/>
         <Class IRI="#Activity"/>
     </SubClassOf>
-    <ClassAssertion>
-        <Class IRI="#Entertainment"/>
-        <NamedIndividual IRI="#Alf_Leila_wa_Leila"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OpeningHours"/>
-        <NamedIndividual IRI="#All_Day"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Comment"/>
-        <NamedIndividual IRI="#Bad_quality"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#Canoeing"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Interest"/>
-        <NamedIndividual IRI="#Comfort"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Interest"/>
-        <NamedIndividual IRI="#Culture"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Food"/>
-        <NamedIndividual IRI="#Di_Napoli"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Season"/>
-        <NamedIndividual IRI="#Fall"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Gender"/>
-        <NamedIndividual IRI="#Female"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Flight"/>
-        <NamedIndividual IRI="#Flight_606"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Flight"/>
-        <NamedIndividual IRI="#Flight_939"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Interest"/>
-        <NamedIndividual IRI="#Food"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Duration"/>
-        <NamedIndividual IRI="#Full_Day"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#Hiking"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Hotel"/>
-        <NamedIndividual IRI="#Hilton_Luxor_Resort"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Category"/>
-        <NamedIndividual IRI="#Historic"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Interest"/>
-        <NamedIndividual IRI="#History"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Comment"/>
-        <NamedIndividual IRI="#I_love_it"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Cuisine"/>
-        <NamedIndividual IRI="#Italian"/>
-    </ClassAssertion>
-    <ClassAssertion>
+    <SubClassOf>
         <Class IRI="#User"/>
-        <NamedIndividual IRI="#John"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Cuisine"/>
-        <NamedIndividual IRI="#Local"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#City"/>
-        <NamedIndividual IRI="#Luxor"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Gender"/>
-        <NamedIndividual IRI="#Male"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#User"/>
-        <NamedIndividual IRI="#Monica"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Hotel"/>
-        <NamedIndividual IRI="#Nefertiti_Hotel"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Interest"/>
-        <NamedIndividual IRI="#Outgoing"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Food"/>
-        <NamedIndividual IRI="#Peking"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Category"/>
-        <NamedIndividual IRI="#Relaxation"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#User"/>
-        <NamedIndividual IRI="#Richard"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#City"/>
-        <NamedIndividual IRI="#Rome"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#City"/>
-        <NamedIndividual IRI="#Santorini"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Entertainment"/>
-        <NamedIndividual IRI="#Sound_and_Light_show"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Season"/>
-        <NamedIndividual IRI="#Spring"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Comment"/>
-        <NamedIndividual IRI="#Sucks"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Season"/>
-        <NamedIndividual IRI="#Summer"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Historical"/>
-        <NamedIndividual IRI="#Temple_of_Karnak"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Historical"/>
-        <NamedIndividual IRI="#Temple_of_Madinat_Habu"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Cuisine"/>
-        <NamedIndividual IRI="#Thai"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Comment"/>
-        <NamedIndividual IRI="#The_experience_was_amazing"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Historical"/>
-        <NamedIndividual IRI="#Valley_of_the_Kings"/>
-    </ClassAssertion>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </SubClassOf>
     <ClassAssertion>
         <Class IRI="#Rental"/>
         <NamedIndividual IRI="#Villa_Diletta_Pink"/>
@@ -506,518 +262,6 @@
         <Class IRI="#Rental"/>
         <NamedIndividual IRI="#Villa_Rosamund"/>
     </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Season"/>
-        <NamedIndividual IRI="#Winter"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rate"/>
-        <NamedIndividual IRI="#1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Price"/>
-        <NamedIndividual IRI="#100"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Price"/>
-        <NamedIndividual IRI="#1500"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Price"/>
-        <NamedIndividual IRI="#1700"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OpeningHours"/>
-        <NamedIndividual IRI="#18_to_22"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Duration"/>
-        <NamedIndividual IRI="#2_Hours"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Price"/>
-        <NamedIndividual IRI="#200"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Price"/>
-        <NamedIndividual IRI="#2000"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Price"/>
-        <NamedIndividual IRI="#2200"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Age"/>
-        <NamedIndividual IRI="#23"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OpeningHours"/>
-        <NamedIndividual IRI="#23_to_6"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Price"/>
-        <NamedIndividual IRI="#2300"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Price"/>
-        <NamedIndividual IRI="#2500"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Duration"/>
-        <NamedIndividual IRI="#3_Hours"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Age"/>
-        <NamedIndividual IRI="#35"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rate"/>
-        <NamedIndividual IRI="#4"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Age"/>
-        <NamedIndividual IRI="#40"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Price"/>
-        <NamedIndividual IRI="#400"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Rate"/>
-        <NamedIndividual IRI="#5"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Price"/>
-        <NamedIndividual IRI="#500"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OpeningHours"/>
-        <NamedIndividual IRI="#9_to_18"/>
-    </ClassAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#activityDuration"/>
-        <NamedIndividual IRI="#Alf_Leila_wa_Leila"/>
-        <NamedIndividual IRI="#3_Hours"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#availableDuring"/>
-        <NamedIndividual IRI="#Alf_Leila_wa_Leila"/>
-        <NamedIndividual IRI="#18_to_22"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#costs"/>
-        <NamedIndividual IRI="#Alf_Leila_wa_Leila"/>
-        <NamedIndividual IRI="#200"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#rated"/>
-        <NamedIndividual IRI="#Alf_Leila_wa_Leila"/>
-        <NamedIndividual IRI="#5"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#review"/>
-        <NamedIndividual IRI="#Alf_Leila_wa_Leila"/>
-        <NamedIndividual IRI="#The_experience_was_amazing"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#activityDuration"/>
-        <NamedIndividual IRI="#Canoeing"/>
-        <NamedIndividual IRI="#Full_Day"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#availableDuring"/>
-        <NamedIndividual IRI="#Canoeing"/>
-        <NamedIndividual IRI="#9_to_18"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#costs"/>
-        <NamedIndividual IRI="#Canoeing"/>
-        <NamedIndividual IRI="#100"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#rated"/>
-        <NamedIndividual IRI="#Canoeing"/>
-        <NamedIndividual IRI="#1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#review"/>
-        <NamedIndividual IRI="#Canoeing"/>
-        <NamedIndividual IRI="#Sucks"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#activityDuration"/>
-        <NamedIndividual IRI="#Di_Napoli"/>
-        <NamedIndividual IRI="#2_Hours"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#availableDuring"/>
-        <NamedIndividual IRI="#Di_Napoli"/>
-        <NamedIndividual IRI="#18_to_22"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#costs"/>
-        <NamedIndividual IRI="#Di_Napoli"/>
-        <NamedIndividual IRI="#200"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#foodType"/>
-        <NamedIndividual IRI="#Di_Napoli"/>
-        <NamedIndividual IRI="#Italian"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#rated"/>
-        <NamedIndividual IRI="#Di_Napoli"/>
-        <NamedIndividual IRI="#5"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#review"/>
-        <NamedIndividual IRI="#Di_Napoli"/>
-        <NamedIndividual IRI="#The_experience_was_amazing"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#costs"/>
-        <NamedIndividual IRI="#Flight_606"/>
-        <NamedIndividual IRI="#1700"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#departure"/>
-        <NamedIndividual IRI="#Flight_606"/>
-        <NamedIndividual IRI="#Luxor"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#destination"/>
-        <NamedIndividual IRI="#Flight_606"/>
-        <NamedIndividual IRI="#Santorini"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#costs"/>
-        <NamedIndividual IRI="#Flight_939"/>
-        <NamedIndividual IRI="#1500"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#departure"/>
-        <NamedIndividual IRI="#Flight_939"/>
-        <NamedIndividual IRI="#Rome"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#destination"/>
-        <NamedIndividual IRI="#Flight_939"/>
-        <NamedIndividual IRI="#Luxor"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#activityDuration"/>
-        <NamedIndividual IRI="#Hiking"/>
-        <NamedIndividual IRI="#Full_Day"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#availableDuring"/>
-        <NamedIndividual IRI="#Hiking"/>
-        <NamedIndividual IRI="#9_to_18"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#costs"/>
-        <NamedIndividual IRI="#Hiking"/>
-        <NamedIndividual IRI="#100"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#rated"/>
-        <NamedIndividual IRI="#Hiking"/>
-        <NamedIndividual IRI="#4"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#review"/>
-        <NamedIndividual IRI="#Hiking"/>
-        <NamedIndividual IRI="#I_love_it"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#costs"/>
-        <NamedIndividual IRI="#Hilton_Luxor_Resort"/>
-        <NamedIndividual IRI="#2000"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#locatedAt"/>
-        <NamedIndividual IRI="#Hilton_Luxor_Resort"/>
-        <NamedIndividual IRI="#Luxor"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#rated"/>
-        <NamedIndividual IRI="#Hilton_Luxor_Resort"/>
-        <NamedIndividual IRI="#5"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#aged"/>
-        <NamedIndividual IRI="#John"/>
-        <NamedIndividual IRI="#23"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#interestedIn"/>
-        <NamedIndividual IRI="#John"/>
-        <NamedIndividual IRI="#Culture"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#sex"/>
-        <NamedIndividual IRI="#John"/>
-        <NamedIndividual IRI="#Male"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#type"/>
-        <NamedIndividual IRI="#Luxor"/>
-        <NamedIndividual IRI="#Historic"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#visitTime"/>
-        <NamedIndividual IRI="#Luxor"/>
-        <NamedIndividual IRI="#Winter"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#aged"/>
-        <NamedIndividual IRI="#Monica"/>
-        <NamedIndividual IRI="#35"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#interestedIn"/>
-        <NamedIndividual IRI="#Monica"/>
-        <NamedIndividual IRI="#History"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#sex"/>
-        <NamedIndividual IRI="#Monica"/>
-        <NamedIndividual IRI="#Female"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#costs"/>
-        <NamedIndividual IRI="#Nefertiti_Hotel"/>
-        <NamedIndividual IRI="#2500"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#locatedAt"/>
-        <NamedIndividual IRI="#Nefertiti_Hotel"/>
-        <NamedIndividual IRI="#Luxor"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#rated"/>
-        <NamedIndividual IRI="#Nefertiti_Hotel"/>
-        <NamedIndividual IRI="#4"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#activityDuration"/>
-        <NamedIndividual IRI="#Peking"/>
-        <NamedIndividual IRI="#2_Hours"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#availableDuring"/>
-        <NamedIndividual IRI="#Peking"/>
-        <NamedIndividual IRI="#18_to_22"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#costs"/>
-        <NamedIndividual IRI="#Peking"/>
-        <NamedIndividual IRI="#100"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#foodType"/>
-        <NamedIndividual IRI="#Peking"/>
-        <NamedIndividual IRI="#Thai"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#rated"/>
-        <NamedIndividual IRI="#Peking"/>
-        <NamedIndividual IRI="#4"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#review"/>
-        <NamedIndividual IRI="#Peking"/>
-        <NamedIndividual IRI="#I_love_it"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#aged"/>
-        <NamedIndividual IRI="#Richard"/>
-        <NamedIndividual IRI="#40"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#interestedIn"/>
-        <NamedIndividual IRI="#Richard"/>
-        <NamedIndividual IRI="#Comfort"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#sex"/>
-        <NamedIndividual IRI="#Richard"/>
-        <NamedIndividual IRI="#Male"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#type"/>
-        <NamedIndividual IRI="#Rome"/>
-        <NamedIndividual IRI="#Historic"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#visitTime"/>
-        <NamedIndividual IRI="#Rome"/>
-        <NamedIndividual IRI="#Winter"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#type"/>
-        <NamedIndividual IRI="#Santorini"/>
-        <NamedIndividual IRI="#Relaxation"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#visitTime"/>
-        <NamedIndividual IRI="#Santorini"/>
-        <NamedIndividual IRI="#Winter"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#activityDuration"/>
-        <NamedIndividual IRI="#Sound_and_Light_show"/>
-        <NamedIndividual IRI="#2_Hours"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#availableDuring"/>
-        <NamedIndividual IRI="#Sound_and_Light_show"/>
-        <NamedIndividual IRI="#23_to_6"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#costs"/>
-        <NamedIndividual IRI="#Sound_and_Light_show"/>
-        <NamedIndividual IRI="#500"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#rated"/>
-        <NamedIndividual IRI="#Sound_and_Light_show"/>
-        <NamedIndividual IRI="#4"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#review"/>
-        <NamedIndividual IRI="#Sound_and_Light_show"/>
-        <NamedIndividual IRI="#I_love_it"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#activityDuration"/>
-        <NamedIndividual IRI="#Temple_of_Karnak"/>
-        <NamedIndividual IRI="#3_Hours"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#availableDuring"/>
-        <NamedIndividual IRI="#Temple_of_Karnak"/>
-        <NamedIndividual IRI="#9_to_18"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#costs"/>
-        <NamedIndividual IRI="#Temple_of_Karnak"/>
-        <NamedIndividual IRI="#200"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#rated"/>
-        <NamedIndividual IRI="#Temple_of_Karnak"/>
-        <NamedIndividual IRI="#5"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#review"/>
-        <NamedIndividual IRI="#Temple_of_Karnak"/>
-        <NamedIndividual IRI="#I_love_it"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#activityDuration"/>
-        <NamedIndividual IRI="#Temple_of_Madinat_Habu"/>
-        <NamedIndividual IRI="#3_Hours"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#availableDuring"/>
-        <NamedIndividual IRI="#Temple_of_Madinat_Habu"/>
-        <NamedIndividual IRI="#9_to_18"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#costs"/>
-        <NamedIndividual IRI="#Temple_of_Madinat_Habu"/>
-        <NamedIndividual IRI="#400"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#rated"/>
-        <NamedIndividual IRI="#Temple_of_Madinat_Habu"/>
-        <NamedIndividual IRI="#1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#review"/>
-        <NamedIndividual IRI="#Temple_of_Madinat_Habu"/>
-        <NamedIndividual IRI="#Bad_quality"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#activityDuration"/>
-        <NamedIndividual IRI="#Valley_of_the_Kings"/>
-        <NamedIndividual IRI="#2_Hours"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#availableDuring"/>
-        <NamedIndividual IRI="#Valley_of_the_Kings"/>
-        <NamedIndividual IRI="#9_to_18"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#costs"/>
-        <NamedIndividual IRI="#Valley_of_the_Kings"/>
-        <NamedIndividual IRI="#200"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#rated"/>
-        <NamedIndividual IRI="#Valley_of_the_Kings"/>
-        <NamedIndividual IRI="#5"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#review"/>
-        <NamedIndividual IRI="#Valley_of_the_Kings"/>
-        <NamedIndividual IRI="#The_experience_was_amazing"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#costs"/>
-        <NamedIndividual IRI="#Villa_Diletta_Pink"/>
-        <NamedIndividual IRI="#2200"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#locatedAt"/>
-        <NamedIndividual IRI="#Villa_Diletta_Pink"/>
-        <NamedIndividual IRI="#Luxor"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#rated"/>
-        <NamedIndividual IRI="#Villa_Diletta_Pink"/>
-        <NamedIndividual IRI="#1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#costs"/>
-        <NamedIndividual IRI="#Villa_Rosamund"/>
-        <NamedIndividual IRI="#2300"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#locatedAt"/>
-        <NamedIndividual IRI="#Villa_Rosamund"/>
-        <NamedIndividual IRI="#Luxor"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#rated"/>
-        <NamedIndividual IRI="#Villa_Rosamund"/>
-        <NamedIndividual IRI="#4"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#activityDuration"/>
-        <Class IRI="#Activity"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#aged"/>
-        <Class IRI="#User"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#availableDuring"/>
-        <Class IRI="#Activity"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#costs"/>
-        <Class IRI="#Accommodation"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#costs"/>
-        <Class IRI="#Activity"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#costs"/>
-        <Class IRI="#Flight"/>
-    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#departure"/>
         <Class IRI="#Flight"/>
@@ -1035,53 +279,25 @@
         <Class IRI="#User"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#from"/>
+        <Class IRI="#Flight"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#interestedIn"/>
         <Class IRI="#User"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#locatedAt"/>
-        <Class IRI="#Accommodation"/>
+        <ObjectProperty IRI="#recommends"/>
+        <Class IRI="#Interest"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#rated"/>
-        <Class IRI="#Accommodation"/>
+        <ObjectProperty IRI="#to"/>
+        <Class IRI="#Flight"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#rated"/>
-        <Class IRI="#Activity"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#review"/>
-        <Class IRI="#Activity"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#sex"/>
-        <Class IRI="#User"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#type"/>
-        <Class IRI="#City"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#visitTime"/>
-        <Class IRI="#City"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#activityDuration"/>
-        <Class IRI="#Duration"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#aged"/>
-        <Class IRI="#Age"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#availableDuring"/>
-        <Class IRI="#OpeningHours"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#costs"/>
-        <Class IRI="#Price"/>
-    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#departure"/>
         <Class IRI="#City"/>
@@ -1091,41 +307,169 @@
         <Class IRI="#City"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#foodType"/>
-        <Class IRI="#Cuisine"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#friendOf"/>
         <Class IRI="#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#from"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#Accommodation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#Activity"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#interestedIn"/>
         <Class IRI="#Interest"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#locatedAt"/>
+        <ObjectProperty IRI="#recommends"/>
+        <Class IRI="#Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#to"/>
         <Class IRI="#City"/>
     </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#rated"/>
-        <Class IRI="#Rate"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#review"/>
-        <Class IRI="#Comment"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#sex"/>
-        <Class IRI="#Gender"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#type"/>
-        <Class IRI="#Category"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#visitTime"/>
-        <Class IRI="#Season"/>
-    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#comments"/>
+        <Class IRI="#Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cuisine"/>
+        <Class IRI="#Food"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#departureTime"/>
+        <Class IRI="#Flight"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#duration"/>
+        <Class IRI="#Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Accommodation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#openingHours"/>
+        <Class IRI="#Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#price"/>
+        <Class IRI="#Accommodation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#price"/>
+        <Class IRI="#Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#price"/>
+        <Class IRI="#Flight"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rate"/>
+        <Class IRI="#Accommodation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rate"/>
+        <Class IRI="#Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#season"/>
+        <Class IRI="#City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#type"/>
+        <Class IRI="#City"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#comments"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cuisine"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Chinese</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Italian</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Local</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mexican</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Thai</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#departureTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#duration"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#price"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rate"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:double"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#season"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fall</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Spring</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Summer</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Winter</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#type"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Historic</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nature</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Relaxation</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
 </Ontology>
 
 
