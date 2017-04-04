@@ -14,13 +14,13 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://xmlns.com/foaf/0.1/</Import>
     <Declaration>
-        <Class IRI="#City"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#name"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#1700"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2_Hours"/>
@@ -41,19 +41,19 @@
         <NamedIndividual IRI="#Sucks"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Full_Day"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#interestedIn"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Summer"/>
+        <NamedIndividual IRI="#Full_Day"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#1"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#rate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Summer"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#season"/>
@@ -65,6 +65,9 @@
         <NamedIndividual IRI="#Relaxation"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Private_Tour:_Luxor_Temple_Visit"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Activity"/>
     </Declaration>
     <Declaration>
@@ -74,10 +77,10 @@
         <Class IRI="#Rental"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Local"/>
+        <NamedIndividual IRI="#Female"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Female"/>
+        <NamedIndividual IRI="#Local"/>
     </Declaration>
     <Declaration>
         <Class IRI="#User"/>
@@ -87,6 +90,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Bad_quality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#cuisine"/>
@@ -104,13 +110,19 @@
         <DataProperty IRI="#departureTime"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#400"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#to"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#400"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#40"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Private_Half_Day_Tour_to_West_Bank_Tombs_and_Temples_from_Luxor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#type"/>
@@ -134,10 +146,10 @@
         <NamedIndividual IRI="#Spring"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Villa_Diletta_Pink"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Villa_Diletta_Pink"/>
+        <DataProperty IRI="#duration"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Historic"/>
@@ -191,13 +203,16 @@
         <Class IRI="#Hotel"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#destination"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#2000"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#destination"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Male"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Private_Guided_Tour_to_Karnak_Temple_from_Luxor"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#200"/>
@@ -222,6 +237,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Winter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Private_Full-Day_Tour_of_Luxor_From_Hurghada"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#price"/>
@@ -255,6 +273,26 @@
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </SubClassOf>
     <ClassAssertion>
+        <Class IRI="#Historical"/>
+        <NamedIndividual IRI="#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Historical"/>
+        <NamedIndividual IRI="#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Historical"/>
+        <NamedIndividual IRI="#Private_Full-Day_Tour_of_Luxor_From_Hurghada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Historical"/>
+        <NamedIndividual IRI="#Private_Guided_Tour_to_Karnak_Temple_from_Luxor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Historical"/>
+        <NamedIndividual IRI="#Private_Half_Day_Tour_to_West_Bank_Tombs_and_Temples_from_Luxor"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Rental"/>
         <NamedIndividual IRI="#Villa_Diletta_Pink"/>
     </ClassAssertion>
@@ -262,6 +300,165 @@
         <Class IRI="#Rental"/>
         <NamedIndividual IRI="#Villa_Rosamund"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Historical"/>
+        <NamedIndividual IRI="#Private_Tour:_Luxor_Temple_Visit"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Absolute must if you are visiting Luxor. Dina Danial, our Egyptologist guide, was truly outstanding. She was so knowledgeable and passionate about the ancient sites we visited that it made the day unique and wonderful. Ask for her if you can - she is exceptional. We found the tour incredibly interesting and learned so much. Particularly loved visiting the Tomb of Tutankhamen we paid extra for this as this had been a childhood dream. The lunch was local and authentic Egyptian - truly delicious! All in all, we would highly recommend this tour. It was informative, awe-inspiring and flexible to our needs.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Valley of the Kings</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">902.77</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">4.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">One of the most important place in luxor you must see it . Lots of good condition status and things .three or more perfect mummies their .words can&apos;t describe what you are going to see</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Luxor Museum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">631.94</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Private_Full-Day_Tour_of_Luxor_From_Hurghada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A pretty impressive structure as you approach it. Only one of the three floors is open and has anything worth viewing. But it is well worth the time to see.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Private_Full-Day_Tour_of_Luxor_From_Hurghada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Private_Full-Day_Tour_of_Luxor_From_Hurghada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Temple of Hatshepsut at Deir el Bahari</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Private_Full-Day_Tour_of_Luxor_From_Hurghada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2347.21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Private_Full-Day_Tour_of_Luxor_From_Hurghada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Private_Guided_Tour_to_Karnak_Temple_from_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">I was lucky to visit this wonder with a very knowledgeable private tour guide from my favorite Memphis Tours, real Alexandria University graduate and scholar, Nabil Ahmed. His heartfelt historical descriptions made the visit to the temple all more meaningful.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Private_Guided_Tour_to_Karnak_Temple_from_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Private_Guided_Tour_to_Karnak_Temple_from_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Temple of Karnak</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#Private_Guided_Tour_to_Karnak_Temple_from_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">09:00 - 17:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Private_Guided_Tour_to_Karnak_Temple_from_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">541.66</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Private_Guided_Tour_to_Karnak_Temple_from_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Private_Half_Day_Tour_to_West_Bank_Tombs_and_Temples_from_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Right next to the most famous sites in Luxor I was privileged to &quot;discover&quot; thanks to Mr. Nabil Ahmed, Egyptologist from Alexandria, from the esteemed Memphis Tours, this incredible recently restored magnificent and very large temple of incredible original structures with well preserved colorful and with 3000 years colors frescoes and carvings. It seem to be less visited by foreign visitors. It is a true must and in my view deserves to be a Number 3 attraction after Luxor and Karnak temples.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Private_Half_Day_Tour_to_West_Bank_Tombs_and_Temples_from_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Private_Half_Day_Tour_to_West_Bank_Tombs_and_Temples_from_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Temple of Medinat Habu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Private_Half_Day_Tour_to_West_Bank_Tombs_and_Temples_from_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1029.16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Private_Half_Day_Tour_to_West_Bank_Tombs_and_Temples_from_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Private_Tour:_Luxor_Temple_Visit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A complete site ... interesting. £80 entrance fee is worth. Gets hot wear a hat and sun block. No cafe. Photography allowed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Private_Tour:_Luxor_Temple_Visit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Private_Tour:_Luxor_Temple_Visit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Luxor Temple Visit</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Private_Tour:_Luxor_Temple_Visit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">631.94</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Private_Tour:_Luxor_Temple_Visit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.0</Literal>
+    </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#departure"/>
         <Class IRI="#Flight"/>
