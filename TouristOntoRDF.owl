@@ -443,8 +443,125 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
 
+      <!-- Rome -->
+         <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip the Line: Ancient Rome and Colosseum Half-Day Walking Tour-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip_the_Line:Ancient_Rome_and_Colosseum_Half-Day_Walking_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Again, as I said in my other reviews of roman excavations, this one is among the great ones. Well preserved  so rich in history, that you say 'oh wow' by seeing how well the modern times have integrated with it. Surrounded by modern establishments public transport, it is getting all the respect it deserves. Zoom into the picture and read about its history that the Temple of Mars Ultor (avenger) occupied its eastern side, it was built in 2 BC,  how Octavian Augustis dedicated this in 42BC on the eve of battle of Phillipi to avenge the assassination of Julius Ceaser.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foro di Augusto</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 7:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">965</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+         <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip-the-lines Pantheon and Santa Maria Sopra Minerva Guided Tour-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip-the-lines_Pantheon_and_Santa_Maria_Sopra_Minerva_Guided_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This church is plain to look at from the outside, but inside is amazing. Located next to the Pantheon, it is a must see.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santa Maria Sopra Minerva</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 7:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">193</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+     <!-- Rome -->
+         <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small Group Borghese Gallery Tour with Bernini Caravaggio and Raphael-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Borghese_Gallery_Tour_with_Bernini_Caravaggio_and_Raphael">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a beautiful park and Villa located off Via Venito. Central Park Rome. Usefby a lot of the locals. The Villa has the most unbelievable sculptures and art. Well worth the admission price. Be aware that they only sell limited tickets to control the crowds.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Villa Borghese</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 am - 9:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1043</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+             <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome Trastevere Tour by Segway-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome_Trastevere_Tour_by_Segway">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This church does not typically feature amongst the must-see attractions of Rome which is a shame. The mosaic work inside is just stunning. And the atmosphere serene. This combination makes for a wonderful and enthralling experience.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santa Maria in Trastevere</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 am - 9:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1449</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</TouristOnto:rate>
+    </owl:NamedIndividual>
+          <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full Day Tour: Vatican Museums, St. Peter's and the Most Important Basilicas of Rome-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:Vatican_Museums,St.Peter's_and_the_Most_Important_Basilicas_of_Rome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">St Paul Outside the Walls is hardly in the suburbs. It was way out of the city when it was built, but now is within the city limits and easily accessible by subway or bus. 
+            St Paul's is one of the four major basilicas in Rome, so a top pilgrim/tourist site.
+            This is the place where they have the mosaics of every Pope; only a few spaces are left, and some people think when the spaces are gone the world will end. The Church doesn't say so.
+            Beautiful, quiet, artistic and holy, this is the burial place of Paul (some of him, anyway) and Timothy. Say a special prayer here and enjoy the garden.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abbazia di San Paolo fuori le Mura</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2281</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Family-Friendly Tour to the Colosseum and the Palatine Hill-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Family-Friendly_Tour_to_the_Colosseum_and_the_Palatine_Hill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We left this visit until last of our trip.It was wonderful. What history. Lots of information so we knew what we were looking at. Amazing.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palatine Hill</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 6:15 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1313</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jubilee 2016 From Paganism to Christianity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jubilee_2016_From_Paganism_to_Christianity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not too crowded. Lots of information so you knew what you were looking at. Amazing sights and very atmospheric.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roman Forum</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 6:15 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1063</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Tour:_Christian_Rome_and_Underground_Basilicas_Half-Day_Tour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Tour:_Christian_Rome_and_Underground_Basilicas_Half-Day_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This basilica was the seat of papal power until the completion of St Peter's, and the history really shows. The design of the building is based around the core of the original structure, even though it was substantially updated in the later Renaissance. It is worth getting a guide book to better appreciate the artwork and historical nuances of the site. For me, most moving was the presence of two red granite pillars that were reclaimed from the original 4th century church and installed in the reconstruction. These gave a strong sense of temporal continuity to basilica. This is well worth a look, and in its own way just as impressive as St Peter's. Also, don't miss the statue of Constantine in the outside courtyard, which was recovered from the nearby Diocletian baths.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arcibasilica di San Giovanni in Laterano</TouristOnto:name>
+        <TouristOnto:openingHours>7:00 am - 6:30 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1139</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.9</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full Day Tour: Vatican Museums, St. Peter's and the Most Important Basilicas of Rom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:_Vatican_Museums,_St._Peter's_and_the_Most_Important_Basilicas_of_Rom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impressive Basilique With beautiful murals and ceilings! It is one of my favorite churches in Rome. From the outside it looks closed but at the back you can enter after you and your lugguage has been screened.
+        Visited March 2017</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basilica di Santa Maria Maggiore</TouristOnto:name>
+        <TouristOnto:openingHours>7:00 am - 7:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2281</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</TouristOnto:rate>
+    </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City_Sightseeing_Transportation_and_Skip-The-Line_Roma_Pass -->
 
@@ -602,6 +719,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:_Vatican_Museums,_St._Peter's_and_the_Most_Important_Basilicas_of_Rom"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City_Sightseeing_Transportation_and_Skip-The-Line_Roma_Pass"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Tour:_Christian_Rome_and_Underground_Basilicas_Half-Day_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jubilee_2016_From_Paganism_to_Christianity"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Family-Friendly_Tour_to_the_Colosseum_and_the_Palatine_Hill"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:Vatican_Museums,St.Peter's_and_the_Most_Important_Basilicas_of_Rome"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome_Trastevere_Tour_by_Segway"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Borghese_Gallery_Tour_with_Bernini_Caravaggio_and_Raphael"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip-the-lines_Pantheon_and_Santa_Maria_Sopra_Minerva_Guided_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip_the_Line:Ancient_Rome_and_Colosseum_Half-Day_Walking_Tour"/>
         <TouristOnto:name>Rome</TouristOnto:name>
         <TouristOnto:season>Summer</TouristOnto:season>
         <TouristOnto:type>Historic</TouristOnto:type>
