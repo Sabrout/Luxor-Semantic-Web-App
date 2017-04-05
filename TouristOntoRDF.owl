@@ -1119,6 +1119,111 @@ Visited January 2016</comments>
 
 
 
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Free_Tours_by_Foot_NY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Free_Tours_by_Foot_NY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>Discovering new york city</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name>Free Tours by Foot</name>
+        <openingHours>08:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rate>
+    </owl:NamedIndividual>
+
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bike_the_Big_Apple_NY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bike_the_Big_Apple_NY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>Biking in the large city of NY, great experience</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name>Bike the Big Apple</name>
+        <openingHours>08:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</rate>
+    </owl:NamedIndividual>
+
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_BEAST_Speedboat_NY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_BEAST_Speedboat_NY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>Too fast, I got dizzy !</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</duration>
+        <name>The BEAST Speedboat</name>
+        <openingHours>07:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1500</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</rate>
+    </owl:NamedIndividual>
+
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bike_and_roll_NY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bike_and_roll_NY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments></comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</duration>
+        <name>Bike and Roll NYC</name>
+        <openingHours>07:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1200</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</rate>
+    </owl:NamedIndividual>
+
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City_Running_Tours_NY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City_Running_Tours_NY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments></comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name>City Running Tours</name>
+        <openingHours>07:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SHARK_Speedboat_NY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SHARK_Speedboat_NY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>Been on this tour three times so far. Guys it is fun fun and fun. Guaranteed to get wet- (PS the water is extremely cold)</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</duration>
+        <name>SHARK Speedboat</name>
+        <openingHours>08:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</rate>
+    </owl:NamedIndividual>
+
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York_Hiking_NY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SHARK_Speedboat_NY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments></comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name>New York Hiking</name>
+        <openingHours>07:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rate>
+    </owl:NamedIndividual>
+
+
+
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_experience_was_amazing -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_experience_was_amazing"/>
