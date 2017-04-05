@@ -1110,6 +1110,19 @@
         <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">22</foaf:age>
         <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
     </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dung_Rose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dung_Rose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_chinese"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_hiking"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dung Rose</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">28</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
     
 
 
