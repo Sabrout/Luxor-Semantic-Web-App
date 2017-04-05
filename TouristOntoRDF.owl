@@ -2666,6 +2666,12 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_air_sports">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
         <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Air Sports</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Alaska_Balloons_Luxor"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hod_Hod_Soliman_Balloon_Luxor"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dream_Balloons_Luxor"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Salem_Hot_Air_Balloons_Luxor"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sindbad_Hot_Air_Balloons_Luxor"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunrise_Tours_Luxor"/>
     </owl:NamedIndividual>
     
 
