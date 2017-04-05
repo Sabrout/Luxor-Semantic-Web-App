@@ -101,6 +101,9 @@
         <DataProperty IRI="#cuisine"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Salem_Hot_Air_Balloons_Luxor"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#3_Hours"/>
     </Declaration>
     <Declaration>
@@ -126,6 +129,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pharaoh&apos;s_Stables_Luxor"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#18_to_22"/>
@@ -230,6 +236,9 @@
         <NamedIndividual IRI="#Sindbad_Hot_Air_Balloons_Luxor"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Pop_up_Walks_Luxor"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
     </Declaration>
     <Declaration>
@@ -293,6 +302,14 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Pop_up_Walks_Luxor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Salem_Hot_Air_Balloons_Luxor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
         <NamedIndividual IRI="#Sindbad_Hot_Air_Balloons_Luxor"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -310,6 +327,10 @@
     <ClassAssertion>
         <Class IRI="#Sports"/>
         <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Pharaoh&apos;s_Stables_Luxor"/>
     </ClassAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#comments"/>
@@ -347,9 +368,19 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">While on a recent Nile river cruise with Viking River Cruises we took the sunrise balloon flight over the Valley of the Kings. It was spectacular. The balloon crew was very professional and we felt comfortable and safe for the entire trip.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Dream_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#name"/>
         <NamedIndividual IRI="#Dream_Balloons_Luxor"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dream Balloons</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#Dream_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">08:30 AM</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#price"/>
@@ -415,6 +446,67 @@
         <DataProperty IRI="#rate"/>
         <NamedIndividual IRI="#Nobi_Stables_Luxor"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Pop_up_Walks_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A good way to see unknown sights of Luxor, walking with people from other countries. Just having a nice time while walking.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Pop_up_Walks_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Pop_up_Walks_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pop up Walks</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#Pop_up_Walks_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">05:00 AM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Pop_up_Walks_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Pop_up_Walks_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Salem_Hot_Air_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Salem_Hot_Air_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Can&apos;t say enough about this company
+A ballon ride has been on my bucket list for quite a while and these folks did not disappoint. The entire experience was fantastic. The captain was knowledgeable &amp; informative. The ground crew both taking off and landing were worth their weight in gold, and the flight itself spectacular. Would go again in a heartbeat.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Salem_Hot_Air_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Salem_Hot_Air_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Salem Hot Air Balloons</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#Salem_Hot_Air_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">04:30 AM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Salem_Hot_Air_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1350</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#comments"/>
@@ -522,6 +614,36 @@ Visited November 2016</Literal>
         <DataProperty IRI="#rate"/>
         <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Pharaoh&apos;s_Stables_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">I have a disability but the people &amp; horses at Pharoh&apos;s Stables were very good. Even though I struggled to get on the horse it stood quietly. The sunset ride was wonderful!</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Pharaoh&apos;s_Stables_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Pharaoh&apos;s_Stables_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pharaoh&apos;s Stables</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#Pharaoh&apos;s_Stables_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">09:00 AM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Pharaoh&apos;s_Stables_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">250</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Pharaoh&apos;s_Stables_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
     </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#departure"/>
