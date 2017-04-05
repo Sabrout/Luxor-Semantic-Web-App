@@ -442,6 +442,140 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
+      <!-- new_york -->
+
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private September 11 Memorial and Wall Street Tour with Pedestal Access to the Statue of Liberty-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_September_11_Memorial_and_Wall_Street_Tour_with_Pedestal_Access_to_the_Statue_of_Liberty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I stopped here to go the Sunday service. Music from the choir was beautiful, the sermon thought provoking and the regular church servers hospitable. However I was also drawn here due to the incredible history of this building. Totally fascinating and the building is beautiful with ornate stone workmanship and stained glass buildings. Well worth a walk around even if you have no religious leanings. So whether you're looking for a place to worship or just want to check out an old, historic building in a city of glass modernity I'd go.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Trinity Church</TouristOnto:name>
+        <TouristOnto:openingHours>7:00 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2029</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+
+         <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Boroughs_Of_The_Dead:Macabre_New_York_City_Walking_Tours-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Boroughs_Of_The_Dead:Macabre_New_York_City_Walking_Tours">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I took "Weird Tales of West Village" tour. Lyana was the tour guide. I'm a huge fan of mystery and horror tales and I had a great time. Thank you, Lyanna.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Boroughs Of The Dead: Macabre New York City Walking Tours</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1234</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture Clash: Immigrant NYC Running Tour-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture_Clash:Immigrant_NYC_Running_Tour
+">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The building has undergone a full restoration, keeping most of the wood features. There's a new AMAZING stained glass window designed by Kiki Smith which is worth the visit on its own. A docent will share many quirky details with you, about the neighborhood and the congregation. The sanctuary and the upstairs women's gallery are most inspiring.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Museum at Eldridge Street</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">724</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.2</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SANDEMANs NEW Europe - New York-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SANDEMANs_NEW_Europe-New_York">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My boyfriend Paul and I did the walking tour with Amanda on March 30 and we loved it! Amanda was great! Very knowledgeable, engaging and she provided some great recommendations. Murray's Bagels was incredible! If you have Amanda as your guide you won't be disappointed! 
+        PS, we have been on several of the Sandemans NEW Europe tours and have never been disappointed! This one was no exception! Awesome awesome awesome!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> SANDEMANs NEW Europe - New York</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 2:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The Sightseeing Day Pass NYC-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Sightseeing_Day_Pass_NYC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Often passed over for the bigger museum offerings in NYC, this smaller, well run love letter to NY is not to be missed. On my recent visit I saw an exhibit on tattooing( really interesting and fun); an exhibit on Mohammed Ali ( with great photos); and an exhibit on the part NYC Jews played in the American revolution!
+Not to be missed: an 18 minute film on the first floor which is simply excellent- presentation is a wow for all ages.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> New-York Historical Society Museum and Library</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2210</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New York CityPASSr-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York_CityPASS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Who knew you could fit so much on an Aircraft Carrier! For anyone who is into Aviation or Space this museum will keep you occupied all day.
+            It's also great for kids with loads of interactive exhibits.
+            The staff are excited about the history and will tell you loads of facts if you stand still for longer than 2 minutes.
+            I would definitely recommend the Space Shuttle exhibit, an amazing piece of aviation history right in the heart of NYC.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Intrepid Sea, Air and Space Museum</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2210</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.1</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+          <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Statue of Liberty and Ellis Island Guided Tour-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Statue_of_Liberty_and_Ellis_Island_Guided_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amazing place to visit. Loved the free audio guide. Really informative. Unfortunately it took so long to get through the chaotic security system that we were short for time once on the island. A good excuse to come back soon!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Ellis Island Immigration Museum</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 5:45 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1032</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+              <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private Tour of the American Museum of Natural History-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour_of_the_American_Museum_of_Natural_History">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A big museum with some really good areas of interest - blue whale room was a sight and don't forget to visit Easter Island Dum Dum! Different set up to the NHM London but similar exhibits.
+            Queue to get in didn't take long and extra security made you feel safe.
+            Reasonable priced entry - which could be purchased at a kiosk upon entry.
+            Cafe was ok, not as expensive as I would've thought but best to eat first if you can!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> American Museum of Natural History</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 5:45 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2518</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</TouristOnto:rate>
+    </owl:NamedIndividual>
+           
+
+                  <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NY Urban Pioneers Private Walking Tour-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NY_Urban_Pioneers_Private_Walking_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We came upon the recommendation from friends - otherwise we'd probably not have known about this (since it's not included in the New York Pass unfortunately). It's definitely worth visiting. There are various tours available - best to book online.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Tenement Museum</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 6:30 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1938</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+           <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small-Group Tour of Statue of Liberty and Ellis Island-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small-Group_Tour_of_Statue_of_Liberty_and_Ellis_Island">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I had been to Ellis Island many years ago but not since the extensive revision completed a few years ago. I'm so glad to have visited and spent a couple of hours. Had we not gotten tired after the Statue of Liberty followed by Ellis Island, there was a good additional hour's worth of stuff to see and read. Though it was just my wife and myself, I could actually see this being a history lesson that would be interesting to a student, particularly anyone with a family history that may have passed through Ellis Island. Great place to visit while in NYC.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Ellis Island</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 4:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1032</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+
       <!-- hawaii -->
 
        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kauai Museum-->
@@ -939,6 +1073,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small-Group_Tour_of_Statue_of_Liberty_and_Ellis_Island"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NY_Urban_Pioneers_Private_Walking_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour_of_the_American_Museum_of_Natural_History"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Statue_of_Liberty_and_Ellis_Island_Guided_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York_CityPASS"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Sightseeing_Day_Pass_NYC"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SANDEMANs_NEW_Europe-New_York"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_September_11_Memorial_and_Wall_Street_Tour_with_Pedestal_Access_to_the_Statue_of_Liberty"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture_Clash:Immigrant_NYC_Running_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Boroughs_Of_The_Dead:Macabre_New_York_City_Walking_Tours"/>
         <TouristOnto:name>New York</TouristOnto:name>
         <TouristOnto:season>Spring</TouristOnto:season>
         <TouristOnto:type>Entertainment</TouristOnto:type>
