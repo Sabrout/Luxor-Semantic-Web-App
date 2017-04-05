@@ -446,6 +446,20 @@
     
 
 
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City_Sightseeing_Transportation_and_Skip-The-Line_Roma_Pass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City_Sightseeing_Transportation_and_Skip-The-Line_Roma_Pass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It was only the start of Summer when we visited a few weeks ago, and it was very humid. We printed our tickets out and had to change them over on our first bus trip. Once you get on your first bus, your 24/48hrs begins. The assistants on the bus were more than helpful, giving us a map showing where to collect each ticket. Each monument has a ticket vendor you need to visit and change your receipt to a ticket. The buses were also convenient, being a short walk away from each historical place. I would suggest taking an umbrella as some buses have no shade, making it extremely warm going from place to place. The Colosseum was absolutely amazing, Vatican Museum and Sistine Chapel took our breath away and the skip the line tickets were very much appreciated by my husband and I after walking around in the warm sticky heat. I would suggest finding a guide, as we walked through the Colosseum with very little idea of what we were looking at, but we did have the freedom to wander around at our own pace.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colosseum</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 6:15 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1835</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai">
@@ -453,6 +467,34 @@
         <TouristOnto:name>Dubai</TouristOnto:name>
         <TouristOnto:season>Fall</TouristOnto:season>
         <TouristOnto:type>Entertainment</TouristOnto:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_East_and_West_Banks_of_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_East_and_West_Banks_of_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of three tombs you can visit with the general admission ticket. Two other tombs cost an extra fee.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomb of Ramses VI</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2038</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.4</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Absolute must if you are visiting Luxor. Dina Danial, our Egyptologist guide, was truly outstanding. She was so knowledgeable and passionate about the ancient sites we visited that it made the day unique and wonderful. Ask for her if you can - she is exceptional. We found the tour incredibly interesting and learned so much. Particularly loved visiting the Tomb of Tutankhamen we paid extra for this as this had been a childhood dream. The lunch was local and authentic Egyptian - truly delicious! All in all, we would highly recommend this tour. It was informative, awe-inspiring and flexible to our needs.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valley of the Kings</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">902</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</TouristOnto:rate>
     </owl:NamedIndividual>
     
 
@@ -472,9 +514,33 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_East_and_West_Banks_of_Luxor"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Full-Day_Tour_of_Luxor_From_Hurghada"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Guided_Tour_to_Karnak_Temple_from_Luxor"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Half_Day_Tour_to_West_Bank_Tombs_and_Temples_from_Luxor"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_in_Luxor:_Valley_of_the_Kings,Hatshepsut_Temple,Karnak_and_Luxor_temples,_Colossi_of_Memnon"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Luxor_Temple_Visit"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Valley_of_the_Nobles_and_Valley_of_the_Artisans-Deir_el-Medina_from_Luxor"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:Luxor_East_Bank,Karnak_and_Luxor_Temples"/>
         <TouristOnto:name>Luxor</TouristOnto:name>
         <TouristOnto:season>Winter</TouristOnto:season>
         <TouristOnto:type>Historic</TouristOnto:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of the most important place in luxor you must see it . Lots of good condition status and things .three or more perfect mummies their .words can&amp;apos;t describe what you are going to see</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxor Museum</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">631</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
     </owl:NamedIndividual>
     
 
@@ -490,6 +556,48 @@
     
 
 
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Full-Day_Tour_of_Luxor_From_Hurghada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Full-Day_Tour_of_Luxor_From_Hurghada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pretty impressive structure as you approach it. Only one of the three floors is open and has anything worth viewing. But it is well worth the time to see.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temple of Hatshepsut at Deir el Bahari</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2347</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Guided_Tour_to_Karnak_Temple_from_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Guided_Tour_to_Karnak_Temple_from_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I was lucky to visit this wonder with a very knowledgeable private tour guide from my favorite Memphis Tours, real Alexandria University graduate and scholar, Nabil Ahmed. His heartfelt historical descriptions made the visit to the temple all more meaningful.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temple of Karnak</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">541</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Half_Day_Tour_to_West_Bank_Tombs_and_Temples_from_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Half_Day_Tour_to_West_Bank_Tombs_and_Temples_from_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right next to the most famous sites in Luxor I was privileged to &quot;discover&quot; thanks to Mr. Nabil Ahmed, Egyptologist from Alexandria, from the esteemed Memphis Tours, this incredible recently restored magnificent and very large temple of incredible original structures with well preserved colorful and with 3000 years colors frescoes and carvings. It seem to be less visited by foreign visitors. It is a true must and in my view deserves to be a Number 3 attraction after Luxor and Karnak temples.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temple of Medinat Habu</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1029</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome">
@@ -497,6 +605,63 @@
         <TouristOnto:name>Rome</TouristOnto:name>
         <TouristOnto:season>Summer</TouristOnto:season>
         <TouristOnto:type>Historic</TouristOnto:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_in_Luxor:_Valley_of_the_Kings,Hatshepsut_Temple,Karnak_and_Luxor_temples,_Colossi_of_Memnon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_in_Luxor:_Valley_of_the_Kings,Hatshepsut_Temple,Karnak_and_Luxor_temples,_Colossi_of_Memnon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This place is astonishing.To see the substantial remains of a 3000yr old village of the talented people who have left the evidence of a lost civilisation through their singular artistic talent is quite moving.There are houses,streets and tombs of the residents on site.These people were extraordinary-the Michaelangelo,s of their age-the best craftsmen of their time.To see their village is amazing and humbling.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valley of the Artisans (Deir el-Medina)</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1938</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Luxor_Temple_Visit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Luxor_Temple_Visit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A complete site ... interesting. £80 entrance fee is worth. Gets hot wear a hat and sun block. No cafe. Photography allowed</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxor Temple Visit</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">631</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Valley_of_the_Nobles_and_Valley_of_the_Artisans-Deir_el-Medina_from_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Valley_of_the_Nobles_and_Valley_of_the_Artisans-Deir_el-Medina_from_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">There are some real hidden gems in the Valley of the Nobles. The tombs aren&apos;t as grand as those in the Valley of the Kings, but the artwork on the walls is extra special. There is more daily life scenes here, where Egyptologists really learned about the average Egyptians&apos; lives. You&apos;ll be the only tourists here, as the groups don&apos;t come. Don&apos;t miss the best ones, Ramose, Nakht, Sennefer...oh, just go to all of them! You might have to slip the guard 10 or 20 pounds, but it&apos;s worth it if they allow you to take a picture.
+        Visited February 2017</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valley of the Nobles</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 12:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1232</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.2</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:Luxor_East_Bank,Karnak_and_Luxor_Temples -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:Luxor_East_Bank,Karnak_and_Luxor_Temples">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This can be seen from Luxor Temple or Karnak. It originally connected the two temples and is slowly being uncovered the entire way.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenue of Sphinxes</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 12:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">851</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
     </owl:NamedIndividual>
 </rdf:RDF>
 
