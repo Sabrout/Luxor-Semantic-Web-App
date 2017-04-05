@@ -65,6 +65,9 @@
         <DataProperty IRI="#season"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OffRoad-Zone_Dubai"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#5"/>
     </Declaration>
     <Declaration>
@@ -104,6 +107,9 @@
         <NamedIndividual IRI="#Salem_Hot_Air_Balloons_Luxor"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Nemo_WaterSports_Dubai_Jet_Ski_Dubai"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#3_Hours"/>
     </Declaration>
     <Declaration>
@@ -114,6 +120,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#departureTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Platinum_Heritage_Luxury_Tours_and_Safaris_Dubai"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#to"/>
@@ -185,6 +194,9 @@
         <NamedIndividual IRI="#I_love_it"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Go_Fishing_Tours_Dubai"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#100"/>
     </Declaration>
     <Declaration>
@@ -218,6 +230,9 @@
         <NamedIndividual IRI="#2000"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#The_Yellow_Boats_Dubai"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Male"/>
     </Declaration>
     <Declaration>
@@ -225,6 +240,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#friendOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OceanAir_Travels_Dubai"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#All_Day"/>
@@ -294,11 +312,31 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Go_Fishing_Tours_Dubai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
         <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Nemo_WaterSports_Dubai_Jet_Ski_Dubai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
         <NamedIndividual IRI="#Nobi_Stables_Luxor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#OceanAir_Travels_Dubai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#OffRoad-Zone_Dubai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Platinum_Heritage_Luxury_Tours_and_Safaris_Dubai"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Sports"/>
@@ -315,6 +353,10 @@
     <ClassAssertion>
         <Class IRI="#Sports"/>
         <NamedIndividual IRI="#Sunrise_Tours_Luxor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#The_Yellow_Boats_Dubai"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Rental"/>
@@ -394,6 +436,36 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Go_Fishing_Tours_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Great morning fishing. Caught several fish and the waters were very smooth (my son and I are both prone to seasickness and we experienced none). Friendly captain and mate made for a great day</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Go_Fishing_Tours_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Go_Fishing_Tours_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Go Fishing Tours</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#Go_Fishing_Tours_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">05:00 AM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Go_Fishing_Tours_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">900</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Go_Fishing_Tours_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
         <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">08:00AM</Literal>
     </DataPropertyAssertion>
@@ -423,6 +495,36 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Nemo_WaterSports_Dubai_Jet_Ski_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This was my 3rd time visiting these guys...from the warm welcome on arrival and fun jet ski tour...it won&apos;t be my last visit!</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Nemo_WaterSports_Dubai_Jet_Ski_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Nemo_WaterSports_Dubai_Jet_Ski_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nemo WaterSports Dubai Jet Ski</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#Nemo_WaterSports_Dubai_Jet_Ski_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">09:00 AM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Nemo_WaterSports_Dubai_Jet_Ski_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Nemo_WaterSports_Dubai_Jet_Ski_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#duration"/>
         <NamedIndividual IRI="#Nobi_Stables_Luxor"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
@@ -445,6 +547,96 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#rate"/>
         <NamedIndividual IRI="#Nobi_Stables_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#OceanAir_Travels_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Amazing trip - Amazing and very proffesionel driver ..... We had the best driver called WAHID .... Big Thanks to you for giving us the best experience ..... On tine .....delicious food and good show</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#OceanAir_Travels_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#OceanAir_Travels_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">OceanAir Travels</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#OceanAir_Travels_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">09:00 AM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#OceanAir_Travels_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#OceanAir_Travels_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#OffRoad-Zone_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">It was one of my best trip experience . Staff friendly especially David and Nouman . I highly recommend it and really worth it.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#OffRoad-Zone_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#OffRoad-Zone_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">OffRoad-Zone</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#OffRoad-Zone_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">09:00 AM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#OffRoad-Zone_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#OffRoad-Zone_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Platinum_Heritage_Luxury_Tours_and_Safaris_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Let me tell you, this was the highlight of my vacation thus far!!!! Yesterday I had the pleasure of attending this safari and dinner the our guide Wesam!!! He is the ABSOLUTE BEST!!!! His knowledge and people skills were second to none!!! He kept us laughing the entire Safari and always checked on us. The ride through the dessert was extra ordinary, the falcon show was AMAZING and the dinner at the camp seemed like a movie. I got all my money&apos;s worth and more!!!! By the end of the safari I was exhausted but extremely happy!!!! By the way, a shoutout to Eslam who wasn&apos;t our guide but went out of his way to assist us and for that I&apos;m grateful!!! This company is extremely organized from pick-up to drop-off. Thanks for a memorable moment in time!!!</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Platinum_Heritage_Luxury_Tours_and_Safaris_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Platinum_Heritage_Luxury_Tours_and_Safaris_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Platinum Heritage Luxury Tours and Safaris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#Platinum_Heritage_Luxury_Tours_and_Safaris_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">08:30 AM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Platinum_Heritage_Luxury_Tours_and_Safaris_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Platinum_Heritage_Luxury_Tours_and_Safaris_Dubai"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
@@ -569,6 +761,36 @@ Visited January 2016</Literal>
     <DataPropertyAssertion>
         <DataProperty IRI="#rate"/>
         <NamedIndividual IRI="#Sunrise_Tours_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#The_Yellow_Boats_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">this is the best way to see the attractions of Dubai! but since its getting hot, I recommend early morning or late rides, as it was very hot and sunny ( at 3:00)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#The_Yellow_Boats_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#The_Yellow_Boats_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Yellow Boats</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#The_Yellow_Boats_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">08:00 AM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#The_Yellow_Boats_Dubai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1050</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#The_Yellow_Boats_Dubai"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
