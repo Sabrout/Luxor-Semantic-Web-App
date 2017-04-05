@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto"
+<rdf:RDF xmlns="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#"
      xml:base="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
@@ -310,22 +310,16 @@
                 <owl:oneOf>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                        <rdf:first>Entertainment</rdf:first>
+                        <rdf:first>Historic</rdf:first>
                         <rdf:rest>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                <rdf:first>Historic</rdf:first>
+                                <rdf:first>Nature</rdf:first>
                                 <rdf:rest>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                        <rdf:first>Nature</rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first>Relaxation</rdf:first>
-                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                            </rdf:Description>
-                                        </rdf:rest>
+                                        <rdf:first>Relaxation</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
                                     </rdf:Description>
                                 </rdf:rest>
                             </rdf:Description>
@@ -444,9 +438,7 @@
      -->
 
     
-
-
-    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai -->
+!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
@@ -497,6 +489,549 @@
         <TouristOnto:name>Rome</TouristOnto:name>
         <TouristOnto:season>Summer</TouristOnto:season>
         <TouristOnto:type>Historic</TouristOnto:type>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Alaska_Balloons_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Alaska_Balloons_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments></comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name>Alaska Balloons</name>
+        <openingHours>07:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1300</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#All_Day -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#All_Day"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bad_quality -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bad_quality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Big_Red_Motorsports_Dubai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Big_Red_Motorsports_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>We&apos;ve chosen the buggy safari. Amazing landscapes, great team. 3 great hours spent in the desert. Thanks to all, See you an other time ;)</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</duration>
+        <name>Big Red Motorsports</name>
+        <openingHours>07:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dream_Balloons_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dream_Balloons_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>While on a recent Nile river cruise with Viking River Cruises we took the sunrise balloon flight over the Valley of the Kings. It was spectacular. The balloon crew was very professional and we felt comfortable and safe for the entire trip.</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name>Dream Balloons</name>
+        <openingHours>08:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1200</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Expert_Rangers_Dubai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Expert_Rangers_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>The customized sand buggie kart was fun to drive following the professional pilot kart, also there is a SUV on watch patrol to double secure the safety for us to race in the desert. A fantastic experience must be recommended</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</duration>
+        <name>Expert Rangers</name>
+        <openingHours>09:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3700</price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fall"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Female -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Female"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Go_Fishing_Tours_Dubai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Go_Fishing_Tours_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>Great morning fishing. Caught several fish and the waters were very smooth (my son and I are both prone to seasickness and we experienced none). Friendly captain and mate made for a great day</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</duration>
+        <name>Go Fishing Tours</name>
+        <openingHours>05:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Golden_Desert_Day_Tours_Dubai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Golden_Desert_Day_Tours_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>Went with friends who were visiting us in Dubai. Emailed a week before to make enquiries and received a very quick, clear reply (a rarity in the UAE!)
+Called on the day too and was given very clear directions.
+Managed to get a price we all agreed on, and a guide took us into the desert on quads. At first I didn&apos;t want a guide, but was extremely glad he was there as he took us much further that I ever would have dared go alone.
+One of our group got stuck a few times so the guide adjusted the route difficultly to suite us. A very good day out. 
+
+I will be back for sure with more guests in the future.</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</duration>
+        <name>Golden Desert Day Tours</name>
+        <openingHours>09:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hod_Hod_Soliman_Balloon_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hod_Hod_Soliman_Balloon_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>08:00AM</comments>
+        <comments>The time of day (early morning just after sunrise) was perfect and we were lead to what seemed like the ideal location to depart from. The views of the Valley of the Kings were unforgettable and the whole team was very kind and fast. Our landing was so serene. Definitely recommend this when you visit Luxor!</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</duration>
+        <name>Hod Hod Soliman Balloon</name>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1500</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#I_love_it -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#I_love_it"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Italian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Italian"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Local -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Local"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Male -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Male"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Nemo_WaterSports_Dubai_Jet_Ski_Dubai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Nemo_WaterSports_Dubai_Jet_Ski_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>This was my 3rd time visiting these guys...from the warm welcome on arrival and fun jet ski tour...it won&apos;t be my last visit!</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</duration>
+        <name>Nemo WaterSports Dubai Jet Ski</name>
+        <openingHours>09:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Nobi_Stables_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Nobi_Stables_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</duration>
+        <name>Nobi Stables</name>
+        <openingHours>07:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#OceanAir_Travels_Dubai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#OceanAir_Travels_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>Amazing trip - Amazing and very proffesionel driver ..... We had the best driver called WAHID .... Big Thanks to you for giving us the best experience ..... On tine .....delicious food and good show</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</duration>
+        <name>OceanAir Travels</name>
+        <openingHours>09:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#OffRoad-Zone_Dubai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#OffRoad-Zone_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>It was one of my best trip experience . Staff friendly especially David and Nouman . I highly recommend it and really worth it.</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</duration>
+        <name>OffRoad-Zone</name>
+        <openingHours>09:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8000</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Platinum_Heritage_Luxury_Tours_and_Safaris_Dubai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Platinum_Heritage_Luxury_Tours_and_Safaris_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>Let me tell you, this was the highlight of my vacation thus far!!!! Yesterday I had the pleasure of attending this safari and dinner the our guide Wesam!!! He is the ABSOLUTE BEST!!!! His knowledge and people skills were second to none!!! He kept us laughing the entire Safari and always checked on us. The ride through the dessert was extra ordinary, the falcon show was AMAZING and the dinner at the camp seemed like a movie. I got all my money&apos;s worth and more!!!! By the end of the safari I was exhausted but extremely happy!!!! By the way, a shoutout to Eslam who wasn&apos;t our guide but went out of his way to assist us and for that I&apos;m grateful!!! This company is extremely organized from pick-up to drop-off. Thanks for a memorable moment in time!!!</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</duration>
+        <name>Platinum Heritage Luxury Tours and Safaris</name>
+        <openingHours>08:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pop_up_Walks_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pop_up_Walks_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>A good way to see unknown sights of Luxor, walking with people from other countries. Just having a nice time while walking.</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name>Pop up Walks</name>
+        <openingHours>05:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Relaxation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Relaxation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Salem_Hot_Air_Balloons_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Salem_Hot_Air_Balloons_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</comments>
+        <comments>Can&apos;t say enough about this company
+A ballon ride has been on my bucket list for quite a while and these folks did not disappoint. The entire experience was fantastic. The captain was knowledgeable &amp; informative. The ground crew both taking off and landing were worth their weight in gold, and the flight itself spectacular. Would go again in a heartbeat.</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</duration>
+        <name>Salem Hot Air Balloons</name>
+        <openingHours>04:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1350</price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sindbad_Hot_Air_Balloons_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sindbad_Hot_Air_Balloons_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>This is a must for any one who visit Luxor its a one time life experience,,,worth the money and the guides and pilots are so professional especially youssef.</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name>Sindbad Hot Air Balloons</name>
+        <openingHours>07:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1500</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Spring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Spring"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sucks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sucks"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Summer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Summer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunrise_Tours_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunrise_Tours_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>I Booked with Them Nile Cruise, It was very Cheap compering with other Tour operators in Luxor, I found sales person called Mr.Bahaa, He was so kind and offer Egyptian Mobile Number for free to find hem easy if we found any difficult , He offer free USB Internet as well.
+I really recommend Sunrise for Luxor Day tours specially small groups.
+
+Visited January 2016</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</duration>
+        <name>Sunrise Tours</name>
+        <openingHours>10:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Thai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Thai"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Desert_Safari_-_Day_Tours_Dubai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Desert_Safari_-_Day_Tours_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>A one of a kind adventure, just be ready to eat lots of sand!! Lol Is good to cover your face with one of those Arab turbants so it wont be to bad getting sand in your mouth.</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</duration>
+        <name>The Desert Safari - Day Tours</name>
+        <openingHours>12:00 PM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Yellow_Boats_Dubai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Yellow_Boats_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>this is the best way to see the attractions of Dubai! but since its getting hot, I recommend early morning or late rides, as it was very hot and sunny ( at 3:00)</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name>The Yellow Boats</name>
+        <openingHours>08:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1050</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_experience_was_amazing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_experience_was_amazing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Villa_Diletta_Pink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Villa_Diletta_Pink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Villa_Rosamund -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Villa_Rosamund">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Winter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Winter"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Zoser_Travel_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Zoser_Travel_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>I really liked this trip. It was very long! We had a dedicated English speaking guide, we have visited about 7 different places.
+
+We have started from The Grand Hotel (Hurghada) at 4.45 AM, and arrived back around 10.15 PM. After jumping to the bus, we have collected some more people from other hotels, and started our trip to Luxor: it was about 5 hours of travelling. In the middle of the desert we have stopped for 20 minutes to rest. When we were close to the Nile, we have seen life again, and the daily life of Qena.
+
+We have traveled with russian people, and a french guy. We have asked for an English guide, at the end we was guided by a friendly guy who was dedicated to us. The french guy also got a dedicated french speaking guide.
+
+We have visited the Luxor Temple, it was huge and beatiful. Our guide showed us some hieroglyphs, and offered us buying necklaces with our names (we were not interested). We have also learned that there&apos;s an &quot;optional&quot; trip to an island for an additional 10 EUR per person. We have visited a papyrus &quot;museum&quot;, actually a shop (it was nice to see how they&apos;re doing papyrus paintings, they were beatuiful, but we have bought nothing). The we went to a restaurant by a boat, and had lunch (not really tasty, but okay, it was included in the original price). We headed to the Valley of the Kings, and have seen the tombs of the pharaohs. Then we visited an alabastrom factory (another shop we liked, but bought nothing), and seen a short performance about how they are creating alabastrom gifts. Next stop was at Mortuary Temple of Hatshepsut, then at two big statues.
+
+Next we went to a boat, it was the &quot;optional&quot; trip for 10 EUR - while I don&apos;t liked that it was not included in the original price, we have really enjoyed it. It was about boating on the Nile to the &quot;Banana island&quot;. It was a farm with banana, papaya, guava, orange, date and other trees. We got to plates of fresh fruits. It was like wine tasting at a winery, but with fruits. :)
+
+And then we started our 5 hours long journey to home, with a stop at the same place in the desert.
+
+All in all, I liked the guides, and the places we have seen. :)
+
+Visited November 2016</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</duration>
+        <name>Zoser Travel</name>
+        <openingHours>08:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#100 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#100"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1500 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1500"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1700 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#1700"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#18_to_22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#18_to_22"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2_Hours -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2_Hours"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#200 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#200"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2000 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2000"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2200 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2200"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#23"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#23_to_6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#23_to_6"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2300 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2300"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2500 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#2500"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#3_Hours -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#3_Hours"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#35"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#4"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#40 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#40"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#400 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#400"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#5"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#500 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#500"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#9_to_18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#9_to_18"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pharaoh&apos;s_Stables_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pharaoh&apos;s_Stables_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>I have a disability but the people &amp; horses at Pharoh&apos;s Stables were very good. Even though I struggled to get on the horse it stood quietly. The sunset ride was wonderful!</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name>Pharaoh&apos;s Stables</name>
+        <openingHours>09:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</rate>
     </owl:NamedIndividual>
 </rdf:RDF>
 
