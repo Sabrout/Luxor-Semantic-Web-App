@@ -17,13 +17,13 @@
         <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#City"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#name"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#1700"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2_Hours"/>
@@ -68,10 +68,10 @@
         <NamedIndividual IRI="#Relaxation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Interest"/>
+        <Class IRI="#Activity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Activity"/>
+        <Class IRI="#Interest"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rental"/>
@@ -128,19 +128,19 @@
         <ObjectProperty IRI="#has"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Entertainment"/>
+        <ObjectProperty IRI="#recommends"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#recommends"/>
+        <Class IRI="#Entertainment"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Spring"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Villa_Diletta_Pink"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Villa_Diletta_Pink"/>
+        <DataProperty IRI="#duration"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Historic"/>
@@ -194,10 +194,10 @@
         <Class IRI="#Hotel"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#destination"/>
+        <NamedIndividual IRI="#2000"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#2000"/>
+        <ObjectProperty IRI="#destination"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Male"/>
@@ -215,10 +215,13 @@
         <NamedIndividual IRI="#The_experience_was_amazing"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#comments"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Accommodation"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#departure"/>
@@ -269,6 +272,10 @@
         <Class IRI="#Rental"/>
         <NamedIndividual IRI="#Villa_Rosamund"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
+    </ClassAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#comments"/>
         <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
@@ -297,6 +304,50 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#rate"/>
         <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">I really liked this trip. It was very long! We had a dedicated English speaking guide, we have visited about 7 different places.
+
+We have started from The Grand Hotel (Hurghada) at 4.45 AM, and arrived back around 10.15 PM. After jumping to the bus, we have collected some more people from other hotels, and started our trip to Luxor: it was about 5 hours of travelling. In the middle of the desert we have stopped for 20 minutes to rest. When we were close to the Nile, we have seen life again, and the daily life of Qena.
+
+We have traveled with russian people, and a french guy. We have asked for an English guide, at the end we was guided by a friendly guy who was dedicated to us. The french guy also got a dedicated french speaking guide.
+
+We have visited the Luxor Temple, it was huge and beatiful. Our guide showed us some hieroglyphs, and offered us buying necklaces with our names (we were not interested). We have also learned that there&apos;s an &quot;optional&quot; trip to an island for an additional 10 EUR per person. We have visited a papyrus &quot;museum&quot;, actually a shop (it was nice to see how they&apos;re doing papyrus paintings, they were beatuiful, but we have bought nothing). The we went to a restaurant by a boat, and had lunch (not really tasty, but okay, it was included in the original price). We headed to the Valley of the Kings, and have seen the tombs of the pharaohs. Then we visited an alabastrom factory (another shop we liked, but bought nothing), and seen a short performance about how they are creating alabastrom gifts. Next stop was at Mortuary Temple of Hatshepsut, then at two big statues.
+
+Next we went to a boat, it was the &quot;optional&quot; trip for 10 EUR - while I don&apos;t liked that it was not included in the original price, we have really enjoyed it. It was about boating on the Nile to the &quot;Banana island&quot;. It was a farm with banana, papaya, guava, orange, date and other trees. We got to plates of fresh fruits. It was like wine tasting at a winery, but with fruits. :)
+
+And then we started our 5 hours long journey to home, with a stop at the same place in the desert.
+
+All in all, I liked the guides, and the places we have seen. :)
+
+Visited November 2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Zoser Travel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">08:30 AM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">450</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
     </DataPropertyAssertion>
     <ObjectPropertyDomain>
