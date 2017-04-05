@@ -993,6 +993,116 @@ Visited January 2016</comments>
 
 
 
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Maui_Beach_Boys_Hawaii -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Maui_Beach_Boys_Hawaii">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>Clear water !</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name>Maui Beach Boys</name>
+        <openingHours>07:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</rate>
+    </owl:NamedIndividual>
+
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Maui_Wave_Riders_Hawaii -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Maui_Wave_Riders_Hawaii">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>Great wave surfing ..</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name>Maui Wave Riders</name>
+        <openingHours>07:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1800</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+
+
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Adventures_in_Paradise_Kayak_Snorkel_Hawaii -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Adventures_in_Paradise_Kayak_Snorkel_Hawaii">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>Snorkling in clear water, amazing experience.</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name>Adventures in Paradise Kayak and Snorkel</name>
+        <openingHours>09:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rate>
+    </owl:NamedIndividual>
+
+
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Diving_in_honolulu_Hawaii -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Diving_in_honolulu_Hawaii">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>Lot of creatures in clear water, amazing weather</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</duration>
+        <name>Oahu Diving (Honolulu)</name>
+        <openingHours>09:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+
+
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Maui_Spearfishing_Hawaii -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Maui_Spearfishing_Hawaii">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>New adventure !</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name>Maui Spearfishing</name>
+        <openingHours>07:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+
+
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Camelot_Sport_Fishing_Hawaii -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Camelot_Sport_Fishing_Hawaii">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>Got 3 big Tuna fishes in the morning !</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</duration>
+        <name>Camelot Sport Fishing</name>
+        <openingHours>08:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1800</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rate>
+    </owl:NamedIndividual>
+
+
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Extreme_Sport_Fishing_Hawaii -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Extreme_Sport_Fishing_Hawaii">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>Amazing experience, must try !</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name>Extreme Sport Fishing</name>
+        <openingHours>08:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1600</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+
+
+
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_experience_was_amazing -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_experience_was_amazing"/>
