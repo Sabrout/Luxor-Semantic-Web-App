@@ -442,327 +442,148 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-      <!-- new_york -->
+    <!-- new__york -->
 
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Joe's Pub-->
 
-      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private September 11 Memorial and Wall Street Tour with Pedestal Access to the Statue of Liberty-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_September_11_Memorial_and_Wall_Street_Tour_with_Pedestal_Access_to_the_Statue_of_Liberty">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I stopped here to go the Sunday service. Music from the choir was beautiful, the sermon thought provoking and the regular church servers hospitable. However I was also drawn here due to the incredible history of this building. Totally fascinating and the building is beautiful with ornate stone workmanship and stained glass buildings. Well worth a walk around even if you have no religious leanings. So whether you're looking for a place to worship or just want to check out an old, historic building in a city of glass modernity I'd go.
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Joe's_Pub">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">You can literally sit in front of the stage. There is a two drink minimum but the tickets are fairly priced. The food is amazing. Best lobster sliders I have ever had and I live onLong Island so I have had many! The beet salad was wonderful and enough to split with two people. The space itself is very intimate. Every seat is a good seat and the sound is very impressive. We even met Alan Alda on the way in!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joe's Pub</TouristOnto:name>
+        <TouristOnto:openingHours>3:00 pm - 1:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.9</TouristOnto:rate>
+        </owl:NamedIndividual> 
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#B.B. King Blues Club and Grill-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#B.B.King_Blues_Club_and_Grill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This was not a glamorous, upscale burlesque show. But it is a priceless experience for its bawdiness, satire and sexiness! I literally lmao at times and had open mouth jaw at some of the acts! Great to do as a couple or with a small group. Get there at least 1 hr before the show to get a good position within the room.
         </TouristOnto:comments>
         <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Trinity Church</TouristOnto:name>
-        <TouristOnto:openingHours>7:00 am - 6:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2029</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.8</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-
-         <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Boroughs_Of_The_Dead:Macabre_New_York_City_Walking_Tours-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Boroughs_Of_The_Dead:Macabre_New_York_City_Walking_Tours">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I took "Weird Tales of West Village" tour. Lyana was the tour guide. I'm a huge fan of mystery and horror tales and I had a great time. Thank you, Lyanna.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Boroughs Of The Dead: Macabre New York City Walking Tours</TouristOnto:name>
-        <TouristOnto:openingHours>9:00 am - 5:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1234</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture Clash: Immigrant NYC Running Tour-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture_Clash:Immigrant_NYC_Running_Tour
-">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The building has undergone a full restoration, keeping most of the wood features. There's a new AMAZING stained glass window designed by Kiki Smith which is worth the visit on its own. A docent will share many quirky details with you, about the neighborhood and the congregation. The sanctuary and the upstairs women's gallery are most inspiring.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Museum at Eldridge Street</TouristOnto:name>
-        <TouristOnto:openingHours>10:00 am - 5:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">724</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.2</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SANDEMANs NEW Europe - New York-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SANDEMANs_NEW_Europe-New_York">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My boyfriend Paul and I did the walking tour with Amanda on March 30 and we loved it! Amanda was great! Very knowledgeable, engaging and she provided some great recommendations. Murray's Bagels was incredible! If you have Amanda as your guide you won't be disappointed! 
-        PS, we have been on several of the Sandemans NEW Europe tours and have never been disappointed! This one was no exception! Awesome awesome awesome!
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> SANDEMANs NEW Europe - New York</TouristOnto:name>
-        <TouristOnto:openingHours>11:00 am - 2:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The Sightseeing Day Pass NYC-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Sightseeing_Day_Pass_NYC">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Often passed over for the bigger museum offerings in NYC, this smaller, well run love letter to NY is not to be missed. On my recent visit I saw an exhibit on tattooing( really interesting and fun); an exhibit on Mohammed Ali ( with great photos); and an exhibit on the part NYC Jews played in the American revolution!
-Not to be missed: an 18 minute film on the first floor which is simply excellent- presentation is a wow for all ages.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> New-York Historical Society Museum and Library</TouristOnto:name>
-        <TouristOnto:openingHours>10:00 am - 6:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2210</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New York CityPASSr-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York_CityPASS">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Who knew you could fit so much on an Aircraft Carrier! For anyone who is into Aviation or Space this museum will keep you occupied all day.
-            It's also great for kids with loads of interactive exhibits.
-            The staff are excited about the history and will tell you loads of facts if you stand still for longer than 2 minutes.
-            I would definitely recommend the Space Shuttle exhibit, an amazing piece of aviation history right in the heart of NYC.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Intrepid Sea, Air and Space Museum</TouristOnto:name>
-        <TouristOnto:openingHours>10:00 am - 5:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2210</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.1</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-          <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Statue of Liberty and Ellis Island Guided Tour-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Statue_of_Liberty_and_Ellis_Island_Guided_Tour">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amazing place to visit. Loved the free audio guide. Really informative. Unfortunately it took so long to get through the chaotic security system that we were short for time once on the island. A good excuse to come back soon!
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Ellis Island Immigration Museum</TouristOnto:name>
-        <TouristOnto:openingHours>10:00 am - 5:45 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1032</TouristOnto:price>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B.B. King Blues Club and Grill</TouristOnto:name>
+        <TouristOnto:openingHours>3:00 pm - 5:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</TouristOnto:price>
         <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
-              <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private Tour of the American Museum of Natural History-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour_of_the_American_Museum_of_Natural_History">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A big museum with some really good areas of interest - blue whale room was a sight and don't forget to visit Easter Island Dum Dum! Different set up to the NHM London but similar exhibits.
-            Queue to get in didn't take long and extra security made you feel safe.
-            Reasonable priced entry - which could be purchased at a kiosk upon entry.
-            Cafe was ok, not as expensive as I would've thought but best to eat first if you can!
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The Slipper Room-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Slipper_Room">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excellent spot for music, food amd drinks however are quite pricey for what you get.I advise eating elsewhere before a show amd keep alcoholic drinks to a minimum or you'll spend a bundle!
         </TouristOnto:comments>
         <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> American Museum of Natural History</TouristOnto:name>
-        <TouristOnto:openingHours>10:00 am - 5:45 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2518</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</TouristOnto:rate>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Slipper Room</TouristOnto:name>
+        <TouristOnto:openingHours>3:00 pm - 6:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</TouristOnto:rate>
     </owl:NamedIndividual>
-           
 
-                  <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NY Urban Pioneers Private Walking Tour-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NY_Urban_Pioneers_Private_Walking_Tour">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We came upon the recommendation from friends - otherwise we'd probably not have known about this (since it's not included in the New York Pass unfortunately). It's definitely worth visiting. There are various tours available - best to book online.
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#National Comedy Theatre New York-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#National_Comedy_Theatre_New_York">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We just happened to be in front of the lol comedy club wondering what we were about to do that evening. Ended up buying ticket to the doorman. Tickets were not too expensive, but we had to take at least two drinks each, nearly all the drinks are 10 $ ... so we ended up have a decent bill afterall ...
+
+But we had a blast, it had been a long time since I laughed as much. 
+
+Tip: If you don't want to be singled out by any comics, ask to be sitted in the far corner away from any spots. ;)
         </TouristOnto:comments>
         <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Tenement Museum</TouristOnto:name>
-        <TouristOnto:openingHours>10:00 am - 6:30 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1938</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">National Comedy Theatre New York</TouristOnto:name>
+        <TouristOnto:openingHours>3:00 pm - 4:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.1</TouristOnto:rate>
     </owl:NamedIndividual>
 
-           <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small-Group Tour of Statue of Liberty and Ellis Island-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small-Group_Tour_of_Statue_of_Liberty_and_Ellis_Island">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I had been to Ellis Island many years ago but not since the extensive revision completed a few years ago. I'm so glad to have visited and spent a couple of hours. Had we not gotten tired after the Statue of Liberty followed by Ellis Island, there was a good additional hour's worth of stuff to see and read. Though it was just my wife and myself, I could actually see this being a history lesson that would be interesting to a student, particularly anyone with a family history that may have passed through Ellis Island. Great place to visit while in NYC.
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steve Cohen's Chamber Magic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steve_Cohen's_Chamber_Magic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Went for my daughters birthday celebration as she is a big magic fan. The intimate setting of the show added to the excitement. Steve was a total professional and his magic was some of the best I have ever seen. I highly recommend this show.
         </TouristOnto:comments>
         <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Ellis Island</TouristOnto:name>
-        <TouristOnto:openingHours>9:00 am - 4:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1032</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steve Cohen's Chamber Magic</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 4:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
     </owl:NamedIndividual>
 
-      <!-- hawaii -->
 
-       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kauai Museum-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kauai_Museum">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We stopped in at this little museum situated in a beautiful old historic building in downtown Lihue.
-            Be prepared to read a lot....as each display had lengthy articles explaining what you are seeing. We found this quite interesting and appreciated learning the history of the Hawaiians. 
-            The second building had some displays still under construction.
-            We were more impressed with the first building and displays .
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Kauai Museum</TouristOnto:name>
-        <TouristOnto:openingHours>10:00 am - 5:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</TouristOnto:rate>
-    </owl:NamedIndividual>
-      
-     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kona Tour: Coffee Plantation, Kealakekua Bay, Kaloko-Honokohau Park and Bee Farm-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kona_Tour:Coffee_Plantation,Kealakekua_Bay,Kaloko-Honokohau_Park_and_Bee_Farm">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If you are getting hot on your walk through Kona, stop in and cool down in the shade and breezes that blow through off the ocean. The history of the building and family is very interesting as are the artifacts.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Hulihe'e Palace</TouristOnto:name>
-        <TouristOnto:openingHours>9:00 am - 4:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2246</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4</TouristOnto:rate>
-    </owl:NamedIndividual>
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Upright Citizens Brigade Theatre -->
 
-        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii Island Experience-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii_Island_Experience">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I was able to visit this National Park and already want to go back. Not only does this park provide amazing scenic views and great photo ops. It also offers a great history lesson. The sand is gorgeous and the view of the ocean from the lava is breathtaking. Parking is inexpensive and there are trails for hiking and a beach. Do yourself a favor and check this place out, you will not be disappointed.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Pu'uhonua O Honaunau National Historical Park</TouristOnto:name>
-        <TouristOnto:openingHours>7:00 am - 7:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4057</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Old Lahaina Courthouse-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Old_Lahaina_Courthouse">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We wandered into the Courthouse with low expectations and were very surprised to find an excellent museum of Hawaii. It is well worth the visit and I am sure, like us you will learn a lot about the history of Hawaii.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Old Lahaina Courthouse</TouristOnto:name>
-        <TouristOnto:openingHours>7:00 am - 5:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1650</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-        
-        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pearl Harbor Pass-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pearl_Harbor_Pass">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A great way to experience and understand what happened. An incredible tribute to the brave men and women who were impacted by such a tragedy that it changed our entire nation.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Pearl Harbor / WW II Valor in the Pacific National Monument</TouristOnto:name>
-        <TouristOnto:openingHours>7:00 am - 5:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1612</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#US Army Museum of Hawaii-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#US_Army_Museum_of_Hawaii">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right on the beach of Waikiki is this amazing military museum. We spent just over 2 hours wandering through. It's very informative about the history of military in Hawaii and this is a former artillery battery, so it has some history. A wonderful break from the hot sun.
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Upright_Citizens_Brigade_Theatre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We visited NYC right before Christmas to see all the festive lights. We wanted to see some entertainment after all of our days adventures but couldn't afford expensive Broadway tickets. I had been to Upright Citizens Brigade in the past and new it would be great choice. The tickets are 10 bucks and the drinks are decently priced. The atmosphere itself is fun as seats are first come first serve and the theater is in the basement of the building. We saw an improv show and the comedians were hilarious. They really get the audience involved and they put on a great show. Its a great and affordable way to see a show without breaking the bank!
         </TouristOnto:comments>
         <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> US Army Museum of Hawaii</TouristOnto:name>
-        <TouristOnto:openingHours>10:00 am - 5:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">415</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</TouristOnto:rate>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Upright Citizens Brigade Theatre</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 4:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</TouristOnto:rate>
     </owl:NamedIndividual>
 
-        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bishop Museum General Admission-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bishop_Museum_General_Admission">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The original building with its Polynesian cultural and historical exhibits was a treat. It is worth seeing it early in one's stay. That way, one has an overview of Hawaiian history before seeing individual attractions.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Bishop Museum</TouristOnto:name>
-        <TouristOnto:openingHours>9:00 am - 5:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">415</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4</TouristOnto:rate>
-    </owl:NamedIndividual>
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The Duplex -->
 
-        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deluxe Arizona Memorial and Historical City Tour-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deluxe_Arizona_Memorial_and_Historical_City_Tour">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I was fortunate enough to meet one of the last survivors whilst there. It was a great honour. All of the displays had information that was easy to understand yet managed to convey the full impact.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> USS Arizona Memorial</TouristOnto:name>
-        <TouristOnto:openingHours>7:00 am - 5:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">851</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-
-                <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#USS Arizona Memorial And USS Missouri Group Tour from Waikiki-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#USS_Arizona_Memorial_And_USS_Missouri_Group_Tour_from_Waikiki">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We visited the Battleship Missouri as part of a broader tour of Pearl Harbour. I didn't really know anything about the ship but the free guide got me up to speed quickly. The battleship has a very interesting history and not just from 1980's film clips. You are able to self pace on the visit which gives you plenty of opportunity to check out all of the ship. Well worth the visit.
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Duplex">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We visited The Duplex to see a show in their cabaret theatre - it was great fun and we stuck around afterwards for a few drinks.
+If you're visiting Greenwich Village I highly recommend that you try and make a cabaret performance - it was one of the highlights of our NYC trip.
         </TouristOnto:comments>
         <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Battleship Missouri Memorial</TouristOnto:name>
-        <TouristOnto:openingHours>8:00 am - 5:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1688</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.4</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-             <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Monarch's Tour: Bishop Museum & Iolani Palace Combo Tour-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Monarch's_Tour:Bishop_Museum_and_Iolani_Palace_Combo_Tour">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We had two visits to the palace. On our first visit, we were standing near the internal staircase and our Mum felt ill and nearly fainted. The staff, especially security guard Vo, were extremely helpful and rushed us down to the basement for some privacy until she was well enough to go back to the hotel.
-
-            On our second visit, we happened to see Vo and another member of staff as we were walking up to the palace. They quickly came over, asked how Mum was doing and whisked us away to the office for complimentary tickets. Needless to say, we couldn't speak highly enough of the staff at the palace and the high level of service we received during a difficult time. Special thanks to Vo for being so attentive to Mum's needs and his infectious sense of humour.
-
-            The palace itself is very interesting. Don't forget your camera as you can take pictures inside. The basement also has further exhibits, jewellery and crockery.
-
-            A fantastic way to spend time while learning about Hawaiian history. Highly recommended.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Iolani Palace</TouristOnto:name>
-        <TouristOnto:openingHours>9:00 am - 6:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2068</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:rate>
-    </owl:NamedIndividual>
-      <!-- Dubai -->
-             <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Morning or Afternoon Old Dubai Walking Tour-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Morning_or_Afternoon_Old_Dubai_Walking_Tour">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nada met up with us at Al Ras Metro Station at exactly the time she said she would. We went first to the Women's Museum where she spoke about the "progress" of Women in Dubai over recent years .
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Wander with Nada</TouristOnto:name>
-        <TouristOnto:openingHours>9:00 am - 6:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1811</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</TouristOnto:rate>
-    </owl:NamedIndividual>
-        
-             <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private Tour: Secrets of Arabia-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Secrets_of_Arabia">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a nice museum in the heart of Deira in Old Dubai. Hard to find, but worth the effort. Interesting exhibits on the history of Dubai and life in the old city.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Al-Ahmadiya School</TouristOnto:name>
-        <TouristOnto:openingHours>11:00 am - 12:00 am</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4167</TouristOnto:price>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Duplex</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 4:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</TouristOnto:price>
         <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
     </owl:NamedIndividual>
 
-        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai Museum Gold Souk and Water Taxi-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Museum_Gold_Souk_and_Water_Taxi">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We have visited this area many times. It is situation close to the creek with a good road system if you want to take a taxi to the area. It is just a short walk to the Dubai Museum so you could combine both in a site seeing tour.
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jekyll and Hyde Restaurant -->
 
-            This is a very calm area. There is a tea room and small hotel in the area but just down the road large development work has been taking place for more than a year now and this will bring many more tourist and develop an area that was once a lovely place for local people to come and sit on their days off work.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Bastakia Quarter</TouristOnto:name>
-        <TouristOnto:openingHours>11:00 am - 12:00 am</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">815</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4</TouristOnto:rate>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jekyll_and_Hyde_Restaurant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poor menu. Was told it was creepy and fun. Disappointed. OK for children. Not what we expected for a nyc restaurant.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jekyll and Hyde Restaurant</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 2:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</TouristOnto:rate>
     </owl:NamedIndividual>
 
-        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Historical_Tour:Tales_from _the_Past-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Historical_Tour:Tales_from _the_Past">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I visited few times in this house with my family and friends. It was very good experience for us. We could come to know how the people lived in those days before 100 years. This house was renovated one. Looks very nice. Particularly the interior construction works. Worth visiting . Dubai tour will not complete without visiting this place .
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Sheikh Saeed al-Maktoum's House</TouristOnto:name>
-        <TouristOnto:openingHours>8:00 am - 12:00 am</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2138</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8</TouristOnto:rate>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Don't_Tell_Mama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Don't_Tell_Mama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sixteen of my relatives had a wonderful meal with wine, great food and a wonderful staff who took great care of us. The service was outstanding when all of our meals arrived at the same time and were very hot. The food was excellent as well. I highly recommend this find.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Don't Tell Mama</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 2:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
     </owl:NamedIndividual>
-         
-         <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Authentic Emirati Cultural Meal and Talk in Old Dubai-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Authentic_Emirati_Cultural_Meal_and_Talk_in_Old_Dubai">
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape_Entertainment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape_Entertainment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This was my first Escape the Room experience and it was fun. We made a reservation for a group of 6 to do the Manhattan Mayhem on a Sunday afternoon and we got paired up with another party of 4 (the max is 10 people). A staff gave us instructions at the beginning and then left it up to us to figure out the bigger puzzle. Directions were vague and unclear, but that&apos;s the point for us to figure everything out. It was frustrating at first, but then we started getting an idea of all the clues and what we should. It then became more fun towards the end we knew what we were doing and worked together.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escape Entertainment</TouristOnto:name>
+        <TouristOnto:openingHours>12:00 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Authentic_Emirati_Cultural_Meal_and_Talk_in_Old_Dubai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Authentic_Emirati_Cultural_Meal_and_Talk_in_Old_Dubai">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Cultural Lunch experience was fun, interesting and educational. Our guide explained a wide variety of social and religious customs and was open to any and all questions. The food was plentiful and excellent! We were even provided with containers to take leftovers. It was an interesting and unique experience to be able to try on a burgha and naquib. I appreciate the availability of this type of centre and would recommend it for both adults and children. While some of the information provided is undoubtedly propaganda it's none the less interesting.
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Cultural Lunch experience was fun, interesting and educational. Our guide explained a wide variety of social and religious customs and was open to any and all questions. The food was plentiful and excellent! We were even provided with containers to take leftovers. It was an interesting and unique experience to be able to try on a burgha and naquib. I appreciate the availability of this type of centre and would recommend it for both adults and children. While some of the information provided is undoubtedly propaganda it&apos;s none the less interesting.
         </TouristOnto:comments>
         <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Sheikh Mohammed Centre for Cultural Understanding</TouristOnto:name>
@@ -770,185 +591,23 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">471</TouristOnto:price>
         <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</TouristOnto:rate>
     </owl:NamedIndividual>
+    
 
-        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Find Treasure At The Dubai Museum-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Find_Treasure_At_The_Dubai_Museum">
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bishop_Museum_General_Admission -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bishop_Museum_General_Admission">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When you visit the Dubai Museum - housed in the Al Fahidi Fort which was built in 1787, the oldest existing building in the city - you'll encounter colourful dioramas and exhibits that depict everyday life in the days before the discovery of oil.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Treasure At The Dubai Museum</TouristOnto:name>
-        <TouristOnto:openingHours>8:00 am - 8:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-          <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Visit The Heritage And Diving Village-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Visit_The_Heritage_And_Diving_Village">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Before skyscrapers spread across the horizon, Dubai was made up of fishing villages and Bedouin communities populated by potters, weavers and pearl divers. 
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> The Heritage And Diving Village</TouristOnto:name>
-        <TouristOnto:openingHours>8:00 am - 12:00 am</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.2</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#See Old Dubai At Al Fahidi Historical Neighbourhood-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#See_Old_Dubai_At_Al_Fahidi_Historical_Neighbourhood">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escape the skyscrapers of the city centre and travel back in time with a trip to Al Fahidi Historical Neighbourhood, also known as Bastakiya. This atmospheric area in Bur Dubai is one of the oldest heritage sites in the city, with a neighbourhood that dates back to the early 1900s. 
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Dubai At Al Fahidi Historical Neighbourhood</TouristOnto:name>
-        <TouristOnto:openingHours>10:00 am - 12:00 am</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai Heritage History Culture and Shopping Tour Including Dubai Museum-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Heritage_History_Culture_and_Shopping_Tour_Including_Dubai_Museum">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experience the Heritage, culture and history of Arabia on this Heritage History Culture and Shopping Tour.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dubai Museum</TouristOnto:name>
-        <TouristOnto:openingHours>10:00 am - 5:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#A_Glimpse_of_History_on_Dubai's_Heritage_Tour-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#A_Glimpse_of_History_on_Dubai's_Heritage_Tour">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wonderful.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Dubai's Heritage</TouristOnto:name>
-        <TouristOnto:openingHours>8:00 am - 7:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-      <!-- Rome -->
-         <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip the Line: Ancient Rome and Colosseum Half-Day Walking Tour-->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip_the_Line:Ancient_Rome_and_Colosseum_Half-Day_Walking_Tour">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Again, as I said in my other reviews of roman excavations, this one is among the great ones. Well preserved  so rich in history, that you say 'oh wow' by seeing how well the modern times have integrated with it. Surrounded by modern establishments public transport, it is getting all the respect it deserves. Zoom into the picture and read about its history that the Temple of Mars Ultor (avenger) occupied its eastern side, it was built in 2 BC,  how Octavian Augustis dedicated this in 42BC on the eve of battle of Phillipi to avenge the assassination of Julius Ceaser.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foro di Augusto</TouristOnto:name>
-        <TouristOnto:openingHours>8:00 am - 7:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">965</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</TouristOnto:rate>
-    </owl:NamedIndividual>
-         <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip-the-lines Pantheon and Santa Maria Sopra Minerva Guided Tour-->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip-the-lines_Pantheon_and_Santa_Maria_Sopra_Minerva_Guided_Tour">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This church is plain to look at from the outside, but inside is amazing. Located next to the Pantheon, it is a must see.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santa Maria Sopra Minerva</TouristOnto:name>
-        <TouristOnto:openingHours>8:00 am - 7:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">193</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</TouristOnto:rate>
-    </owl:NamedIndividual>
-     <!-- Rome -->
-         <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small Group Borghese Gallery Tour with Bernini Caravaggio and Raphael-->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Borghese_Gallery_Tour_with_Bernini_Caravaggio_and_Raphael">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a beautiful park and Villa located off Via Venito. Central Park Rome. Usefby a lot of the locals. The Villa has the most unbelievable sculptures and art. Well worth the admission price. Be aware that they only sell limited tickets to control the crowds.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Villa Borghese</TouristOnto:name>
-        <TouristOnto:openingHours>7:30 am - 9:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1043</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</TouristOnto:rate>
-    </owl:NamedIndividual>
-             <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome Trastevere Tour by Segway-->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome_Trastevere_Tour_by_Segway">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This church does not typically feature amongst the must-see attractions of Rome which is a shame. The mosaic work inside is just stunning. And the atmosphere serene. This combination makes for a wonderful and enthralling experience.
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The original building with its Polynesian cultural and historical exhibits was a treat. It is worth seeing it early in one&apos;s stay. That way, one has an overview of Hawaiian history before seeing individual attractions.
         </TouristOnto:comments>
         <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santa Maria in Trastevere</TouristOnto:name>
-        <TouristOnto:openingHours>7:30 am - 9:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1449</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</TouristOnto:rate>
-    </owl:NamedIndividual>
-          <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full Day Tour: Vatican Museums, St. Peter's and the Most Important Basilicas of Rome-->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:Vatican_Museums,St.Peter's_and_the_Most_Important_Basilicas_of_Rome">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">St Paul Outside the Walls is hardly in the suburbs. It was way out of the city when it was built, but now is within the city limits and easily accessible by subway or bus. 
-            St Paul's is one of the four major basilicas in Rome, so a top pilgrim/tourist site.
-            This is the place where they have the mosaics of every Pope; only a few spaces are left, and some people think when the spaces are gone the world will end. The Church doesn't say so.
-            Beautiful, quiet, artistic and holy, this is the burial place of Paul (some of him, anyway) and Timothy. Say a special prayer here and enjoy the garden.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abbazia di San Paolo fuori le Mura</TouristOnto:name>
-        <TouristOnto:openingHours>9:00 am - 6:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2281</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-
-        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Family-Friendly Tour to the Colosseum and the Palatine Hill-->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Family-Friendly_Tour_to_the_Colosseum_and_the_Palatine_Hill">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We left this visit until last of our trip.It was wonderful. What history. Lots of information so we knew what we were looking at. Amazing.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palatine Hill</TouristOnto:name>
-        <TouristOnto:openingHours>8:30 am - 6:15 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1313</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jubilee 2016 From Paganism to Christianity -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jubilee_2016_From_Paganism_to_Christianity">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not too crowded. Lots of information so you knew what you were looking at. Amazing sights and very atmospheric.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roman Forum</TouristOnto:name>
-        <TouristOnto:openingHours>8:30 am - 6:15 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1063</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2</TouristOnto:rate>
-    </owl:NamedIndividual>
-
-      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Tour:_Christian_Rome_and_Underground_Basilicas_Half-Day_Tour -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Tour:_Christian_Rome_and_Underground_Basilicas_Half-Day_Tour">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This basilica was the seat of papal power until the completion of St Peter's, and the history really shows. The design of the building is based around the core of the original structure, even though it was substantially updated in the later Renaissance. It is worth getting a guide book to better appreciate the artwork and historical nuances of the site. For me, most moving was the presence of two red granite pillars that were reclaimed from the original 4th century church and installed in the reconstruction. These gave a strong sense of temporal continuity to basilica. This is well worth a look, and in its own way just as impressive as St Peter's. Also, don't miss the statue of Constantine in the outside courtyard, which was recovered from the nearby Diocletian baths.
-        </TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arcibasilica di San Giovanni in Laterano</TouristOnto:name>
-        <TouristOnto:openingHours>7:00 am - 6:30 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1139</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.9</TouristOnto:rate>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Bishop Museum</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">415</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4</TouristOnto:rate>
     </owl:NamedIndividual>
     
-     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full Day Tour: Vatican Museums, St. Peter's and the Most Important Basilicas of Rom -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:_Vatican_Museums,_St._Peter's_and_the_Most_Important_Basilicas_of_Rom">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
-        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impressive Basilique With beautiful murals and ceilings! It is one of my favorite churches in Rome. From the outside it looks closed but at the back you can enter after you and your lugguage has been screened.
-        Visited March 2017</TouristOnto:comments>
-        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basilica di Santa Maria Maggiore</TouristOnto:name>
-        <TouristOnto:openingHours>7:00 am - 7:00 pm</TouristOnto:openingHours>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2281</TouristOnto:price>
-        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</TouristOnto:rate>
-    </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City_Sightseeing_Transportation_and_Skip-The-Line_Roma_Pass -->
 
@@ -964,23 +623,101 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
     
 
 
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deluxe_Arizona_Memorial_and_Historical_City_Tour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deluxe_Arizona_Memorial_and_Historical_City_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I was fortunate enough to meet one of the last survivors whilst there. It was a great honour. All of the displays had information that was easy to understand yet managed to convey the full impact.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> USS Arizona Memorial</TouristOnto:name>
+        <TouristOnto:openingHours>7:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">851</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#A_Glimpse_of_History_on_Dubai's_Heritage_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Authentic_Emirati_Cultural_Meal_and_Talk_in_Old_Dubai"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Heritage_History_Culture_and_Shopping_Tour_Including_Dubai_Museum"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Museum_Gold_Souk_and_Water_Taxi"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Find_Treasure_At_The_Dubai_Museum"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Morning_or_Afternoon_Old_Dubai_Walking_Tour"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#See_Old_Dubai_At_Al_Fahidi_Historical_Neighbourhood"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Visit_The_Heritage_And_Diving_Village"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Find_Treasure_At_The_Dubai_Museum"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Authentic_Emirati_Cultural_Meal_and_Talk_in_Old_Dubai"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Historical_Tour:Tales_from _the_Past"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Museum_Gold_Souk_and_Water_Taxi"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#A_Glimpse_of_History_on_Dubai&apos;s_Heritage_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Historical_Tour:Tales_from%20_the_Past"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Secrets_of_Arabia"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Morning_or_Afternoon_Old_Dubai_Walking_Tour"/>
         <TouristOnto:name>Dubai</TouristOnto:name>
         <TouristOnto:season>Fall</TouristOnto:season>
         <TouristOnto:type>Entertainment</TouristOnto:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Heritage_History_Culture_and_Shopping_Tour_Including_Dubai_Museum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Heritage_History_Culture_and_Shopping_Tour_Including_Dubai_Museum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experience the Heritage, culture and history of Arabia on this Heritage History Culture and Shopping Tour.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dubai Museum</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Museum_Gold_Souk_and_Water_Taxi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Museum_Gold_Souk_and_Water_Taxi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We have visited this area many times. It is situation close to the creek with a good road system if you want to take a taxi to the area. It is just a short walk to the Dubai Museum so you could combine both in a site seeing tour.
+
+            This is a very calm area. There is a tea room and small hotel in the area but just down the road large development work has been taking place for more than a year now and this will bring many more tourist and develop an area that was once a lovely place for local people to come and sit on their days off work.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Bastakia Quarter</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">815</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Family-Friendly_Tour_to_the_Colosseum_and_the_Palatine_Hill -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Family-Friendly_Tour_to_the_Colosseum_and_the_Palatine_Hill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We left this visit until last of our trip.It was wonderful. What history. Lots of information so we knew what we were looking at. Amazing.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palatine Hill</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 6:15 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1313</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Find_Treasure_At_The_Dubai_Museum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Find_Treasure_At_The_Dubai_Museum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When you visit the Dubai Museum - housed in the Al Fahidi Fort which was built in 1787, the oldest existing building in the city - you&apos;ll encounter colourful dioramas and exhibits that depict everyday life in the days before the discovery of oil.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Treasure At The Dubai Museum</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 8:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
     </owl:NamedIndividual>
     
 
@@ -1017,19 +754,67 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Monarch's_Tour:Bishop_Museum_and_Iolani_Palace_Combo_Tour"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#USS_Arizona_Memorial_And_USS_Missouri_Group_Tour_from_Waikiki"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deluxe_Arizona_Memorial_and_Historical_City_Tour"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bishop_Museum_General_Admission"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#US_Army_Museum_of_Hawaii"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pearl_Harbor_Pass"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Old Lahaina Courthouse"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deluxe_Arizona_Memorial_and_Historical_City_Tour"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii_Island_Experience"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kona_Tour:Coffee_Plantation,Kealakekua_Bay,Kaloko-Honokohau_Park_and_Bee_Farm"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kauai_Museum"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pearl_Harbor_Pass"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#USS_Arizona_Memorial_And_USS_Missouri_Group_Tour_from_Waikiki"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#US_Army_Museum_of_Hawaii"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kona_Tour:Coffee_Plantation,Kealakekua_Bay,Kaloko-Honokohau_Park_and_Bee_Farm"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Monarch&apos;s_Tour:Bishop_Museum_and_Iolani_Palace_Combo_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Old%20Lahaina%20Courthouse"/>
         <TouristOnto:name>Hawaii</TouristOnto:name>
         <TouristOnto:season>Summer</TouristOnto:season>
         <TouristOnto:type>Relaxation</TouristOnto:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii_Island_Experience -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii_Island_Experience">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I was able to visit this National Park and already want to go back. Not only does this park provide amazing scenic views and great photo ops. It also offers a great history lesson. The sand is gorgeous and the view of the ocean from the lava is breathtaking. Parking is inexpensive and there are trails for hiking and a beach. Do yourself a favor and check this place out, you will not be disappointed.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Pu&apos;uhonua O Honaunau National Historical Park</TouristOnto:name>
+        <TouristOnto:openingHours>7:00 am - 7:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4057</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jubilee_2016_From_Paganism_to_Christianity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jubilee_2016_From_Paganism_to_Christianity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not too crowded. Lots of information so you knew what you were looking at. Amazing sights and very atmospheric.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roman Forum</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 6:15 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1063</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kauai_Museum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kauai_Museum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We stopped in at this little museum situated in a beautiful old historic building in downtown Lihue.
+            Be prepared to read a lot....as each display had lengthy articles explaining what you are seeing. We found this quite interesting and appreciated learning the history of the Hawaiians. 
+            The second building had some displays still under construction.
+            We were more impressed with the first building and displays .
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Kauai Museum</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</TouristOnto:rate>
     </owl:NamedIndividual>
     
 
@@ -1069,23 +854,127 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
     
 
 
-    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York -->
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Morning_or_Afternoon_Old_Dubai_Walking_Tour -->
 
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Morning_or_Afternoon_Old_Dubai_Walking_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nada met up with us at Al Ras Metro Station at exactly the time she said she would. We went first to the Women&apos;s Museum where she spoke about the &quot;progress&quot; of Women in Dubai over recent years .
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Wander with Nada</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1811</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NY_Urban_Pioneers_Private_Walking_Tour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NY_Urban_Pioneers_Private_Walking_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We came upon the recommendation from friends - otherwise we&apos;d probably not have known about this (since it&apos;s not included in the New York Pass unfortunately). It&apos;s definitely worth visiting. There are various tours available - best to book online.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Tenement Museum</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 6:30 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1938</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York -->
+    <!-- new__york -->
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small-Group_Tour_of_Statue_of_Liberty_and_Ellis_Island"/>
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape_Entertainment"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Don't_Tell_Mama"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jekyll_and_Hyde_Restaurant"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Duplex"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Upright_Citizens_Brigade_Theatre"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steve_Cohen's_Chamber_Magic"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#National_Comedy_Theatre_New_York"
+        /> 
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Slipper_Room"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#B.B.King_Blues_Club_and_Grill"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Joe's_Pub"
+        />
+
+
+
+
+
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NY_Urban_Pioneers_Private_Walking_Tour"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour_of_the_American_Museum_of_Natural_History"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Statue_of_Liberty_and_Ellis_Island_Guided_Tour"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York_CityPASS"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Sightseeing_Day_Pass_NYC"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SANDEMANs_NEW_Europe-New_York"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_September_11_Memorial_and_Wall_Street_Tour_with_Pedestal_Access_to_the_Statue_of_Liberty"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture_Clash:Immigrant_NYC_Running_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour_of_the_American_Museum_of_Natural_History"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SANDEMANs_NEW_Europe-New_York"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small-Group_Tour_of_Statue_of_Liberty_and_Ellis_Island"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Statue_of_Liberty_and_Ellis_Island_Guided_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Sightseeing_Day_Pass_NYC"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Boroughs_Of_The_Dead:Macabre_New_York_City_Walking_Tours"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture_Clash:Immigrant_NYC_Running_Tour"/>
         <TouristOnto:name>New York</TouristOnto:name>
         <TouristOnto:season>Spring</TouristOnto:season>
         <TouristOnto:type>Entertainment</TouristOnto:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York_CityPASS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York_CityPASS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Who knew you could fit so much on an Aircraft Carrier! For anyone who is into Aviation or Space this museum will keep you occupied all day.
+            It&apos;s also great for kids with loads of interactive exhibits.
+            The staff are excited about the history and will tell you loads of facts if you stand still for longer than 2 minutes.
+            I would definitely recommend the Space Shuttle exhibit, an amazing piece of aviation history right in the heart of NYC.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Intrepid Sea, Air and Space Museum</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2210</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.1</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Old_Lahaina_Courthouse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Old_Lahaina_Courthouse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We wandered into the Courthouse with low expectations and were very surprised to find an excellent museum of Hawaii. It is well worth the visit and I am sure, like us you will learn a lot about the history of Hawaii.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Old Lahaina Courthouse</TouristOnto:name>
+        <TouristOnto:openingHours>7:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1650</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pearl_Harbor_Pass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pearl_Harbor_Pass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A great way to experience and understand what happened. An incredible tribute to the brave men and women who were impacted by such a tragedy that it changed our entire nation.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Pearl Harbor / WW II Valor in the Pacific National Monument</TouristOnto:name>
+        <TouristOnto:openingHours>7:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1612</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</TouristOnto:rate>
     </owl:NamedIndividual>
     
 
@@ -1132,23 +1021,322 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
     
 
 
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_September_11_Memorial_and_Wall_Street_Tour_with_Pedestal_Access_to_the_Statue_of_Liberty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_September_11_Memorial_and_Wall_Street_Tour_with_Pedestal_Access_to_the_Statue_of_Liberty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I stopped here to go the Sunday service. Music from the choir was beautiful, the sermon thought provoking and the regular church servers hospitable. However I was also drawn here due to the incredible history of this building. Totally fascinating and the building is beautiful with ornate stone workmanship and stained glass buildings. Well worth a walk around even if you have no religious leanings. So whether you&apos;re looking for a place to worship or just want to check out an old, historic building in a city of glass modernity I&apos;d go.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Trinity Church</TouristOnto:name>
+        <TouristOnto:openingHours>7:00 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2029</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour_of_the_American_Museum_of_Natural_History -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour_of_the_American_Museum_of_Natural_History">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A big museum with some really good areas of interest - blue whale room was a sight and don&apos;t forget to visit Easter Island Dum Dum! Different set up to the NHM London but similar exhibits.
+            Queue to get in didn&apos;t take long and extra security made you feel safe.
+            Reasonable priced entry - which could be purchased at a kiosk upon entry.
+            Cafe was ok, not as expensive as I would&apos;ve thought but best to eat first if you can!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> American Museum of Natural History</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 5:45 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2518</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:_Vatican_Museums,_St._Peter's_and_the_Most_Important_Basilicas_of_Rom"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City_Sightseeing_Transportation_and_Skip-The-Line_Roma_Pass"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Tour:_Christian_Rome_and_Underground_Basilicas_Half-Day_Tour"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jubilee_2016_From_Paganism_to_Christianity"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Family-Friendly_Tour_to_the_Colosseum_and_the_Palatine_Hill"/>
-         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:Vatican_Museums,St.Peter's_and_the_Most_Important_Basilicas_of_Rome"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jubilee_2016_From_Paganism_to_Christianity"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome_Trastevere_Tour_by_Segway"/>
-        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Borghese_Gallery_Tour_with_Bernini_Caravaggio_and_Raphael"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip-the-lines_Pantheon_and_Santa_Maria_Sopra_Minerva_Guided_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Borghese_Gallery_Tour_with_Bernini_Caravaggio_and_Raphael"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:Vatican_Museums,St.Peter&apos;s_and_the_Most_Important_Basilicas_of_Rome"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:_Vatican_Museums,_St._Peter&apos;s_and_the_Most_Important_Basilicas_of_Rom"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip_the_Line:Ancient_Rome_and_Colosseum_Half-Day_Walking_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Tour:_Christian_Rome_and_Underground_Basilicas_Half-Day_Tour"/>
         <TouristOnto:name>Rome</TouristOnto:name>
         <TouristOnto:season>Summer</TouristOnto:season>
         <TouristOnto:type>Historic</TouristOnto:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome_Trastevere_Tour_by_Segway -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome_Trastevere_Tour_by_Segway">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This church does not typically feature amongst the must-see attractions of Rome which is a shame. The mosaic work inside is just stunning. And the atmosphere serene. This combination makes for a wonderful and enthralling experience.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santa Maria in Trastevere</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 am - 9:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1449</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SANDEMANs_NEW_Europe-New_York -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SANDEMANs_NEW_Europe-New_York">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My boyfriend Paul and I did the walking tour with Amanda on March 30 and we loved it! Amanda was great! Very knowledgeable, engaging and she provided some great recommendations. Murray&apos;s Bagels was incredible! If you have Amanda as your guide you won&apos;t be disappointed! 
+        PS, we have been on several of the Sandemans NEW Europe tours and have never been disappointed! This one was no exception! Awesome awesome awesome!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> SANDEMANs NEW Europe - New York</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 2:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#See_Old_Dubai_At_Al_Fahidi_Historical_Neighbourhood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#See_Old_Dubai_At_Al_Fahidi_Historical_Neighbourhood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escape the skyscrapers of the city centre and travel back in time with a trip to Al Fahidi Historical Neighbourhood, also known as Bastakiya. This atmospheric area in Bur Dubai is one of the oldest heritage sites in the city, with a neighbourhood that dates back to the early 1900s. 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Dubai At Al Fahidi Historical Neighbourhood</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip-the-lines_Pantheon_and_Santa_Maria_Sopra_Minerva_Guided_Tour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip-the-lines_Pantheon_and_Santa_Maria_Sopra_Minerva_Guided_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This church is plain to look at from the outside, but inside is amazing. Located next to the Pantheon, it is a must see.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santa Maria Sopra Minerva</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 7:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">193</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small-Group_Tour_of_Statue_of_Liberty_and_Ellis_Island -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small-Group_Tour_of_Statue_of_Liberty_and_Ellis_Island">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I had been to Ellis Island many years ago but not since the extensive revision completed a few years ago. I&apos;m so glad to have visited and spent a couple of hours. Had we not gotten tired after the Statue of Liberty followed by Ellis Island, there was a good additional hour&apos;s worth of stuff to see and read. Though it was just my wife and myself, I could actually see this being a history lesson that would be interesting to a student, particularly anyone with a family history that may have passed through Ellis Island. Great place to visit while in NYC.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Ellis Island</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 4:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1032</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Borghese_Gallery_Tour_with_Bernini_Caravaggio_and_Raphael -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Borghese_Gallery_Tour_with_Bernini_Caravaggio_and_Raphael">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a beautiful park and Villa located off Via Venito. Central Park Rome. Usefby a lot of the locals. The Villa has the most unbelievable sculptures and art. Well worth the admission price. Be aware that they only sell limited tickets to control the crowds.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Villa Borghese</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 am - 9:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1043</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Statue_of_Liberty_and_Ellis_Island_Guided_Tour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Statue_of_Liberty_and_Ellis_Island_Guided_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amazing place to visit. Loved the free audio guide. Really informative. Unfortunately it took so long to get through the chaotic security system that we were short for time once on the island. A good excuse to come back soon!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Ellis Island Immigration Museum</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 5:45 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1032</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Sightseeing_Day_Pass_NYC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Sightseeing_Day_Pass_NYC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Often passed over for the bigger museum offerings in NYC, this smaller, well run love letter to NY is not to be missed. On my recent visit I saw an exhibit on tattooing( really interesting and fun); an exhibit on Mohammed Ali ( with great photos); and an exhibit on the part NYC Jews played in the American revolution!
+Not to be missed: an 18 minute film on the first floor which is simply excellent- presentation is a wow for all ages.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> New-York Historical Society Museum and Library</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2210</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#USS_Arizona_Memorial_And_USS_Missouri_Group_Tour_from_Waikiki -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#USS_Arizona_Memorial_And_USS_Missouri_Group_Tour_from_Waikiki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We visited the Battleship Missouri as part of a broader tour of Pearl Harbour. I didn&apos;t really know anything about the ship but the free guide got me up to speed quickly. The battleship has a very interesting history and not just from 1980&apos;s film clips. You are able to self pace on the visit which gives you plenty of opportunity to check out all of the ship. Well worth the visit.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Battleship Missouri Memorial</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1688</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.4</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#US_Army_Museum_of_Hawaii -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#US_Army_Museum_of_Hawaii">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right on the beach of Waikiki is this amazing military museum. We spent just over 2 hours wandering through. It&apos;s very informative about the history of military in Hawaii and this is a former artillery battery, so it has some history. A wonderful break from the hot sun.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> US Army Museum of Hawaii</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">415</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Visit_The_Heritage_And_Diving_Village -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Visit_The_Heritage_And_Diving_Village">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Before skyscrapers spread across the horizon, Dubai was made up of fishing villages and Bedouin communities populated by potters, weavers and pearl divers. 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> The Heritage And Diving Village</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.2</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#A_Glimpse_of_History_on_Dubai&apos;s_Heritage_Tour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#A_Glimpse_of_History_on_Dubai&apos;s_Heritage_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wonderful.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Dubai&apos;s Heritage</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 7:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Boroughs_Of_The_Dead:Macabre_New_York_City_Walking_Tours -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Boroughs_Of_The_Dead:Macabre_New_York_City_Walking_Tours">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I took &quot;Weird Tales of West Village&quot; tour. Lyana was the tour guide. I&apos;m a huge fan of mystery and horror tales and I had a great time. Thank you, Lyanna.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Boroughs Of The Dead: Macabre New York City Walking Tours</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1234</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture_Clash:Immigrant_NYC_Running_Tour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture_Clash:Immigrant_NYC_Running_Tour"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture_Clash:Immigrant_NYC_Running_Tour%20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture_Clash:Immigrant_NYC_Running_Tour%20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The building has undergone a full restoration, keeping most of the wood features. There&apos;s a new AMAZING stained glass window designed by Kiki Smith which is worth the visit on its own. A docent will share many quirky details with you, about the neighborhood and the congregation. The sanctuary and the upstairs women&apos;s gallery are most inspiring.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Museum at Eldridge Street</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">724</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.2</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Historical_Tour:Tales_from%20_the_Past -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Historical_Tour:Tales_from%20_the_Past">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I visited few times in this house with my family and friends. It was very good experience for us. We could come to know how the people lived in those days before 100 years. This house was renovated one. Looks very nice. Particularly the interior construction works. Worth visiting . Dubai tour will not complete without visiting this place .
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Sheikh Saeed al-Maktoum&apos;s House</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2138</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:Vatican_Museums,St.Peter&apos;s_and_the_Most_Important_Basilicas_of_Rome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:Vatican_Museums,St.Peter&apos;s_and_the_Most_Important_Basilicas_of_Rome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">St Paul Outside the Walls is hardly in the suburbs. It was way out of the city when it was built, but now is within the city limits and easily accessible by subway or bus. 
+            St Paul&apos;s is one of the four major basilicas in Rome, so a top pilgrim/tourist site.
+            This is the place where they have the mosaics of every Pope; only a few spaces are left, and some people think when the spaces are gone the world will end. The Church doesn&apos;t say so.
+            Beautiful, quiet, artistic and holy, this is the burial place of Paul (some of him, anyway) and Timothy. Say a special prayer here and enjoy the garden.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abbazia di San Paolo fuori le Mura</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2281</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:_Vatican_Museums,_St._Peter&apos;s_and_the_Most_Important_Basilicas_of_Rom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:_Vatican_Museums,_St._Peter&apos;s_and_the_Most_Important_Basilicas_of_Rom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impressive Basilique With beautiful murals and ceilings! It is one of my favorite churches in Rome. From the outside it looks closed but at the back you can enter after you and your lugguage has been screened.
+        Visited March 2017</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basilica di Santa Maria Maggiore</TouristOnto:name>
+        <TouristOnto:openingHours>7:00 am - 7:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2281</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</TouristOnto:rate>
     </owl:NamedIndividual>
     
 
@@ -1167,6 +1355,48 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
     
 
 
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kona_Tour:Coffee_Plantation,Kealakekua_Bay,Kaloko-Honokohau_Park_and_Bee_Farm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kona_Tour:Coffee_Plantation,Kealakekua_Bay,Kaloko-Honokohau_Park_and_Bee_Farm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If you are getting hot on your walk through Kona, stop in and cool down in the shade and breezes that blow through off the ocean. The history of the building and family is very interesting as are the artifacts.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Hulihe&apos;e Palace</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 4:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2246</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Monarch&apos;s_Tour:Bishop_Museum_and_Iolani_Palace_Combo_Tour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Monarch&apos;s_Tour:Bishop_Museum_and_Iolani_Palace_Combo_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We had two visits to the palace. On our first visit, we were standing near the internal staircase and our Mum felt ill and nearly fainted. The staff, especially security guard Vo, were extremely helpful and rushed us down to the basement for some privacy until she was well enough to go back to the hotel.
+
+            On our second visit, we happened to see Vo and another member of staff as we were walking up to the palace. They quickly came over, asked how Mum was doing and whisked us away to the office for complimentary tickets. Needless to say, we couldn&apos;t speak highly enough of the staff at the palace and the high level of service we received during a difficult time. Special thanks to Vo for being so attentive to Mum&apos;s needs and his infectious sense of humour.
+
+            The palace itself is very interesting. Don&apos;t forget your camera as you can take pictures inside. The basement also has further exhibits, jewellery and crockery.
+
+            A fantastic way to spend time while learning about Hawaiian history. Highly recommended.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Iolani Palace</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2068</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Old%20Lahaina%20Courthouse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Old%20Lahaina%20Courthouse"/>
+    
+
+
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Luxor_Temple_Visit -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Luxor_Temple_Visit">
@@ -1177,6 +1407,21 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <TouristOnto:openingHours>8:30 am - 6:00 pm</TouristOnto:openingHours>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">631</TouristOnto:price>
         <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Secrets_of_Arabia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Secrets_of_Arabia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a nice museum in the heart of Deira in Old Dubai. Hard to find, but worth the effort. Interesting exhibits on the history of Dubai and life in the old city.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Al-Ahmadiya School</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4167</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
     </owl:NamedIndividual>
     
 
@@ -1196,7 +1441,6 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
     
 
 
-
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:Luxor_East_Bank,Karnak_and_Luxor_Temples -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:Luxor_East_Bank,Karnak_and_Luxor_Temples">
@@ -1207,6 +1451,36 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <TouristOnto:openingHours>8:30 am - 12:00 pm</TouristOnto:openingHours>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">851</TouristOnto:price>
         <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip_the_Line:Ancient_Rome_and_Colosseum_Half-Day_Walking_Tour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip_the_Line:Ancient_Rome_and_Colosseum_Half-Day_Walking_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Again, as I said in my other reviews of roman excavations, this one is among the great ones. Well preserved  so rich in history, that you say &apos;oh wow&apos; by seeing how well the modern times have integrated with it. Surrounded by modern establishments public transport, it is getting all the respect it deserves. Zoom into the picture and read about its history that the Temple of Mars Ultor (avenger) occupied its eastern side, it was built in 2 BC,  how Octavian Augustis dedicated this in 42BC on the eve of battle of Phillipi to avenge the assassination of Julius Ceaser.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foro di Augusto</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 7:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">965</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Tour:_Christian_Rome_and_Underground_Basilicas_Half-Day_Tour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Tour:_Christian_Rome_and_Underground_Basilicas_Half-Day_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This basilica was the seat of papal power until the completion of St Peter&apos;s, and the history really shows. The design of the building is based around the core of the original structure, even though it was substantially updated in the later Renaissance. It is worth getting a guide book to better appreciate the artwork and historical nuances of the site. For me, most moving was the presence of two red granite pillars that were reclaimed from the original 4th century church and installed in the reconstruction. These gave a strong sense of temporal continuity to basilica. This is well worth a look, and in its own way just as impressive as St Peter&apos;s. Also, don&apos;t miss the statue of Constantine in the outside courtyard, which was recovered from the nearby Diocletian baths.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arcibasilica di San Giovanni in Laterano</TouristOnto:name>
+        <TouristOnto:openingHours>7:00 am - 6:30 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1139</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.9</TouristOnto:rate>
     </owl:NamedIndividual>
 </rdf:RDF>
 
