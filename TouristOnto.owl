@@ -161,6 +161,9 @@
         <NamedIndividual IRI="#1500"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Dream_Balloons_Luxor"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#2500"/>
     </Declaration>
     <Declaration>
@@ -227,10 +230,10 @@
         <NamedIndividual IRI="#Sindbad_Hot_Air_Balloons_Luxor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Accommodation"/>
+        <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
+        <Class IRI="#Accommodation"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#comments"/>
@@ -275,6 +278,10 @@
     <ClassAssertion>
         <Class IRI="#Sports"/>
         <NamedIndividual IRI="#Alaska_Balloons_Luxor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Dream_Balloons_Luxor"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Sports"/>
@@ -332,7 +339,27 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#rate"/>
         <NamedIndividual IRI="#Alaska_Balloons_Luxor"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Dream_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">While on a recent Nile river cruise with Viking River Cruises we took the sunrise balloon flight over the Valley of the Kings. It was spectacular. The balloon crew was very professional and we felt comfortable and safe for the entire trip.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Dream_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dream Balloons</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Dream_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Dream_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">4.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#comments"/>
@@ -357,12 +384,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#price"/>
         <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1500</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#rate"/>
         <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#duration"/>
@@ -417,7 +444,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#rate"/>
         <NamedIndividual IRI="#Sindbad_Hot_Air_Balloons_Luxor"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#comments"/>
@@ -450,7 +477,7 @@ Visited January 2016</Literal>
     <DataPropertyAssertion>
         <DataProperty IRI="#rate"/>
         <NamedIndividual IRI="#Sunrise_Tours_Luxor"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#comments"/>
@@ -494,7 +521,7 @@ Visited November 2016</Literal>
     <DataPropertyAssertion>
         <DataProperty IRI="#rate"/>
         <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
     </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#departure"/>
