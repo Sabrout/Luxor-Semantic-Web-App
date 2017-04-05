@@ -17,13 +17,16 @@
         <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Alaska_Balloons_Luxor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#name"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#1700"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#City"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2_Hours"/>
@@ -44,10 +47,10 @@
         <NamedIndividual IRI="#Sucks"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#interestedIn"/>
+        <NamedIndividual IRI="#Full_Day"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Full_Day"/>
+        <ObjectProperty IRI="#interestedIn"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#1"/>
@@ -68,10 +71,13 @@
         <NamedIndividual IRI="#Relaxation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Activity"/>
+        <Class IRI="#Interest"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Interest"/>
+        <NamedIndividual IRI="#Nobi_Stables_Luxor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Activity"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rental"/>
@@ -128,19 +134,19 @@
         <ObjectProperty IRI="#has"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#recommends"/>
+        <Class IRI="#Entertainment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Entertainment"/>
+        <ObjectProperty IRI="#recommends"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Spring"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Villa_Diletta_Pink"/>
+        <DataProperty IRI="#duration"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Villa_Diletta_Pink"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Historic"/>
@@ -162,6 +168,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#500"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sunrise_Tours_Luxor"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#I_love_it"/>
@@ -194,10 +203,10 @@
         <Class IRI="#Hotel"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#2000"/>
+        <ObjectProperty IRI="#destination"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#destination"/>
+        <NamedIndividual IRI="#2000"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Male"/>
@@ -215,13 +224,16 @@
         <NamedIndividual IRI="#The_experience_was_amazing"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Sindbad_Hot_Air_Balloons_Luxor"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Accommodation"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#comments"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#departure"/>
@@ -262,7 +274,23 @@
     </SubClassOf>
     <ClassAssertion>
         <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Alaska_Balloons_Luxor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
         <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Nobi_Stables_Luxor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Sindbad_Hot_Air_Balloons_Luxor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#Sunrise_Tours_Luxor"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Rental"/>
@@ -276,6 +304,36 @@
         <Class IRI="#Sports"/>
         <NamedIndividual IRI="#Zoser_Travel_Luxor"/>
     </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Alaska_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Alaska_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Alaska_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Alaska Balloons</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#Alaska_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">07:00 AM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Alaska_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Alaska_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#comments"/>
         <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
@@ -304,6 +362,94 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#rate"/>
         <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Nobi_Stables_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Nobi_Stables_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nobi Stables</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#Nobi_Stables_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">07:30 AM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Nobi_Stables_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Nobi_Stables_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Sindbad_Hot_Air_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is a must for any one who visit Luxor its a one time life experience,,,worth the money and the guides and pilots are so professional especially youssef.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Sindbad_Hot_Air_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Sindbad_Hot_Air_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sindbad Hot Air Balloons</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#Sindbad_Hot_Air_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">07:00 AM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Sindbad_Hot_Air_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Sindbad_Hot_Air_Balloons_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Sunrise_Tours_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">I Booked with Them Nile Cruise, It was very Cheap compering with other Tour operators in Luxor, I found sales person called Mr.Bahaa, He was so kind and offer Egyptian Mobile Number for free to find hem easy if we found any difficult , He offer free USB Internet as well.
+I really recommend Sunrise for Luxor Day tours specially small groups.
+
+Visited January 2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Sunrise_Tours_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Sunrise_Tours_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sunrise Tours</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#openingHours"/>
+        <NamedIndividual IRI="#Sunrise_Tours_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">10:00 AM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Sunrise_Tours_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Sunrise_Tours_Luxor"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
