@@ -17,25 +17,19 @@
         <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#name"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#1700"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#City"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#2_Hours"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SeaYou_Dubai"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#2300"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Ride_in_Dubai_Watersports"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#35"/>
@@ -74,16 +68,10 @@
         <NamedIndividual IRI="#Relaxation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Activity"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Nobi_Stables_Luxor"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Interest"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Journey_To_Egypt_Desert_Tour"/>
+        <Class IRI="#Activity"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rental"/>
@@ -107,9 +95,6 @@
         <DataProperty IRI="#cuisine"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Salem_Hot_Air_Balloons_Luxor"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#3_Hours"/>
     </Declaration>
     <Declaration>
@@ -122,9 +107,6 @@
         <DataProperty IRI="#departureTime"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Azab_Desert_Safari_Luxor"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#to"/>
     </Declaration>
     <Declaration>
@@ -132,9 +114,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#40"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Pharaoh&apos;s_Stables"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#type"/>
@@ -149,19 +128,19 @@
         <ObjectProperty IRI="#has"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#recommends"/>
+        <Class IRI="#Entertainment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Entertainment"/>
+        <ObjectProperty IRI="#recommends"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Spring"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Villa_Diletta_Pink"/>
+        <DataProperty IRI="#duration"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Villa_Diletta_Pink"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Historic"/>
@@ -173,13 +152,7 @@
         <Class IRI="#Flight"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Sail_the_Nile"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#1500"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Dream_Balloons_Luxor"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2500"/>
@@ -194,16 +167,10 @@
         <NamedIndividual IRI="#I_love_it"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#POW_hiking_Luxor"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#100"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#9_to_18"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Desert_Gate_Off-road_Dubai"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Italian"/>
@@ -227,19 +194,13 @@
         <Class IRI="#Hotel"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Extreme_Water_Sports_Dubai"/>
+        <ObjectProperty IRI="#destination"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2000"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#destination"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Male"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#The_Yellow_Boats_Dubai"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#200"/>
@@ -251,19 +212,13 @@
         <NamedIndividual IRI="#All_Day"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Royal_Valley_Golf_Club_Luxor"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#The_experience_was_amazing"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Sindbad_Hot_Air_Balloons_Luxor"/>
+        <Class IRI="#Accommodation"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#comments"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Accommodation"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#departure"/>
@@ -304,63 +259,7 @@
     </SubClassOf>
     <ClassAssertion>
         <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#Azab_Desert_Safari_Luxor"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#Desert_Gate_Off-road_Dubai"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#Dream_Balloons_Luxor"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#Extreme_Water_Sports_Dubai"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
         <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#Journey_To_Egypt_Desert_Tour"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#Nobi_Stables_Luxor"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#POW_hiking_Luxor"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#Ride_in_Dubai_Watersports"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#Royal_Valley_Golf_Club_Luxor"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#Sail_the_Nile"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#Salem_Hot_Air_Balloons_Luxor"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#SeaYou_Dubai"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#Sindbad_Hot_Air_Balloons_Luxor"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#The_Yellow_Boats_Dubai"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Rental"/>
@@ -370,10 +269,36 @@
         <Class IRI="#Rental"/>
         <NamedIndividual IRI="#Villa_Rosamund"/>
     </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sports"/>
-        <NamedIndividual IRI="#Pharaoh&apos;s_Stables"/>
-    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">08:00AM</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#comments"/>
+        <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The time of day (early morning just after sunrise) was perfect and we were lead to what seemed like the ideal location to depart from. The views of the Valley of the Kings were unforgettable and the whole team was very kind and fast. Our landing was so serene. Definitely recommend this when you visit Luxor!</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hod Hod Soliman Balloon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rate"/>
+        <NamedIndividual IRI="#Hod_Hod_Soliman_Balloon_Luxor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#departure"/>
         <Class IRI="#Flight"/>
