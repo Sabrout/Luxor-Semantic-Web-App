@@ -2681,6 +2681,9 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_hiking">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
         <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Hiking</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pop_up_Walks_Luxor"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Free_Tours_by_Foot_NY"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City_Running_Tours_NY"/>
     </owl:NamedIndividual>
     
 
