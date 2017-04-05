@@ -963,6 +963,36 @@ Visited January 2016</comments>
 
 
 
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fun_Supercars_Rome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fun_Supercars_Rome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>I got a ferrari !!!</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</duration>
+        <name>Fun Supercars</name>
+        <openingHours>07:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</rate>
+    </owl:NamedIndividual>
+
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Daily_Bike_Rome_Rome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Daily_Bike_Rome_Rome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sports"/>
+        <comments>Got in woods, early in the morning !</comments>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</duration>
+        <name>Daily Bike Rome</name>
+        <openingHours>06:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</rate>
+    </owl:NamedIndividual>
+
+
+
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_experience_was_amazing -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_experience_was_amazing"/>
