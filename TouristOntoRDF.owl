@@ -442,6 +442,138 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
+      <!-- hawaii -->
+
+       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kauai Museum-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kauai_Museum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We stopped in at this little museum situated in a beautiful old historic building in downtown Lihue.
+            Be prepared to read a lot....as each display had lengthy articles explaining what you are seeing. We found this quite interesting and appreciated learning the history of the Hawaiians. 
+            The second building had some displays still under construction.
+            We were more impressed with the first building and displays .
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Kauai Museum</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+      
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kona Tour: Coffee Plantation, Kealakekua Bay, Kaloko-Honokohau Park and Bee Farm-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kona_Tour:Coffee_Plantation,Kealakekua_Bay,Kaloko-Honokohau_Park_and_Bee_Farm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If you are getting hot on your walk through Kona, stop in and cool down in the shade and breezes that blow through off the ocean. The history of the building and family is very interesting as are the artifacts.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Hulihe'e Palace</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 4:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2246</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii Island Experience-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii_Island_Experience">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I was able to visit this National Park and already want to go back. Not only does this park provide amazing scenic views and great photo ops. It also offers a great history lesson. The sand is gorgeous and the view of the ocean from the lava is breathtaking. Parking is inexpensive and there are trails for hiking and a beach. Do yourself a favor and check this place out, you will not be disappointed.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Pu'uhonua O Honaunau National Historical Park</TouristOnto:name>
+        <TouristOnto:openingHours>7:00 am - 7:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4057</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Old Lahaina Courthouse-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Old_Lahaina_Courthouse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We wandered into the Courthouse with low expectations and were very surprised to find an excellent museum of Hawaii. It is well worth the visit and I am sure, like us you will learn a lot about the history of Hawaii.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Old Lahaina Courthouse</TouristOnto:name>
+        <TouristOnto:openingHours>7:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1650</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+        
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pearl Harbor Pass-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pearl_Harbor_Pass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A great way to experience and understand what happened. An incredible tribute to the brave men and women who were impacted by such a tragedy that it changed our entire nation.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Pearl Harbor / WW II Valor in the Pacific National Monument</TouristOnto:name>
+        <TouristOnto:openingHours>7:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1612</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.9</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#US Army Museum of Hawaii-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#US_Army_Museum_of_Hawaii">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right on the beach of Waikiki is this amazing military museum. We spent just over 2 hours wandering through. It's very informative about the history of military in Hawaii and this is a former artillery battery, so it has some history. A wonderful break from the hot sun.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> US Army Museum of Hawaii</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">415</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bishop Museum General Admission-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bishop_Museum_General_Admission">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The original building with its Polynesian cultural and historical exhibits was a treat. It is worth seeing it early in one's stay. That way, one has an overview of Hawaiian history before seeing individual attractions.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Bishop Museum</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">415</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deluxe Arizona Memorial and Historical City Tour-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deluxe_Arizona_Memorial_and_Historical_City_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I was fortunate enough to meet one of the last survivors whilst there. It was a great honour. All of the displays had information that was easy to understand yet managed to convey the full impact.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> USS Arizona Memorial</TouristOnto:name>
+        <TouristOnto:openingHours>7:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">851</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+
+                <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#USS Arizona Memorial And USS Missouri Group Tour from Waikiki-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#USS_Arizona_Memorial_And_USS_Missouri_Group_Tour_from_Waikiki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We visited the Battleship Missouri as part of a broader tour of Pearl Harbour. I didn't really know anything about the ship but the free guide got me up to speed quickly. The battleship has a very interesting history and not just from 1980's film clips. You are able to self pace on the visit which gives you plenty of opportunity to check out all of the ship. Well worth the visit.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Battleship Missouri Memorial</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1688</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.4</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+             <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Monarch's Tour: Bishop Museum & Iolani Palace Combo Tour-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Monarch's_Tour:Bishop_Museum_and_Iolani_Palace_Combo_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We had two visits to the palace. On our first visit, we were standing near the internal staircase and our Mum felt ill and nearly fainted. The staff, especially security guard Vo, were extremely helpful and rushed us down to the basement for some privacy until she was well enough to go back to the hotel.
+
+            On our second visit, we happened to see Vo and another member of staff as we were walking up to the palace. They quickly came over, asked how Mum was doing and whisked us away to the office for complimentary tickets. Needless to say, we couldn't speak highly enough of the staff at the palace and the high level of service we received during a difficult time. Special thanks to Vo for being so attentive to Mum's needs and his infectious sense of humour.
+
+            The palace itself is very interesting. Don't forget your camera as you can take pictures inside. The basement also has further exhibits, jewellery and crockery.
+
+            A fantastic way to spend time while learning about Hawaiian history. Highly recommended.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Iolani Palace</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2068</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:rate>
+    </owl:NamedIndividual>
       <!-- Dubai -->
              <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Morning or Afternoon Old Dubai Walking Tour-->
           <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Morning_or_Afternoon_Old_Dubai_Walking_Tour">
@@ -751,6 +883,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Monarch's_Tour:Bishop_Museum_and_Iolani_Palace_Combo_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#USS_Arizona_Memorial_And_USS_Missouri_Group_Tour_from_Waikiki"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deluxe_Arizona_Memorial_and_Historical_City_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bishop_Museum_General_Admission"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#US_Army_Museum_of_Hawaii"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pearl_Harbor_Pass"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Old Lahaina Courthouse"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii_Island_Experience"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kona_Tour:Coffee_Plantation,Kealakekua_Bay,Kaloko-Honokohau_Park_and_Bee_Farm"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kauai_Museum"/>
         <TouristOnto:name>Hawaii</TouristOnto:name>
         <TouristOnto:season>Summer</TouristOnto:season>
         <TouristOnto:type>Relaxation</TouristOnto:type>
