@@ -437,14 +437,22 @@
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-23T10:20:15</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</TouristOnto:price>
     </owl:NamedIndividual>
-   
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10002 -->
+
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10002">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
         <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai"/>
         <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUB10002</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:10</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">370</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10003 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10003">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
@@ -452,7 +460,11 @@
         <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUB10003</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:12</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">355</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10004 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10004">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
@@ -460,7 +472,11 @@
         <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUB10004</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:13</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10005 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10005">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
@@ -468,7 +484,11 @@
         <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUB10005</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-23T10:20:14</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">306</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10006 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10006">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
@@ -476,7 +496,11 @@
         <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUB10006</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-23T10:20:15</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">375</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10007 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10007">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
@@ -484,7 +508,11 @@
         <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUB10007</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-23T10:20:16</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">429</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10008 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10008">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
@@ -492,7 +520,11 @@
         <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUB10008</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:17</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10009 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10009">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
@@ -500,7 +532,11 @@
         <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUB10009</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:18</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">353</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10010 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10010">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
@@ -508,254 +544,9 @@
         <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUB10010</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:19</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">317</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-
-
-        <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20001">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20001</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-23T10:20:15</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</TouristOnto:price>
     </owl:NamedIndividual>
-   
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20002">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20002</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:10</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">370</TouristOnto:price>
-    </owl:NamedIndividual> 
+    
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20003">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20003</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:12</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">355</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20004">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20004</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:13</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20005">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20005</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-23T10:20:14</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">306</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20006">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20006</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-23T10:20:15</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">375</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20007">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20007</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-23T10:20:16</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">429</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20008">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20008</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:17</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20009">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20009</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:18</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">353</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20010">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20010</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:19</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">317</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-
-
-        <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30001">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30001</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-23T10:20:15</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</TouristOnto:price>
-    </owl:NamedIndividual>
-   
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30002">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30002</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:10</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">370</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30003">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30003</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:12</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">355</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30004">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30004</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:13</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30005">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30005</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-23T10:20:14</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">306</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30006">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30006</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-23T10:20:15</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">375</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30007">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30007</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-23T10:20:16</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">429</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30008">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30008</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:17</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30009">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30009</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:18</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">353</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30010">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30010</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:19</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">317</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-
-
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40001">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40001</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-23T10:20:15</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</TouristOnto:price>
-    </owl:NamedIndividual>
-   
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40002">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40002</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:10</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">370</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40003">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40003</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:12</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">355</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40004">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40004</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:13</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40005">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40005</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-23T10:20:14</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">306</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40006">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40006</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-23T10:20:15</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">375</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40007">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40007</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-23T10:20:16</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">429</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40008">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40008</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:17</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40009">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40009</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:18</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">353</TouristOnto:price>
-    </owl:NamedIndividual> 
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40010">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40010</TouristOnto:FlightNumber>
-        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:19</TouristOnto:departureTime>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">317</TouristOnto:price>
-    </owl:NamedIndividual> 
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai -->
 
@@ -768,87 +559,124 @@
     
 
 
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30001 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50001">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30001">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50001</TouristOnto:FlightNumber>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30001</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-23T10:20:15</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</TouristOnto:price>
     </owl:NamedIndividual>
-   
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50002">
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30002">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50002</TouristOnto:FlightNumber>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30002</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:10</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">370</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50003">
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30003">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50003</TouristOnto:FlightNumber>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30003</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:12</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">355</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50004">
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30004">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50004</TouristOnto:FlightNumber>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30004</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:13</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50005">
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30005">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50005</TouristOnto:FlightNumber>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30005</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-23T10:20:14</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">306</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50006">
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30006 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30006">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50006</TouristOnto:FlightNumber>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30006</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-23T10:20:15</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">375</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50007">
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30007 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30007">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50007</TouristOnto:FlightNumber>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30007</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-23T10:20:16</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">429</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50008">
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30008 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30008">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50008</TouristOnto:FlightNumber>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30008</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:17</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50009">
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30009 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30009">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50009</TouristOnto:FlightNumber>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30009</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:18</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">353</TouristOnto:price>
-    </owl:NamedIndividual> 
+    </owl:NamedIndividual>
+    
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50010">
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30010 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#HAW30010">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
-        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
-        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50010</TouristOnto:FlightNumber>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HAW30010</TouristOnto:FlightNumber>
         <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:19</TouristOnto:departureTime>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">317</TouristOnto:price>
-    </owl:NamedIndividual> 
-
+    </owl:NamedIndividual>
+    
 
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii -->
@@ -858,6 +686,141 @@
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hawaii</TouristOnto:name>
         <TouristOnto:season rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Summer</TouristOnto:season>
         <TouristOnto:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relaxation</TouristOnto:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Janean_Haight -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Janean_Haight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_water_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Janean Haight</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">25</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40001</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-23T10:20:15</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40002</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:10</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">370</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40003</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:12</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">355</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40004">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40004</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:13</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40005">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40005</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-23T10:20:14</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">306</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40006 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40006">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40006</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-23T10:20:15</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">375</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40007 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40007">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40007</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-23T10:20:16</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">429</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40008 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40008">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40008</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:17</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40009 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40009">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40009</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:18</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">353</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40010 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40010">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUX40010</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:19</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">317</TouristOnto:price>
     </owl:NamedIndividual>
     
 
@@ -873,6 +836,126 @@
     
 
 
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50001</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-23T10:20:15</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50002</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:10</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">370</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50003</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:12</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">355</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50004">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50004</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:13</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50005">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50005</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-23T10:20:14</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">306</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50006 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50006">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50006</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-23T10:20:15</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">375</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50007 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50007">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50007</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-23T10:20:16</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">429</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50008 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50008">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50008</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:17</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50009 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50009">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50009</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:18</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">353</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50010 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NYC50010">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NYC50010</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:19</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">317</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York">
@@ -884,6 +967,126 @@
     
 
 
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20001</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-03-23T10:20:15</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20002</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:10</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">370</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20003</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:12</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">355</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20004">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20004</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:13</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20005">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20005</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-23T10:20:14</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">306</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20006 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20006">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20006</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-23T10:20:15</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">375</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20007 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20007">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20007</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-04-23T10:20:16</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">429</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20008 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20008">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20008</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-23T10:20:17</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20009 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20009">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20009</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:20:18</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">353</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20010 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ROM20010">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Flight"/>
+        <TouristOnto:destination rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome"/>
+        <TouristOnto:FlightNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ROM20010</TouristOnto:FlightNumber>
+        <TouristOnto:departureTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-23T10:20:19</TouristOnto:departureTime>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">317</TouristOnto:price>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome">
@@ -891,6 +1094,183 @@
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rome</TouristOnto:name>
         <TouristOnto:season rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Summer</TouristOnto:season>
         <TouristOnto:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Historic</TouristOnto:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Warren_Stefan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Warren_Stefan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_shows"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_italian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_monuments"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warren Stefan</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">22</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Cruise</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Night Life</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_shows -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_shows">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Shows</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Sightseeing</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_chinese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_chinese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Chinese</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_indian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_indian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Indian</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_italian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_italian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Italian</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_local -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_local">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Local</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Oriental</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_thai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_thai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Thai</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_monuments -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_monuments">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Monuments</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Museum</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Temples</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_air_sports -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_air_sports">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Air Sports</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_hiking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_hiking">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Hiking</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_horseriding -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_horseriding">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Horse Riding</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Safari</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_water_sports -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_water_sports">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Water Sports</foaf:name>
     </owl:NamedIndividual>
 </rdf:RDF>
 
