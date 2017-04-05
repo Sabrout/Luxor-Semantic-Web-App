@@ -442,7 +442,128 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
+      <!-- Dubai -->
+             <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Morning or Afternoon Old Dubai Walking Tour-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Morning_or_Afternoon_Old_Dubai_Walking_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nada met up with us at Al Ras Metro Station at exactly the time she said she would. We went first to the Women's Museum where she spoke about the "progress" of Women in Dubai over recent years .
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Wander with Nada</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1811</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+        
+             <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private Tour: Secrets of Arabia-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Secrets_of_Arabia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is a nice museum in the heart of Deira in Old Dubai. Hard to find, but worth the effort. Interesting exhibits on the history of Dubai and life in the old city.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Al-Ahmadiya School</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4167</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+    </owl:NamedIndividual>
 
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai Museum Gold Souk and Water Taxi-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Museum_Gold_Souk_and_Water_Taxi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We have visited this area many times. It is situation close to the creek with a good road system if you want to take a taxi to the area. It is just a short walk to the Dubai Museum so you could combine both in a site seeing tour.
+
+            This is a very calm area. There is a tea room and small hotel in the area but just down the road large development work has been taking place for more than a year now and this will bring many more tourist and develop an area that was once a lovely place for local people to come and sit on their days off work.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Bastakia Quarter</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">815</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Historical_Tour:Tales_from _the_Past-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Historical_Tour:Tales_from _the_Past">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I visited few times in this house with my family and friends. It was very good experience for us. We could come to know how the people lived in those days before 100 years. This house was renovated one. Looks very nice. Particularly the interior construction works. Worth visiting . Dubai tour will not complete without visiting this place .
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Sheikh Saeed al-Maktoum's House</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2138</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+         
+         <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Authentic Emirati Cultural Meal and Talk in Old Dubai-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Authentic_Emirati_Cultural_Meal_and_Talk_in_Old_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Cultural Lunch experience was fun, interesting and educational. Our guide explained a wide variety of social and religious customs and was open to any and all questions. The food was plentiful and excellent! We were even provided with containers to take leftovers. It was an interesting and unique experience to be able to try on a burgha and naquib. I appreciate the availability of this type of centre and would recommend it for both adults and children. While some of the information provided is undoubtedly propaganda it's none the less interesting.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Sheikh Mohammed Centre for Cultural Understanding</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 8:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">471</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Find Treasure At The Dubai Museum-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Find_Treasure_At_The_Dubai_Museum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When you visit the Dubai Museum - housed in the Al Fahidi Fort which was built in 1787, the oldest existing building in the city - you'll encounter colourful dioramas and exhibits that depict everyday life in the days before the discovery of oil.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Treasure At The Dubai Museum</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 8:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+          <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Visit The Heritage And Diving Village-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Visit_The_Heritage_And_Diving_Village">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Before skyscrapers spread across the horizon, Dubai was made up of fishing villages and Bedouin communities populated by potters, weavers and pearl divers. 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> The Heritage And Diving Village</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.2</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#See Old Dubai At Al Fahidi Historical Neighbourhood-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#See_Old_Dubai_At_Al_Fahidi_Historical_Neighbourhood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escape the skyscrapers of the city centre and travel back in time with a trip to Al Fahidi Historical Neighbourhood, also known as Bastakiya. This atmospheric area in Bur Dubai is one of the oldest heritage sites in the city, with a neighbourhood that dates back to the early 1900s. 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Dubai At Al Fahidi Historical Neighbourhood</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai Heritage History Culture and Shopping Tour Including Dubai Museum-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Heritage_History_Culture_and_Shopping_Tour_Including_Dubai_Museum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experience the Heritage, culture and history of Arabia on this Heritage History Culture and Shopping Tour.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dubai Museum</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#A_Glimpse_of_History_on_Dubai's_Heritage_Tour-->
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#A_Glimpse_of_History_on_Dubai's_Heritage_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wonderful.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Dubai's Heritage</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 7:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</TouristOnto:rate>
+    </owl:NamedIndividual>
 
       <!-- Rome -->
          <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip the Line: Ancient Rome and Colosseum Half-Day Walking Tour-->
@@ -581,6 +702,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#A_Glimpse_of_History_on_Dubai's_Heritage_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Heritage_History_Culture_and_Shopping_Tour_Including_Dubai_Museum"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#See_Old_Dubai_At_Al_Fahidi_Historical_Neighbourhood"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Visit_The_Heritage_And_Diving_Village"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Find_Treasure_At_The_Dubai_Museum"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Authentic_Emirati_Cultural_Meal_and_Talk_in_Old_Dubai"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Historical_Tour:Tales_from _the_Past"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Museum_Gold_Souk_and_Water_Taxi"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Secrets_of_Arabia"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Morning_or_Afternoon_Old_Dubai_Walking_Tour"/>
         <TouristOnto:name>Dubai</TouristOnto:name>
         <TouristOnto:season>Fall</TouristOnto:season>
         <TouristOnto:type>Entertainment</TouristOnto:type>
