@@ -2684,6 +2684,14 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pop_up_Walks_Luxor"/>
         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Free_Tours_by_Foot_NY"/>
         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City_Running_Tours_NY"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#TopBike_Rental_n_Tours_Rome"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cooltra_Motos_Rome"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Barberini_Scooters_Rome"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#BKS_Rome"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bicicletta_Italiana_Rome"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Daily_Bike_Rome_Rome"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bike_the_Big_Apple_NY"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bike_and_roll_NY"/>
     </owl:NamedIndividual>
     
 
