@@ -2704,6 +2704,15 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
         <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Safari</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Big_Red_Motorsports_Dubai" />
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Expert_Rangers_Dubai" />
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Golden_Desert_Day_Tours_Dubai" />
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#OceanAir_Travels_Dubai" />
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#OffRoad-Zone_Dubai" />
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Platinum_Heritage_Luxury_Tours_and_Safaris_Dubai" />
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Desert_Safari_-_Day_Tours_Dubai" />
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Zoser_Travel_Luxor" />
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fun_Supercars_Rome" />
     </owl:NamedIndividual>
     
 
