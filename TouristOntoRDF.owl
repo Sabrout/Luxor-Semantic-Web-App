@@ -655,6 +655,12 @@ I will be back for sure with more guests in the future.</comments>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Casablanca_Hotel"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Crosby_Street_Hotel"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Broome"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunny_Chelsea_Getaway"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunny_Loft_in_Chelsea"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Brand_New_Spacious_Times_square"/>
         <name>New York</name>
         <season>Spring</season>
         <type>Entertainment</type>
@@ -3195,6 +3201,33 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:price>
     </owl:NamedIndividual>
 
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Casablanca_Hotel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Casablanca_Hotel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Casablanca Hotel</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Crosby_Street_Hotel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Crosby_Street_Hotel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crosby Street Hotel</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Broome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Broome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Broome</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:price>
+    </owl:NamedIndividual>
+
     <!-- =========================================================================================== Rentals =========================================================================================== -->
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jewel_Of_The_Nile_Villa -->
@@ -3247,6 +3280,33 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Waterside_4-bed_Apt_Marina_Views">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Waterside 4-bed Apt Marina Views</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Brand_New_Spacious_Times_square -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Brand_New_Spacious_Times_square">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brand New Spacious Times square</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunny_Chelsea_Getaway -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunny_Chelsea_Getaway">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunny Chelsea Getaway</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunny_Loft_in_Chelsea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunny_Loft_in_Chelsea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunny Loft in Chelsea</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:price>
     </owl:NamedIndividual>
