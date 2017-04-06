@@ -1821,6 +1821,756 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
     </owl:NamedIndividual>
 
+<!-- =========================================================================================== Food =========================================================================================== -->
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Daniel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Daniel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fine Dining at its best</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">5:30 pm - 11:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">280</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Gabriel_Kreuther -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Gabriel_Kreuther">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Outstanding Restaurant and Chocolate Shop near Bryant Park</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gabriel_Kreuther</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">12:00 pm - 2:30 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.4</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Per_Se -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Per_Se">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almost as good as French Laundry in 1994</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French, American</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Per_Se</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">5:30 pm - 10:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.9</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Lincoln_Square_Steak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Lincoln_Square_Steak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decent food, Very underwhelming experience</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American, Stakehouse</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lincoln_Square_Steak</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">5:00 pm - 10:30 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">170</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pizza_Suprema -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pizza_Suprema">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crunchy, crunch, crunch</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian, Pizza</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pizza_Suprema</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">10:30 am - 12:00 am</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.3</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pisillo_Italian_Panini -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pisillo_Italian_Panini">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delicious and gargantuan, the perfect sandwich pair.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian, Fast Food</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pisillo_Italian_Panini</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">11:00 am - 8:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bleecker_Street_Pizza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bleecker_Street_Pizza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Good pizza but nothing spectacular</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian, Pizza</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bleecker_Street_Pizza</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">11:00 am - 2:00 am</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Los_Tacos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Los_Tacos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delicious authentic Mexican food</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexican</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los_Tacos</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">11:00 am - 9:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.4</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Modern -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Modern">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excellent fine dining restaurant in MOMA</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The_Modern</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">5:00 pm - 10:30 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Blue_Hill -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Blue_Hill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Very good is an understatement</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blue_Hill</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">5:00 pm - 10:30 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Lantern_Room -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Lantern_Room">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Great British food.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The_Lantern_Room</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">5:00 pm - 10:30 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pizza_Roma-it -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pizza_Roma-it">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Best pizza in Luxor</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian, Pizza</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pizza_Roma-it</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">8:00 am - 6:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Al-Sahaby_Lane_Restaurant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Al-Sahaby_Lane_Restaurant ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delicious and Authentic Egyptian Food</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle Eastern</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al-Sahaby_Lane_Restaurant </name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">9:00 am - 11:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sofra_Restaurant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sofra_Restaurant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egyptian traditional food</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle Eastern</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofra_Restaurant</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">8:00 am - 6:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.7</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Snobs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Snobs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beautifully cooked fresh food, friendly and genuine staff</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egyptian</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snobs</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">3:00 pm - 11:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Gerda's_Garden -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Gerda's_Garden">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delicious food, family atmosphere, incredible value</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">German</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gerda's_Garden</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">8:00 am - 6:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Africa_Restaurant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Africa_Restaurant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Authentic Egyptian Fare with African Flavor</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle Eastern, Egyptian</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Africa_Restaurant</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">8:00 am - 11:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.1</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SunRise_Restaurant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SunRise_Restaurant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Good food in a relaxed atmosphere</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SunRise_Restaurant</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">10:00 am - 2:00 am</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Aisha_Restaurant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Aisha_Restaurant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enjoyable Egyptian food with great service</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egyptian, Italian</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aisha_Restaurant</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">8:00 am - 6:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Oasis_Palace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Oasis_Palace">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Oasis where finding good food for good price is difficult</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egyptian</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oasis_Palace</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">11:00 am - 11:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.4</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ono_Seafood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ono_Seafood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amazing place, with great innovative dishes.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ono_Seafood</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">8:00 am - 6:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Orchids -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Orchids">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lovely meals and view</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orchids</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">9:00 am - 10:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">280</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ocean_House_Restaurant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ocean_House_Restaurant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excellent food with a view</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood, Hawaiian</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ocean_House_Restaurant</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">5:00 pm - 10:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Seven_Brothers_Burgers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Seven_Brothers_Burgers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quick bite and tasty</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American, Burger</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seven_Brothers_Burgers</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">11:00 am - 12:00 am</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ONO_Hawaiian_Foods -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ONO_Hawaiian_Foods">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Awesome local food recomended by the locals</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polynesian</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ONO_Hawaiian_Foods</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">11:00 am - 8:00 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Alan_Wong's_Restaurant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Alan_Wong's_Restaurant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Best Oahu Restaurant</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood, Asian</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan_Wong's_Restaurant</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2:30 pm - 11:30 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Roy's_Restaurant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Roy's_Restaurant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nice place to have dinner.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roy's_Restaurant</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">11:30 am - 11:30 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steak_Shack -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steak_Shack">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Great beach side place</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steakhouse</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steak_Shack</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">4:30 pm - 11:30 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Helena's_Hawaiian_Food -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Helena's_Hawaiian_Food">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Awesome local spot</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polynesian</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helena's_Hawaiian_Food</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">10:30 am - 07:30 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kono's_Restaurant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kono's_Restaurant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Best Breakfast on the island!</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kono's_Restaurant</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">7:00 am - 2:30 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#La_Porta_Del_Principe --> <!-- ////////////////// -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#La_Porta_Del_Principe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The food was delicious, the staff was very nice and the place itself was lovely.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mediterranean</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La_Porta_Del_Principe</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">12:30 pm - 2:30 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#La_Pergola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#La_Pergola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Great view, great food, great service</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La_Pergola</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">7:30 pm - 11:30 pm</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pipero_Roma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pipero_Roma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Outstanding</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">European</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pipero_Roma</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">12:00 PM - 01:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.2</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Metamorfosi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Metamorfosi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of the most exquisite dinner places.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mediterranean</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metamorfosi</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">02:00 PM - 10:30 PM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.9</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bread_in -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bread_in">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perfect lunch stop.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast Food</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bread_in</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">09:00 AM - 06:30 PM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#il_Picchio_Rosso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#il_Picchio_Rosso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nice place Regular food</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">il_Picchio_Rosso</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">01:00 PM - 12:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.1</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Matermatuta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Matermatuta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gem of a restaurant.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seafood</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matermatuta</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">04:00 PM - 09:30 PM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">350</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#L'uliveto_Shop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#L'uliveto_Shop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delicious pizza/sandwiches!</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast_Food</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L'uliveto_Shop</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">09:00 AM - 06:30 PM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.7</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#My_Ale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#My_Ale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amazing hospitality, good food, great bar.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bar</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My_Ale</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">07:00 PM - 04:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#PanDivino -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#PanDivino">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cozy place with great food.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PanDivino</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">09:00 AM - 06:30 PM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Okko -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Okko">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amazing award winning restaurant.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japanese</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okko</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">12:00 AM - 3:00 PM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">380</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Spice_and_Ice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Spice_and_Ice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nice authintic food.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indian</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spice_and_Ice</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">12:00 PM - 01:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.7</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Totora -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Totora">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contemporary restaurant, embracing peruvian cuisine.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peruvian</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Totora</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">12:00 AM - 3:30 PM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">225</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cook_Hall_Dubai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cook_Hall_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm and Inviting.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cook_Hall_Dubai</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">12:00 AM - 3:30 PM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Loca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Loca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nice Place to hangout with great food and a decesnt bar.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexican</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loca</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">12:00 PM - 3:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cave -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cave">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food Tastes Amazing</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">French</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cave</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">05:00 PM - 02:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fibber_Magee's -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fibber_Magee's">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An awesome friendly place.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibber_Magee's</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">08:00 PM - 4:30 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SeaFU -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SeaFU">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of the best seafood restaurant in Dubai</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixed Asian</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SeaFU</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">12:30 PM - 01:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">350</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#AL_HAMBRA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#AL_HAMBRA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Good food, not so good service.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spanish</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AL_HAMBRA</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">06:30 PM - 11:30 PM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</rate>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fuchsia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fuchsia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food"/>
+        <comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food is good and service is awesome.</comments>
+        <cuisine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai</cuisine>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</duration>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuchsia</name>
+        <openingHours rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">09:00 AM - 03:00 AM</openingHours>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</price>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.2</rate>
+    </owl:NamedIndividual>
+
 
 <!-- =========================================================================================== Sabrout =========================================================================================== -->
 
