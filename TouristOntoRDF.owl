@@ -4764,6 +4764,30 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
         <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:rate>
     </owl:NamedIndividual>
 
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small-Group_Tour_of_Statue_of_Liberty_and_Ellis_Island"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NY_Urban_Pioneers_Private_Walking_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour_of_the_American_Museum_of_Natural_History"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Statue_of_Liberty_and_Ellis_Island_Guided_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York_CityPASS"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Sightseeing_Day_Pass_NYC"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SANDEMANs_NEW_Europe-New_York"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_September_11_Memorial_and_Wall_Street_Tour_with_Pedestal_Access_to_the_Statue_of_Liberty"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture_Clash:Immigrant_NYC_Running_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Boroughs_Of_The_Dead:Macabre_New_York_City_Walking_Tours"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Free_Tours_by_Foot_NY"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bike_the_Big_Apple_NY"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_BEAST_Speedboat_NY"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bike_and_roll_NY"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City_Running_Tours_NY"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SHARK_Speedboat_NY"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SHARK_Speedboat_NY"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New York</TouristOnto:name>
+        <TouristOnto:season rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring</TouristOnto:season>
+        <TouristOnto:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entertainment</TouristOnto:type>
+    </owl:NamedIndividual>
+
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Appia_Antica_Resort -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Appia_Antica_Resort">
@@ -4926,6 +4950,22 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unique terrace over Rome</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
         <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rome</TouristOnto:name>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#TopBike_Rental_n_Tours_Rome"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cooltra_Motos_Rome"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Antica_Torre_Rome"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Barberini_Scooters_Rome"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#BKS_Rome"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bicicletta_Italiana_Rome"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Big_Blue_Divers_Rome"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fun_Supercars_Rome"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Daily_Bike_Rome_Rome"/>
+        <TouristOnto:season rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Summer</TouristOnto:season>
+        <TouristOnto:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Historic</TouristOnto:type>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Oceanview_Condo_110 -->
