@@ -2572,7 +2572,687 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
     </owl:NamedIndividual>
 
 
-<!-- =========================================================================================== Sabrout =========================================================================================== -->
+<!-- =========================================================================================== Entertainment =========================================================================================== -->
+
+<!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Waikiki Starlight Luau-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Waikiki_Starlight_Luau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overall, we enjoyed the show though it is on top of a parking garage and attendees are crammed in so tight that you cannot sit down without people on both sides moving their chairs out, nor could we turn our chairs toward the stage when the performance started. The performers were outstanding, and for Hilton Hawaiian Village guests, it's very convenient. We did not feel it was a good value for the money paid. We had the more expensive golden circle tickets, which gave us close seating and first to the buffet, but that's about it. The food was self-serve buffet style and was just ok - nothing remarkable about it.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+        Waikiki Starlight Luau</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1200</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Island Breeze Luau-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Island_Breeze_Luau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We were with a large group that was seating on the far left of the stage. Most of the time, we could not hear the announcements being made. While you could see the stage, we were a long ways away and as people moved around, they were always between the stage and us. The food was better this time than the previous times we had been to the luau...seems our meetings are generally located out of the King Kamehameha. If you can afford it, it is a nice way to spend an evening and learn maybe a little about the different island cultures.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+        Island Breeze Luau</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1829</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hale Koa Luau-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hale_Koa_Luau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Military ID required- The gates open at 5:30 with a complementary cocktails, pictures with performers, temporary tattoos, crowns woven from leaves.. and then the performances begin. A bit of music, a bit of comedy.., something for the whole family. It's an outdoor venue, so yes, the chairs are cheap plastic lawn chairs. Water is self-served from large containers near the bar area. After a beach day, that was not so great. Waitresses came by a few times to take drink orders. The wait staff hustled to serve banquet style plates. Some of the traditional dishes were good. Some fell a little flat. Both desserts were coconut but when we explained we had coconut allergies, Evelyn, our waitress, gave us small fruit bowls instead. The traditional tourist luau performances began after dinner. The MC reminded me of a Hawaiian Bob Barker. The performances were very enjoyable. The energy from the young dancers onstage was palpable. On the whole, we had a good time.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+        Hale Koa Luau</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1032</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Warren and Annabelle's Magic-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Warren_and_Annabelle's_Magic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If you like magic shows and/or comedy shows, you must attend this one. It's both and fantastic! This is the third time that we have attended this venue and I'm sure that we'll go again the next time we are on Maui. The magicians change from time to time but we've never been disappointed in the folks who perform here. We enjoyed the Royal Flush package; food, drinks, dessert and show; but some folks eat elsewhere and then attend just the show here. We were both amazed by the magic and laughed till we ached by the comedy portion. You've got to go!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+        Warren and Annabelle's Magic</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.3</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+             <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Drums of the Pacific Lu'au-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Drums_of_the_Pacific_Lu'au">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Being the first time in Hawaii, we wanted to give our kids a taste of the culture. A Luau was a must! We chose this one because my husband and I had been before and it was a quick walk from our hotel. We love the talent, and the food and mai tais! The only downside is waiting in the hot sun to be seated.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+        Drums of the Pacific Lu'au</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1650</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+        
+             <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Diamond Head Luau-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Diamond_Head_Luau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My husband and I had a great time at the luau. The entertainment was terrific and the food was delicious 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+        Diamond Head Luau</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1600</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.7</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+
+         <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Germaine's Luau on Oahu-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Germaine's_Luau_on_Oahu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+            The Luau is situated just off an industrial estate which wasn't particularly picturesque. Overall Disappointing paid for the Plumeria package and did not feel it was good value for money. The staff and dancers were great but the food was Luke warm, and as we were served first it should have been hot. The cocktails were poor and you had a limited choice unless you paid. Considering how much extra we paid was not worth the extra cost
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Germaine's Luau</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1721</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.9</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Paradise Cove Luau-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Paradise_Cove_Luau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+            What a fun night out.
+            Started off with complimentary Mai Tai's and a photo opp followed by a number of demonstrations including hula dancing, tree climbing and fish catching - all to give you more insight into the culture. 
+            Food was quite delicious and you can tell cooked with love.
+            Bar lines were never too long and the Mai Tai'S were the best 
+            The scenery was gorgeous. The sunset was epic
+            And the show was spectacular - dancing from all the Polynesian Islands and an amazing fire show. 
+            The MC was also very welcoming.
+            Definitely recommend this night out.
+
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paradise Cove Luau</TouristOnto:name>
+        <TouristOnto:openingHours>6:30 am - 8:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1666</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Oahu Casual Sunset Dinner and Show Cruise-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Oahu_Casual_Sunset_Dinner_and_Show_Cruise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This was a very nice dinner cruise. We had dinner and entertainment all while watching the sunset. It was 2 hours in length and the food was delicious. We had Lobster( a whole one each) and steak. It came with salad, veggies,and dessert. 2 drinks were in our package. This was probably aimed at the over 40 crowd. Younger people might not enjoy this as much.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Star of Honolulu - Dinner and Whale Watch Cruises</TouristOnto:name>
+        <TouristOnto:openingHours>6:30 am - 8:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2699</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</TouristOnto:rate>
+        </owl:NamedIndividual>
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Chief's Luau at Sea Life Park-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Chief's_Luau_at_Sea_Life_Park">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excellent performance and great food. Kids loved it. 
+        Dances and fire performance was brilliant beats anything I've seen before
+        Would go again
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chief's Luau</TouristOnto:name>
+        <TouristOnto:openingHours>5:00 pm - 9:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1576</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- ruma -->
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The Time Elevator Rome Experience-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Time_Elevator_Rome_Experience">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">though apparently it says 5D,BELIEVE ME ITS NOT, couldn't feel any effect just apart from the ride/seats moving and jerking around. though it gives u an insight of EVOLUTION OF MAN and HISTORY OF ROME, i would say go there if u need some time pass,waste time. GOT BORED!!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Time Elevator Rome Experience</TouristOnto:name>
+        <TouristOnto:openingHours>12:00 pm - 11:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Auditorium - Parco della Musica-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Auditorium-Parco_della_Musica">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Really good place to host conferences. The cafe next to the main entrance serves nice and cheap coffee and alcohol drinks.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Auditorium - Parco della Musica</TouristOnto:name>
+        <TouristOnto:openingHours>6:00 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">666</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.1</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Teatro Salone Margherita-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Teatro_Salone_Margherita">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We went to see La Traviata and had a wonderful nights entertainment. We had dinner before as the show started at 8:30pm but were advised to come early when the doors open an hour before as the seats are not allocated you are just booking an area, which is unusual. When we arrived we were shown to our area and this was fine and we held our seats with a jacket as everyone else was. We were shown as we entered that there was free salad and pasta for everyone if you would like a bowl and we thought that this was very good. We also picked up a leaflet for the opera which explained the show in English which helped us to remember the show as it progressed. It is a lovely small theatre and even if you had the cheapest seats you were not very far away from the stage. Drinks also were not expensive compared to some other theatres. The only thing was it was a long night as you are there 1 hr before the performance and it's an for 2hr 30min. Great value for an evening out and really felt like a private performance. Very central only 10 min walk from the Spanish steps. Will be back when in Rome again.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teatro Salone Margherita</TouristOnto:name>
+        <TouristOnto:openingHours>6:00 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1050</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#BeerFalls-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#BeerFalls">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decent pub with a few good beers on tap, good music and good temperatures. If youre going for a pint, this is a good choice. Nothing more though. 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BeerFalls</TouristOnto:name>
+        <TouristOnto:openingHours>6:00 pm - 2:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape Rome-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape_Rome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Did the CSI and Vatican room and we really liked both of them. In my opinion, the Vatican one is a bit harder but both have some awesome puzzles to solve. If we come back to Rome, we definitely want to play the third room. Also our Gamemaster (I think his name was daniel... not sure anymore!) was fun, explained everything perfectly and helped us afterwards to find the right metro connection we needed. recommended! 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escape Rome</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Colosseum Pub Crawl-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Colosseum_Pub_Crawl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organised a group of 13 of us to visit Rome. Found this organised pub crawl by chance but from booking, to gaining further information they were absolutely fantastic. 
+
+            We were running late and they kept one of the guides back to pick us up. We did 2 bars and 2 clubs with loads of drinks included. The crowd were fairly mixed but ended up being able to chat to most of them. 
+
+            Ended up in Testaccio area which was brilliant and the guides made sure we all had a good time and that you got home safe. 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colosseum Pub Crawl</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.4</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Excape-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Excape">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This was not our first room but this one is not bad. We did the hostage room. A lot of interesting problems to solve, great fun. We got the right clues as help at the right time. We can really recommend this escaperoom!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excape</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">541</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+
+       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#I Virtuosi dell'opera di Roma: La Traviata-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#I_Virtuosi_dell'opera_di_Roma:La_Traviata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">While we were looking for a concert during our stay in Rome, we learned about this opera-dinner theater. The opera happened to be La Traviata. We bought our opera tickets from Viator's online site. There were ticket choices with different prices depending on the location of the seats and whether or not dinner would be included. We chose "opera box with dinner" option (TG1) for $ 181.32 for two of us. After paying for the tickets via online with our credit card, we received the voucher by e-mail. We brought the printed voucher to Teatro Salone Margherita near Spanish Steps about 1 hour 45 minutes before the curtain call. We were escorted to our opera box with only a table for two of us, and the dinner course continued until the curtain call, and the dessert came during an intermission. The theater was elegant and intimate. The opera performance quality was surprisingly high, and the dinner was good enough. We had a very romantic evening listening to beautiful La Traviata arias in an elegant theater. It was safe to walk around the theater area even at late night after the opera ended. There was no dress code. Semi formal dress would be good. I would highly recommend this dinner-theater experience.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I Virtuosi dell'opera di Roma</TouristOnto:name>
+        <TouristOnto:openingHours>6:00 pm - 10 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">541</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Opera in Roma-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Opera_in_Roma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My wife and I attended the concert here last week. The location and the wine/pasta was a wonderful touch. The singers were quite outstanding and as another review mentioned, they interacted with the audience making this an even more memorable evening.
+
+            The only disappointment was that guests were allowed to use their cameras and iphones to take pictures and video of the concert. We attended a concert in Venice last fall and this was not allowed so we were quite surprised that it was okay to do here. It was distracting to the point that during one aria I counted 24 ipones/cameras being held up in the air in front of us! One lady seated right behind us was taking pictures with her camera and all you could hear was the shutter noise throughout the evening.
+
+            This would have been far, far better if you didn't have to look around all these cameras and listen to the sound of shutters clicking for the entire concert. This is something that needs to be forbidden as it detracts from what is otherwise wonderful event.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opera in Roma</TouristOnto:name>
+        <TouristOnto:openingHours>6:00 pm - 10 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:rate>
+        </owl:NamedIndividual>
+         
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Camping Village Fabulous-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Camping_Village_Fabulous">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Site really lived up to its name, made a great base for visiting the centre of Rome. Transport links were really easy to get to as well from here. Site was clean, all the staff were friendly and helpful. Would definitely recommend staying here and would love to return again one day.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camping Village Fabulous</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 11 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1100</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- lox -->
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Libreria Aboudi Bookstore-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Libreria_Aboudi_Bookstore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prices have been very attractive since the devaluation in November 2016. There are 4 steps down from the street so it is not wheelchair friendly.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libreria Aboudi Bookstore</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 11 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ACE- Animal Care in Egypt-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ACE-Animal_Care_in_Egypt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No trip to Luxor should miss out a visit to ACE... Whether you have 30 minutes or a few hours... you must visit :)
+
+            Where do I start?! I spent the week as a general volunteer at ACE and from the moment I arrived I felt very much part of the ACE team. The vets are simply amazing. The dedication on a daily basis of taking care of the animals whether inpatients or outpatients could not be rivalled elsewhere.
+            The animals are cared for and advice is given to all that visit on how they can improve there animals welfare. ACE changes the lives of the animals and without it the animals would suffer. 
+            Not only do the animals get treated but ACE provides education to local schools and the children are given guidance on care and animal welfare.... where else could they go to get this if ACE wasn't there? 
+            It was a life changing trip for me. I am planning on returning this year but for longer as I miss the team and felt I made a difference just by being there. 
+            I recommend everyone just takes a few minutes out of any trip to pop in and say hello. You will be met with smiles from the team I guarantee it :)
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACE- Animal Care in Egypt</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 5 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1500</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steigenberger Nile Palace Luxor-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steigenberger_Nile_Palace_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pleasant stay, friendly staff, pretty good restaurants. I was fascinated by the charming nile view. When I couldn't find qibla for salat, front desk sent an employee to help me. I strongly recommend this hotel.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steigenberger Nile Palace Luxor</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 5 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Susanna Hotel-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Susanna_Hotel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neat and tidy bar just off the main street managed by a pleasant locat man who when questioned about a pint of Guiness advised that ith was too expensive to import.Settled for a cold Stella...poo.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susanna Hotel</TouristOnto:name>
+        <TouristOnto:openingHours>6:00 pm - 6am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The King's Head Pub-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_King's_Head_Pub">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Awesome Billiards, darts, several beers and about two dozen cocktails
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The King's Head Pub</TouristOnto:name>
+        <TouristOnto:openingHours>6:00 pm - 2 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The Royal Bar-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Royal_Bar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amazing
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Royal Bar</TouristOnto:name>
+        <TouristOnto:openingHours>5:00 pm - 5 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">865</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#CENTRA-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#CENTRA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIT BACK, SIP A COCKTAIL AND SEE IT ALL IN GREAT COMPANY
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CENTRA</TouristOnto:name>
+        <TouristOnto:openingHours>5:00 pm - 5 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1100</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#FLIGHT-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#FLIGHT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walk across the walkway and enter the hotel. Walk down the stairs and Flight will be directly across the casino to the left of LAX Nightclub.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FLIGHT</TouristOnto:name>
+        <TouristOnto:openingHours>5:00 pm - 4:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fellahs Tent-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fellahs_Tent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We had a fantastic time cruising up the Nile River. Our Egyptologist guide Achmed, did an excellent job guiding us thru the ancient ruins between Luxor and Aswan. Food was excellent, rooms were beautifully appointed. I'd highly recommend this trip. Ours was a 5 day trip, which was perfect.the beauty of doing this by boat is that you don't get overwhelmed trying to fit too much in a day. Lots of time for rest and relaxation on the boat. Our tour group was small and intimate. We met people from Lebanon, Egypt, USA, Argentina. A real international group. 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fellahs Tent</TouristOnto:name>
+        <TouristOnto:openingHours>5:00 pm - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+         <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor Nile-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor_Nile">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We had a fantastic time cruising up the Nile River. Our Egyptologist guide Achmed, did an excellent job guiding us thru the ancient ruins between Luxor and Aswan. Food was excellent, rooms were beautifully appointed. I'd highly recommend this trip. Ours was a 5 day trip, which was perfect.the beauty of doing this by boat is that you don't get overwhelmed trying to fit too much in a day. Lots of time for rest and relaxation on the boat. Our tour group was small and intimate. We met people from Lebanon, Egypt, USA, Argentina. A real international group. 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxor Nile</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- Dubii -->
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai Garden Glow-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Garden_Glow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dubai Garden Glow is the first ever unique glowing park in the Middle East that offers 2 theme parks in one location i.e. the Dinosaur Park and Dubai Garden Glow itself. It's located in Zabeel Park, Dubai with Gates 6 and 7. 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dubai Garden Glow</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 12:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">952</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Magic Planet-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Magic_Planet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Our children really had fun playing in this place, many gaming machines, rides, bowling court, also fast food restaurant.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magic Planet</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 12:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1102</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#WOW Kids Amusement Arcade-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#WOW_Kids_Amusement_Arcade">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Great day”
+        Few queues and we could dive into the huge futuristic digital world. Highly recommend and really enjoyed the Aquarium at Alian planet as well!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WOW Kids Amusement Arcade</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 12:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1100</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.7</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Platinum Power Pass SEGA Republic at The Dubai Mall-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Platinum_Power_Pass_SEGA_Republic_at_The_Dubai_Mall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Well worth a visit! Recommend an inclusive pass as it works out expensive unless your just popping in for a couple of rides. Staff very friendly and helpful. We thought it was a great place for kids and families to play.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEGA Republic</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 12:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1503</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Al Mansour Dhow-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Al_Mansour_Dhow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nice quiet evening. We enjoyed dinner on the upper deck, it was not too hot yet and so quite pleasant. We could not hear the live music (soft singing) but that was OK for us. Dinner buffet was served downstairs, a bit crowded at first but we waited a little and there were sufficient refills, so no problems. We were glad we didn't go to the other, noisier/brighter dinner cruises. Friendly, efficient service. Note that there seem to be discount coupons available somewhere.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al Mansour Dhow</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 12:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fun World Family Entertainments-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fun_World_Family_Entertainment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A good place to have fun with your family located in Dubai which is always having very nice programmes for the whole family Highly recommended place
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fun World Family Entertainment</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.2</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai Explorer Pass-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Explorer_Pass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I loved place more than any other just because it is indoor, so you have fun and enjoy many rides while not suffering from hot weather outside like many other parks and attraction in Dubai
+        great place for the whole family.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMG Worlds of Adventure</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2446</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai Global Village and Miracle Garden Tour-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Global_Village_and_Miracle_Garden_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">With all the glitter of Dubai, Global Village stands out with the different cultures, the unique entertainment offers, the shopping opportunities, and then all at a fraction of the cost compared to most attractions in Dubai. It is no coincidence that Global Village is one of the most visited attractions in Dubai. We go several times during the season and recommend all visitors to spend an evening here.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Global Village</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 1:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1449</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      
+          <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Arabian Nights Tours LLC-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Arabian_Nights_Tours_LLC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Did desert safari with them what an experience it was, never imagined it would be that amazing. The tour guide Junaid was amazing with his knowledge and driving skills. Arabian nighs is most recommended option for safaries
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arabian Nights Tours LLC</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dhow Boat Dinner Cruise in Dubai-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dhow_Boat_Dinner_Cruise_in_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Departed from the marina and toured around palm island. Food (buffet) was better than expected and staff was friendly.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dhow Cruise Dinner</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1195</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- new__york -->
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Joe's Pub-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Joe's_Pub">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">You can literally sit in front of the stage. There is a two drink minimum but the tickets are fairly priced. The food is amazing. Best lobster sliders I have ever had and I live onLong Island so I have had many! The beet salad was wonderful and enough to split with two people. The space itself is very intimate. Every seat is a good seat and the sound is very impressive. We even met Alan Alda on the way in!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joe's Pub</TouristOnto:name>
+        <TouristOnto:openingHours>3:00 pm - 1:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.9</TouristOnto:rate>
+        </owl:NamedIndividual> 
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#B.B. King Blues Club and Grill-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#B.B.King_Blues_Club_and_Grill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This was not a glamorous, upscale burlesque show. But it is a priceless experience for its bawdiness, satire and sexiness! I literally lmao at times and had open mouth jaw at some of the acts! Great to do as a couple or with a small group. Get there at least 1 hr before the show to get a good position within the room.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B.B. King Blues Club and Grill</TouristOnto:name>
+        <TouristOnto:openingHours>3:00 pm - 5:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The Slipper Room-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Slipper_Room">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excellent spot for music, food amd drinks however are quite pricey for what you get.I advise eating elsewhere before a show amd keep alcoholic drinks to a minimum or you'll spend a bundle!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Slipper Room</TouristOnto:name>
+        <TouristOnto:openingHours>3:00 pm - 6:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#National Comedy Theatre New York-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#National_Comedy_Theatre_New_York">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We just happened to be in front of the lol comedy club wondering what we were about to do that evening. Ended up buying ticket to the doorman. Tickets were not too expensive, but we had to take at least two drinks each, nearly all the drinks are 10 $ ... so we ended up have a decent bill afterall ...
+
+But we had a blast, it had been a long time since I laughed as much. 
+
+Tip: If you don't want to be singled out by any comics, ask to be sitted in the far corner away from any spots. ;)
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">National Comedy Theatre New York</TouristOnto:name>
+        <TouristOnto:openingHours>3:00 pm - 4:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.1</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steve Cohen's Chamber Magic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steve_Cohen's_Chamber_Magic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Went for my daughters birthday celebration as she is a big magic fan. The intimate setting of the show added to the excitement. Steve was a total professional and his magic was some of the best I have ever seen. I highly recommend this show.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steve Cohen's Chamber Magic</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 4:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Upright Citizens Brigade Theatre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Upright_Citizens_Brigade_Theatre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We visited NYC right before Christmas to see all the festive lights. We wanted to see some entertainment after all of our days adventures but couldn't afford expensive Broadway tickets. I had been to Upright Citizens Brigade in the past and new it would be great choice. The tickets are 10 bucks and the drinks are decently priced. The atmosphere itself is fun as seats are first come first serve and the theater is in the basement of the building. We saw an improv show and the comedians were hilarious. They really get the audience involved and they put on a great show. Its a great and affordable way to see a show without breaking the bank!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Upright Citizens Brigade Theatre</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 4:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The Duplex -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Duplex">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We visited The Duplex to see a show in their cabaret theatre - it was great fun and we stuck around afterwards for a few drinks.
+If you're visiting Greenwich Village I highly recommend that you try and make a cabaret performance - it was one of the highlights of our NYC trip.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Duplex</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 4:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jekyll and Hyde Restaurant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jekyll_and_Hyde_Restaurant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poor menu. Was told it was creepy and fun. Disappointed. OK for children. Not what we expected for a nyc restaurant.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jekyll and Hyde Restaurant</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 2:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Don't_Tell_Mama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Don't_Tell_Mama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sixteen of my relatives had a wonderful meal with wine, great food and a wonderful staff who took great care of us. The service was outstanding when all of our meals arrived at the same time and were very hot. The food was excellent as well. I highly recommend this find.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Don't Tell Mama</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 2:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape_Entertainment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape_Entertainment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This was my first Escape the Room experience and it was fun. We made a reservation for a group of 6 to do the Manhattan Mayhem on a Sunday afternoon and we got paired up with another party of 4 (the max is 10 people). A staff gave us instructions at the beginning and then left it up to us to figure out the bigger puzzle. Directions were vague and unclear, but that&apos;s the point for us to figure everything out. It was frustrating at first, but then we started getting an idea of all the clues and what we should. It then became more fun towards the end we knew what we were doing and worked together.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escape Entertainment</TouristOnto:name>
+        <TouristOnto:openingHours>12:00 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+<!-- =========================================================================================== Flights =========================================================================================== -->
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#DUB10001 -->
 
