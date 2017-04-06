@@ -610,6 +610,14 @@ I will be back for sure with more guests in the future.</comments>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Iberotel_Luxor"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Nefertiti_Hotel"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pyramids_Luxor_Hotel"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sofitel_Winter_Palace_Luxor"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hilton_Luxor_Resort_&amp;_Spa"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jewel_Of_The_Nile_Villa"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Villa_Diletta_Pink_flat"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Neith_at_Flats_in_Luxor"/>
         <name>Luxor</name>
         <season>Winter</season>
         <type>Historic</type>
@@ -3107,6 +3115,80 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anthony Woltman</TouristOnto:name>
         <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">38</foaf:age>
         <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- =========================================================================================== Hotels =========================================================================================== -->
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hilton_Luxor_Resort_&amp;_Spa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hilton_Luxor_Resort_&amp;_Spa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hilton Luxor Resort &amp; Spa</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Nefertiti_Hotel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Nefertiti_Hotel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nefertiti Hotel</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sofitel_Winter_Palace_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sofitel_Winter_Palace_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofitel Winter Palace Luxor</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:price>
+    </owl:NamedIndividual>
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Iberotel_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Iberotel_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iberotel Luxor</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:price>
+    </owl:NamedIndividual>
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pyramids_Luxor_Hotel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pyramids_Luxor_Hotel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyramids Luxor Hotel</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1900</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.1</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- =========================================================================================== Rentals =========================================================================================== -->
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jewel_Of_The_Nile_Villa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jewel_Of_The_Nile_Villa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jewel Of The Nile Villa</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Villa_Diletta_Pink_flat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Villa_Diletta_Pink_flat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Villa Diletta Pink flat</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Neith_at_Flats_in_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Neith_at_Flats_in_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neith at Flats in Luxor</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:price>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise -->
