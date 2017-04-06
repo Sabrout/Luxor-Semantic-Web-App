@@ -442,6 +442,141 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
+    <!-- Dubii -->
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai Garden Glow-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Garden_Glow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dubai Garden Glow is the first ever unique glowing park in the Middle East that offers 2 theme parks in one location i.e. the Dinosaur Park and Dubai Garden Glow itself. It's located in Zabeel Park, Dubai with Gates 6 and 7. 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dubai Garden Glow</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 12:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">952</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Magic Planet-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Magic_Planet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Our children really had fun playing in this place, many gaming machines, rides, bowling court, also fast food restaurant.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magic Planet</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 12:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1102</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#WOW Kids Amusement Arcade-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#WOW_Kids_Amusement_Arcade">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">“Great day”
+        Few queues and we could dive into the huge futuristic digital world. Highly recommend and really enjoyed the Aquarium at Alian planet as well!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WOW Kids Amusement Arcade</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 12:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1100</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.7</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Platinum Power Pass SEGA Republic at The Dubai Mall-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Platinum_Power_Pass_SEGA_Republic_at_The_Dubai Mall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Well worth a visit! Recommend an inclusive pass as it works out expensive unless your just popping in for a couple of rides. Staff very friendly and helpful. We thought it was a great place for kids and families to play.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SEGA Republic</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 12:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1503</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Al Mansour Dhow-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Al_Mansour_Dhow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nice quiet evening. We enjoyed dinner on the upper deck, it was not too hot yet and so quite pleasant. We could not hear the live music (soft singing) but that was OK for us. Dinner buffet was served downstairs, a bit crowded at first but we waited a little and there were sufficient refills, so no problems. We were glad we didn't go to the other, noisier/brighter dinner cruises. Friendly, efficient service. Note that there seem to be discount coupons available somewhere.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al Mansour Dhow</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 12:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fun World Family Entertainments-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fun_World_Family_Entertainment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A good place to have fun with your family located in Dubai which is always having very nice programmes for the whole family Highly recommended place
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fun World Family Entertainment</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.2</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai Explorer Pass-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Explorer_Pass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I loved place more than any other just because it is indoor, so you have fun and enjoy many rides while not suffering from hot weather outside like many other parks and attraction in Dubai
+        great place for the whole family.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMG Worlds of Adventure</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2446</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai Global Village and Miracle Garden Tour-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Global_Village_and_Miracle_Garden_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">With all the glitter of Dubai, Global Village stands out with the different cultures, the unique entertainment offers, the shopping opportunities, and then all at a fraction of the cost compared to most attractions in Dubai. It is no coincidence that Global Village is one of the most visited attractions in Dubai. We go several times during the season and recommend all visitors to spend an evening here.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Global Village</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 1:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1449</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      
+          <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Arabian Nights Tours LLC-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Arabian_Nights_Tours_LLC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Did desert safari with them what an experience it was, never imagined it would be that amazing. The tour guide Junaid was amazing with his knowledge and driving skills. Arabian nighs is most recommended option for safaries
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arabian Nights Tours LLC</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dhow Boat Dinner Cruise in Dubai-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dhow_Boat_Dinner_Cruise_in_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Departed from the marina and toured around palm island. Food (buffet) was better than expected and staff was friendly.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dhow Cruise Dinner</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1195</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
+        </owl:NamedIndividual>
+
     <!-- new__york -->
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Joe's Pub-->
@@ -639,9 +774,26 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
 
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai -->
-
+    <!--dubii -->
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dhow_Boat_Dinner_Cruise_in_Dubai"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Arabian_Nights_Tours_LLC"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Global_Village_and_Miracle_Garden_Tour"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Explorer_Pass"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fun_World_Family_Entertainment"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Al_Mansour_Dhow"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Platinum_Power_Pass_SEGA_Republic_at_The_Dubai Mall"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#WOW_Kids_Amusement_Arcade"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Magic_Planet"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Garden_Glow"/>
+
+
+
+
+
+
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Authentic_Emirati_Cultural_Meal_and_Talk_in_Old_Dubai"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Heritage_History_Culture_and_Shopping_Tour_Including_Dubai_Museum"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Museum_Gold_Souk_and_Water_Taxi"/>
