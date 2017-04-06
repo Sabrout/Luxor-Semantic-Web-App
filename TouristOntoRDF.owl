@@ -486,6 +486,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Amazing_penthouse_heart_of_Jumeirah"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Exclusive_Dubai_Marina_Apt"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#bed_Apt_Marina_Views"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Suba_Hotel"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Raffles_Dubai"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Grosvenor_House_Dubai"/>
         <name>Dubai</name>
         <season>Fall</season>
         <type>Entertainment</type>
@@ -3162,6 +3168,33 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.1</TouristOnto:price>
     </owl:NamedIndividual>
 
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Suba_Hotel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Suba_Hotel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suba Hotel</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Raffles_Dubai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Raffles_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raffles Dubai</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Grosvenor_House_Dubai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Grosvenor_House_Dubai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grosvenor House Dubai</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:price>
+    </owl:NamedIndividual>
+
     <!-- =========================================================================================== Rentals =========================================================================================== -->
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jewel_Of_The_Nile_Villa -->
@@ -3187,6 +3220,33 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Neith_at_Flats_in_Luxor">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neith at Flats in Luxor</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Amazing_penthouse_heart_of_Jumeirah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Amazing_penthouse_heart_of_Jumeirah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amazing penthouse heart of Jumeirah</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Exclusive_Dubai_Marina_Apt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Exclusive_Dubai_Marina_Apt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exclusive Dubai Marina Apt</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Waterside_4-bed_Apt_Marina_Views -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Waterside_4-bed_Apt_Marina_Views">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Waterside 4-bed Apt Marina Views</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:price>
     </owl:NamedIndividual>
