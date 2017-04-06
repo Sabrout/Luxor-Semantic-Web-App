@@ -567,6 +567,12 @@ I will be back for sure with more guests in the future.</comments>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Four_Seasons_Resort"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hyatt_Kaanapali_Beach"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Montage_Kapalua_Bay"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Oceanview_Condo_110"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ilikai_Marina_780_Ocean"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunset_Beach"/>
         <name>Hawaii</name>
         <season>Summer</season>
         <type>Relaxation</type>
@@ -747,6 +753,12 @@ I will be back for sure with more guests in the future.</comments>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Appia_Antica_Resort"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Portrait_Roma"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deko_Rome"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Residenza_Romana_Zucchelli"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Arrivederci_Roma_casa"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Unique_terrace_over_Rome"/>
         <name>Rome</name>
         <season>Summer</season>
         <type>Historic</type>
@@ -3228,6 +3240,60 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:price>
     </owl:NamedIndividual>
 
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Appia_Antica_Resort -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Appia_Antica_Resort">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appia Antica Resort</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Portrait_Roma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Portrait_Roma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portrait Roma</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deko_Rome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deko_Rome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deko Rome</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Four_Seasons_Resort -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Four_Seasons_Resort">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Four Seasons Resort</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hyatt_Kaanapali_Beach -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hyatt_Kaanapali_Beach">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyatt Kaanapali Beach</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Montage_Kapalua_Bay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Montage_Kapalua_Bay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montage Kapalua Bay</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:price>
+    </owl:NamedIndividual>
+
     <!-- =========================================================================================== Rentals =========================================================================================== -->
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jewel_Of_The_Nile_Villa -->
@@ -3310,6 +3376,65 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:price>
     </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Residenza_Romana_Zucchelli -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Residenza_Romana_Zucchelli">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Residenza Romana Zucchelli</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Arrivederci_Roma_casa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Arrivederci_Roma_casa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arrivederci Roma casa</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Unique_terrace_over_Rome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Unique_terrace_over_Rome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unique terrace over Rome</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Oceanview_Condo_110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Oceanview_Condo_110">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oceanview Condo 110</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ilikai_Marina_780_Ocean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ilikai_Marina_780_Ocean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ilikai Marina 780 Ocean</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunset_Beach -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunset_Beach">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunset Beach</TouristOnto:name>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:price>
+    </owl:NamedIndividual>
+
+
+
+
+
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise -->
 
