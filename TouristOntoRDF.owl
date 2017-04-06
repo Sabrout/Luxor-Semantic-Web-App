@@ -2191,7 +2191,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steak_Shack"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Helena's_Hawaiian_Food"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kono's_Restaurant"/>
-        
+
         <TouristOnto:season rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Summer</TouristOnto:season>
         <TouristOnto:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relaxation</TouristOnto:type>
     </owl:NamedIndividual>
@@ -4021,6 +4021,18 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#La_Porta_Del_Principe"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#La_Pergola"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pipero_Roma"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Metamorfosi"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bread_in"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#il_Picchio_Rosso"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Matermatuta"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#L'uliveto_Shop"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#My_Ale"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#PanDivino"/>
+
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rome</TouristOnto:name>
         <TouristOnto:season rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Summer</TouristOnto:season>
         <TouristOnto:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Historic</TouristOnto:type>
