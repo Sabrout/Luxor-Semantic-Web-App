@@ -2054,21 +2054,6 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
     
 
 
-    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Janean_Haight -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Janean_Haight">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
-        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life"/>
-        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental"/>
-        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
-        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_water_sports"/>
-        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Janean Haight</TouristOnto:name>
-        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">25</foaf:age>
-        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40001 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#LUX40001">
@@ -2471,6 +2456,21 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
     </owl:NamedIndividual>
     
 
+    <!-- =========================================================================================== Users =========================================================================================== -->
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Janean_Haight -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Janean_Haight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_water_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Janean Haight</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">25</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Warren_Stefan -->
 
@@ -2497,8 +2497,617 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">28</foaf:age>
         <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
     </owl:NamedIndividual>
-    
 
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Tajuana_Viands -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Tajuana_Viands">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_indian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tajuana Viands</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">27</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Devorah_Laguna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Devorah_Laguna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_thai"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_air_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Devorah Laguna</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">18</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Lupe_Marcy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Lupe_Marcy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_water_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lupe Marcy</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">41</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bradley_Biddy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bradley_Biddy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_shows"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_italian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_monuments"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bradley Biddy</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">21</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Diane_Solum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Diane_Solum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_chinese"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_hiking"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diane Solum</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">24</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Estella_Awad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Estella_Awad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_indian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estella Awad</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">26</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Trisha_Vankirk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Trisha_Vankirk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_thai"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_air_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trisha Vankirk</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">19</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Daniel_Borel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Daniel_Borel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_water_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel Borel</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">42</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+    
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Herman_Spurlock -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Herman_Spurlock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_shows"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_italian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_monuments"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herman Spurlock</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">31</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Elly_Northway -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Elly_Northway">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_chinese"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_hiking"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elly Northway</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">34</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Latrisha_Alvelo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Latrisha_Alvelo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_indian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latrisha Alvelo</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">36</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Monika_Clendening -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Monika_Clendening">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_thai"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_air_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monika Clendening</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">29</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Tyson_Lager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Tyson_Lager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_water_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tyson Lager</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">52</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ricky_Mayoral -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ricky_Mayoral">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_shows"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_italian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_monuments"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricky Mayoral</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">33</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Madonna_Churchwell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Madonna_Churchwell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_chinese"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_hiking"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Madonna Churchwell</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">37</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jannet_Cormack -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jannet_Cormack">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_indian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jannet Cormack</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">39</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Verona_Brescia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Verona_Brescia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_thai"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_air_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verona Brescia</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">28</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Norris_Okelley -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Norris_Okelley">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_water_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Norris Okelley</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">49</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jefferson_Yelton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jefferson_Yelton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_shows"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_italian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_monuments"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jefferson Yelton</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">35</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Angeline_Poplin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Angeline_Poplin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_chinese"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_hiking"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angeline Poplin</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">31</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Meaghan_Rosenbloom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Meaghan_Rosenbloom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_indian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meaghan Rosenbloom</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">29</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Lucie_Waite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Lucie_Waite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_thai"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_air_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lucie Waite</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">20</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Arnold_Chappel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Arnold_Chappel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_water_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arnold Chappel</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">38</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Adriene_Kolodziej -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Adriene_Kolodziej">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_chinese"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_hiking"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adriene Kolodziej</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">28</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sabrina_Fanning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sabrina_Fanning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_indian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sabrina Fanning</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">27</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Krystina_Bald -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Krystina_Bald">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_thai"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_air_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krystina Bald</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">18</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Manuel_Hornbuckle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Manuel_Hornbuckle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_water_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manuel Hornbuckle</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">41</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Loyd_Carone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Loyd_Carone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_shows"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_italian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_monuments"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loyd Carone</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">21</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Viki_Torry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Viki_Torry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_chinese"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_hiking"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viki Torry</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">24</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Agatha_Barbera -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Agatha_Barbera">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_indian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agatha Barbera</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">26</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Katrina_Cartwright -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Katrina_Cartwright">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_thai"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_air_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katrina Cartwright</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">19</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Christoper_Vanasse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Christoper_Vanasse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_water_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christoper Vanasse</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">42</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+    
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Leonardo_Gilson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Leonardo_Gilson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_shows"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_italian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_monuments"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leonardo Gilson</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">31</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Angelika_Coffin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Angelika_Coffin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_chinese"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_hiking"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angelika Coffin</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">34</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Vickie_Hagins -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Vickie_Hagins">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_indian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vickie Hagins</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">36</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Doloris_Lombardi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Doloris_Lombardi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_thai"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_air_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doloris Lombardi</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">29</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Tony_Bundy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Tony_Bundy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_water_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tony Bundy</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">52</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Noble_Eakin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Noble_Eakin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_shows"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_italian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_monuments"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noble Eakin</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">33</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Scarlett_Sommerville -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Scarlett_Sommerville">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_chinese"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_hiking"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scarlett Sommerville</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">37</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Florentina_Cordon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Florentina_Cordon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_indian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Florentina Cordon</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">39</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ami_Talmadge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ami_Talmadge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_thai"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_air_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ami Talmadge</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">28</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Vincent_Fegley -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Vincent_Fegley">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_water_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vincent Fegley</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">49</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Francis_Kozak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Francis_Kozak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_shows"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_italian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_monuments"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Francis Kozak</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">35</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kristen_Canales -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kristen_Canales">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_chinese"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_hiking"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kristen Canales</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">31</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ana_Kuester -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ana_Kuester">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_indian"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_safari"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ana Kuester</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">29</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Savanna_Dobbins -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Savanna_Dobbins">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_thai"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_air_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Savanna Dobbins</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">20</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Female</foaf:gender>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Anthony_Woltman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Anthony_Woltman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples"/>
+        <TouristOnto:interestedIn rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#sports_water_sports"/>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anthony Woltman</TouristOnto:name>
+        <foaf:age rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">38</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Male</foaf:gender>
+    </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise -->
 
