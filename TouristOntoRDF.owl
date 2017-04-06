@@ -443,6 +443,146 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+     <!-- hh -->
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Waikiki Starlight Luau-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Waikiki_Starlight_Luau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overall, we enjoyed the show though it is on top of a parking garage and attendees are crammed in so tight that you cannot sit down without people on both sides moving their chairs out, nor could we turn our chairs toward the stage when the performance started. The performers were outstanding, and for Hilton Hawaiian Village guests, it's very convenient. We did not feel it was a good value for the money paid. We had the more expensive golden circle tickets, which gave us close seating and first to the buffet, but that's about it. The food was self-serve buffet style and was just ok - nothing remarkable about it.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+        Waikiki Starlight Luau</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1200</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Island Breeze Luau-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Island_Breeze_Luau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We were with a large group that was seating on the far left of the stage. Most of the time, we could not hear the announcements being made. While you could see the stage, we were a long ways away and as people moved around, they were always between the stage and us. The food was better this time than the previous times we had been to the luau...seems our meetings are generally located out of the King Kamehameha. If you can afford it, it is a nice way to spend an evening and learn maybe a little about the different island cultures.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+        Island Breeze Luau</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1829</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hale Koa Luau-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hale_Koa_Luau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Military ID required- The gates open at 5:30 with a complementary cocktails, pictures with performers, temporary tattoos, crowns woven from leaves.. and then the performances begin. A bit of music, a bit of comedy.., something for the whole family. It's an outdoor venue, so yes, the chairs are cheap plastic lawn chairs. Water is self-served from large containers near the bar area. After a beach day, that was not so great. Waitresses came by a few times to take drink orders. The wait staff hustled to serve banquet style plates. Some of the traditional dishes were good. Some fell a little flat. Both desserts were coconut but when we explained we had coconut allergies, Evelyn, our waitress, gave us small fruit bowls instead. The traditional tourist luau performances began after dinner. The MC reminded me of a Hawaiian Bob Barker. The performances were very enjoyable. The energy from the young dancers onstage was palpable. On the whole, we had a good time.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+        Hale Koa Luau</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1032</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Warren and Annabelle's Magic-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Warren_and_Annabelle's_Magic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If you like magic shows and/or comedy shows, you must attend this one. It's both and fantastic! This is the third time that we have attended this venue and I'm sure that we'll go again the next time we are on Maui. The magicians change from time to time but we've never been disappointed in the folks who perform here. We enjoyed the Royal Flush package; food, drinks, dessert and show; but some folks eat elsewhere and then attend just the show here. We were both amazed by the magic and laughed till we ached by the comedy portion. You've got to go!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+        Warren and Annabelle's Magic</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.3</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+             <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Drums of the Pacific Lu'au-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Drums_of_the_Pacific_Lu'au">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Being the first time in Hawaii, we wanted to give our kids a taste of the culture. A Luau was a must! We chose this one because my husband and I had been before and it was a quick walk from our hotel. We love the talent, and the food and mai tais! The only downside is waiting in the hot sun to be seated.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+        Drums of the Pacific Lu'au</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1650</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+        
+             <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Diamond Head Luau-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Diamond_Head_Luau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My husband and I had a great time at the luau. The entertainment was terrific and the food was delicious 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+        Diamond Head Luau</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1600</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.7</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+
+         <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Germaine's Luau on Oahu-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Germaine's_Luau_on_Oahu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+            The Luau is situated just off an industrial estate which wasn't particularly picturesque. Overall Disappointing paid for the Plumeria package and did not feel it was good value for money. The staff and dancers were great but the food was Luke warm, and as we were served first it should have been hot. The cocktails were poor and you had a limited choice unless you paid. Considering how much extra we paid was not worth the extra cost
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Germaine's Luau</TouristOnto:name>
+        <TouristOnto:openingHours>7:30 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1721</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.9</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Paradise Cove Luau-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Paradise_Cove_Luau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+            What a fun night out.
+            Started off with complimentary Mai Tai's and a photo opp followed by a number of demonstrations including hula dancing, tree climbing and fish catching - all to give you more insight into the culture. 
+            Food was quite delicious and you can tell cooked with love.
+            Bar lines were never too long and the Mai Tai'S were the best 
+            The scenery was gorgeous. The sunset was epic
+            And the show was spectacular - dancing from all the Polynesian Islands and an amazing fire show. 
+            The MC was also very welcoming.
+            Definitely recommend this night out.
+
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paradise Cove Luau</TouristOnto:name>
+        <TouristOnto:openingHours>6:30 am - 8:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1666</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Oahu Casual Sunset Dinner and Show Cruise-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Oahu_Casual_Sunset_Dinner_and_Show_Cruise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This was a very nice dinner cruise. We had dinner and entertainment all while watching the sunset. It was 2 hours in length and the food was delicious. We had Lobster( a whole one each) and steak. It came with salad, veggies,and dessert. 2 drinks were in our package. This was probably aimed at the over 40 crowd. Younger people might not enjoy this as much.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Star of Honolulu - Dinner and Whale Watch Cruises</TouristOnto:name>
+        <TouristOnto:openingHours>6:30 am - 8:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2699</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</TouristOnto:rate>
+        </owl:NamedIndividual>
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Chief's Luau at Sea Life Park-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Chief's_Luau_at_Sea_Life_Park">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excellent performance and great food. Kids loved it. 
+        Dances and fire performance was brilliant beats anything I've seen before
+        Would go again
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chief's Luau</TouristOnto:name>
+        <TouristOnto:openingHours>5:00 pm - 9:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1576</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</TouristOnto:rate>
+        </owl:NamedIndividual>
+
      <!-- ruma -->
 
      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The Time Elevator Rome Experience-->
@@ -1176,6 +1316,24 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <!-- hh -->
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Chief's_Luau_at_Sea_Life_Park"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Oahu_Casual_Sunset_Dinner_and_Show_Cruise"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Paradise_Cove_Luau"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Germaine's_Luau_on_Oahu"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Diamond_Head_Luau"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Drums_of_the_Pacific_Lu'au"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Warren_and_Annabelle's_Magic"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hale_Koa_Luau"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Island_Breeze_Luau"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Waikiki_Starlight_Luau"/>
+
+
+
+
+
+
+
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bishop_Museum_General_Admission"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deluxe_Arizona_Memorial_and_Historical_City_Tour"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii_Island_Experience"/>
