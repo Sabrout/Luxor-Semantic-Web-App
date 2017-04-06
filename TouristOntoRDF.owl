@@ -443,8 +443,138 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <!-- lox -->
+     <!-- ruma -->
 
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The Time Elevator Rome Experience-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Time_Elevator_Rome_Experience">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">though apparently it says 5D,BELIEVE ME ITS NOT, couldn't feel any effect just apart from the ride/seats moving and jerking around. though it gives u an insight of EVOLUTION OF MAN and HISTORY OF ROME, i would say go there if u need some time pass,waste time. GOT BORED!!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Time Elevator Rome Experience</TouristOnto:name>
+        <TouristOnto:openingHours>12:00 pm - 11:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Auditorium - Parco della Musica-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Auditorium-Parco_della_Musica">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Really good place to host conferences. The cafe next to the main entrance serves nice and cheap coffee and alcohol drinks.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Auditorium - Parco della Musica</TouristOnto:name>
+        <TouristOnto:openingHours>6:00 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">666</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.1</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Teatro Salone Margherita-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Teatro_Salone_Margherita">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We went to see La Traviata and had a wonderful nights entertainment. We had dinner before as the show started at 8:30pm but were advised to come early when the doors open an hour before as the seats are not allocated you are just booking an area, which is unusual. When we arrived we were shown to our area and this was fine and we held our seats with a jacket as everyone else was. We were shown as we entered that there was free salad and pasta for everyone if you would like a bowl and we thought that this was very good. We also picked up a leaflet for the opera which explained the show in English which helped us to remember the show as it progressed. It is a lovely small theatre and even if you had the cheapest seats you were not very far away from the stage. Drinks also were not expensive compared to some other theatres. The only thing was it was a long night as you are there 1 hr before the performance and it's an for 2hr 30min. Great value for an evening out and really felt like a private performance. Very central only 10 min walk from the Spanish steps. Will be back when in Rome again.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teatro Salone Margherita</TouristOnto:name>
+        <TouristOnto:openingHours>6:00 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1050</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#BeerFalls-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#BeerFalls">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decent pub with a few good beers on tap, good music and good temperatures. If youre going for a pint, this is a good choice. Nothing more though. 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BeerFalls</TouristOnto:name>
+        <TouristOnto:openingHours>6:00 pm - 2:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape Rome-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape_Rome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Did the CSI and Vatican room and we really liked both of them. In my opinion, the Vatican one is a bit harder but both have some awesome puzzles to solve. If we come back to Rome, we definitely want to play the third room. Also our Gamemaster (I think his name was daniel... not sure anymore!) was fun, explained everything perfectly and helped us afterwards to find the right metro connection we needed. recommended! 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escape Rome</TouristOnto:name>
+        <TouristOnto:openingHours>10:00 am - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Colosseum Pub Crawl-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Colosseum_Pub_Crawl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organised a group of 13 of us to visit Rome. Found this organised pub crawl by chance but from booking, to gaining further information they were absolutely fantastic. 
+
+            We were running late and they kept one of the guides back to pick us up. We did 2 bars and 2 clubs with loads of drinks included. The crowd were fairly mixed but ended up being able to chat to most of them. 
+
+            Ended up in Testaccio area which was brilliant and the guides made sure we all had a good time and that you got home safe. 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colosseum Pub Crawl</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.4</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Excape-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Excape">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This was not our first room but this one is not bad. We did the hostage room. A lot of interesting problems to solve, great fun. We got the right clues as help at the right time. We can really recommend this escaperoom!
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excape</TouristOnto:name>
+        <TouristOnto:openingHours>4:00 pm - 10:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">541</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+
+       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#I Virtuosi dell'opera di Roma: La Traviata-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#I_Virtuosi_dell'opera_di_Roma:La_Traviata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">While we were looking for a concert during our stay in Rome, we learned about this opera-dinner theater. The opera happened to be La Traviata. We bought our opera tickets from Viator's online site. There were ticket choices with different prices depending on the location of the seats and whether or not dinner would be included. We chose "opera box with dinner" option (TG1) for $ 181.32 for two of us. After paying for the tickets via online with our credit card, we received the voucher by e-mail. We brought the printed voucher to Teatro Salone Margherita near Spanish Steps about 1 hour 45 minutes before the curtain call. We were escorted to our opera box with only a table for two of us, and the dinner course continued until the curtain call, and the dessert came during an intermission. The theater was elegant and intimate. The opera performance quality was surprisingly high, and the dinner was good enough. We had a very romantic evening listening to beautiful La Traviata arias in an elegant theater. It was safe to walk around the theater area even at late night after the opera ended. There was no dress code. Semi formal dress would be good. I would highly recommend this dinner-theater experience.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I Virtuosi dell'opera di Roma</TouristOnto:name>
+        <TouristOnto:openingHours>6:00 pm - 10 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">541</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Opera in Roma-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Opera_in_Roma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">My wife and I attended the concert here last week. The location and the wine/pasta was a wonderful touch. The singers were quite outstanding and as another review mentioned, they interacted with the audience making this an even more memorable evening.
+
+            The only disappointment was that guests were allowed to use their cameras and iphones to take pictures and video of the concert. We attended a concert in Venice last fall and this was not allowed so we were quite surprised that it was okay to do here. It was distracting to the point that during one aria I counted 24 ipones/cameras being held up in the air in front of us! One lady seated right behind us was taking pictures with her camera and all you could hear was the shutter noise throughout the evening.
+
+            This would have been far, far better if you didn't have to look around all these cameras and listen to the sound of shutters clicking for the entire concert. This is something that needs to be forbidden as it detracts from what is otherwise wonderful event.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opera in Roma</TouristOnto:name>
+        <TouristOnto:openingHours>6:00 pm - 10 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:rate>
+        </owl:NamedIndividual>
+         
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Camping Village Fabulous-->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Camping_Village_Fabulous">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Site really lived up to its name, made a great base for visiting the centre of Rome. Transport links were really easy to get to as well from here. Site was clean, all the staff were friendly and helpful. Would definitely recommend staying here and would love to return again one day.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camping Village Fabulous</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 11 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1100</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- lox -->
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Libreria Aboudi Bookstore-->
 
@@ -1367,6 +1497,25 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <!-- ruma -->
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Camping_Village_Fabulous"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Opera_in_Roma"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#I_Virtuosi_dell'opera_di_Roma:La_Traviata"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Colosseum_Pub_Crawl"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape_Rome"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#BeerFalls"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Teatro_Salone_Margherita"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Auditorium-Parco_della_Musica"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Time_Elevator_Rome_Experience"/>
+
+
+
+
+
+
+
+
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City_Sightseeing_Transportation_and_Skip-The-Line_Roma_Pass"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Family-Friendly_Tour_to_the_Colosseum_and_the_Palatine_Hill"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jubilee_2016_From_Paganism_to_Christianity"/>
