@@ -445,6 +445,78 @@
 
     <!-- lox -->
 
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Libreria Aboudi Bookstore-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Libreria_Aboudi_Bookstore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prices have been very attractive since the devaluation in November 2016. There are 4 steps down from the street so it is not wheelchair friendly.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libreria Aboudi Bookstore</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 11 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ACE- Animal Care in Egypt-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ACE-Animal_Care_in_Egypt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No trip to Luxor should miss out a visit to ACE... Whether you have 30 minutes or a few hours... you must visit :)
+
+            Where do I start?! I spent the week as a general volunteer at ACE and from the moment I arrived I felt very much part of the ACE team. The vets are simply amazing. The dedication on a daily basis of taking care of the animals whether inpatients or outpatients could not be rivalled elsewhere.
+            The animals are cared for and advice is given to all that visit on how they can improve there animals welfare. ACE changes the lives of the animals and without it the animals would suffer. 
+            Not only do the animals get treated but ACE provides education to local schools and the children are given guidance on care and animal welfare.... where else could they go to get this if ACE wasn't there? 
+            It was a life changing trip for me. I am planning on returning this year but for longer as I miss the team and felt I made a difference just by being there. 
+            I recommend everyone just takes a few minutes out of any trip to pop in and say hello. You will be met with smiles from the team I guarantee it :)
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACE- Animal Care in Egypt</TouristOnto:name>
+        <TouristOnto:openingHours>8:00 am - 5 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1500</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steigenberger Nile Palace Luxor-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steigenberger_Nile_Palace_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pleasant stay, friendly staff, pretty good restaurants. I was fascinated by the charming nile view. When I couldn't find qibla for salat, front desk sent an employee to help me. I strongly recommend this hotel.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steigenberger Nile Palace Luxor</TouristOnto:name>
+        <TouristOnto:openingHours>9:00 am - 5 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Susanna Hotel-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Susanna_Hotel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neat and tidy bar just off the main street managed by a pleasant locat man who when questioned about a pint of Guiness advised that ith was too expensive to import.Settled for a cold Stella...poo.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susanna Hotel</TouristOnto:name>
+        <TouristOnto:openingHours>6:00 pm - 6am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The King's Head Pub-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_King's_Head_Pub">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Awesome Billiards, darts, several beers and about two dozen cocktails
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The King's Head Pub</TouristOnto:name>
+        <TouristOnto:openingHours>6:00 pm - 2 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The Royal Bar-->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Royal_Bar">
@@ -554,7 +626,7 @@
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Platinum Power Pass SEGA Republic at The Dubai Mall-->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Platinum_Power_Pass_SEGA_Republic_at_The_Dubai Mall">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Platinum_Power_Pass_SEGA_Republic_at_The_Dubai_Mall">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
         <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Well worth a visit! Recommend an inclusive pass as it works out expensive unless your just popping in for a couple of rides. Staff very friendly and helpful. We thought it was a great place for kids and families to play.
         </TouristOnto:comments>
@@ -1049,6 +1121,11 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#FLIGHT"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#CENTRA"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Royal_Bar"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_King's_Head_Pub"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Susanna_Hotel"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steigenberger_Nile_Palace_Luxor"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ACE-Animal_Care_in_Egypt"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Libreria_Aboudi_Bookstore"/>
 
 
 
