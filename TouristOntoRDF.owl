@@ -3899,7 +3899,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hilton Luxor Resort &amp; Spa</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Nefertiti_Hotel -->
@@ -3908,7 +3908,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nefertiti Hotel</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sofitel_Winter_Palace_Luxor -->
@@ -3917,7 +3917,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofitel Winter Palace Luxor</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:rate>
     </owl:NamedIndividual>
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Iberotel_Luxor -->
 
@@ -3925,7 +3925,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iberotel Luxor</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:rate>
     </owl:NamedIndividual>
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pyramids_Luxor_Hotel -->
 
@@ -3933,7 +3933,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyramids Luxor Hotel</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1900</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.1</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.1</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Suba_Hotel -->
@@ -3942,7 +3942,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suba Hotel</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Raffles_Dubai -->
@@ -3951,7 +3951,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raffles Dubai</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Grosvenor_House_Dubai -->
@@ -3960,7 +3960,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grosvenor House Dubai</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Casablanca_Hotel -->
@@ -3969,7 +3969,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Casablanca Hotel</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Crosby_Street_Hotel -->
@@ -3978,7 +3978,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crosby Street Hotel</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Broome -->
@@ -3987,7 +3987,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Broome</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Appia_Antica_Resort -->
@@ -3996,7 +3996,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Appia Antica Resort</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Portrait_Roma -->
@@ -4005,7 +4005,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portrait Roma</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deko_Rome -->
@@ -4014,7 +4014,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deko Rome</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Four_Seasons_Resort -->
@@ -4023,7 +4023,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Four Seasons Resort</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hyatt_Kaanapali_Beach -->
@@ -4032,7 +4032,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyatt Kaanapali Beach</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Montage_Kapalua_Bay -->
@@ -4041,7 +4041,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hotel"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montage Kapalua Bay</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- =========================================================================================== Rentals =========================================================================================== -->
@@ -4052,7 +4052,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jewel Of The Nile Villa</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Villa_Diletta_Pink_flat -->
@@ -4061,7 +4061,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Villa Diletta Pink flat</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Neith_at_Flats_in_Luxor -->
@@ -4070,7 +4070,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neith at Flats in Luxor</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Amazing_penthouse_heart_of_Jumeirah -->
@@ -4079,7 +4079,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amazing penthouse heart of Jumeirah</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Exclusive_Dubai_Marina_Apt -->
@@ -4088,7 +4088,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exclusive Dubai Marina Apt</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Waterside_4-bed_Apt_Marina_Views -->
@@ -4097,7 +4097,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Waterside 4-bed Apt Marina Views</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Brand_New_Spacious_Times_square -->
@@ -4106,7 +4106,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brand New Spacious Times square</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunny_Chelsea_Getaway -->
@@ -4115,7 +4115,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunny Chelsea Getaway</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunny_Loft_in_Chelsea -->
@@ -4124,7 +4124,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunny Loft in Chelsea</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Residenza_Romana_Zucchelli -->
@@ -4133,7 +4133,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Residenza Romana Zucchelli</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Arrivederci_Roma_casa -->
@@ -4142,7 +4142,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arrivederci Roma casa</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Unique_terrace_over_Rome -->
@@ -4151,7 +4151,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unique terrace over Rome</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Oceanview_Condo_110 -->
@@ -4160,7 +4160,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oceanview Condo 110</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ilikai_Marina_780_Ocean -->
@@ -4169,7 +4169,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ilikai Marina 780 Ocean</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2800</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
     </owl:NamedIndividual>
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunset_Beach -->
@@ -4178,7 +4178,7 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rental"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunset Beach</TouristOnto:name>
         <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2200</TouristOnto:price>
-        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5</TouristOnto:rate>
     </owl:NamedIndividual>
 
 
