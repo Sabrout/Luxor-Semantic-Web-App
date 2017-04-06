@@ -2180,6 +2180,18 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Camelot_Sport_Fishing_Hawaii"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Extreme_Sport_Fishing_Hawaii"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Holo_Holo_Hawaii"/>
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ono_Seafood"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Orchids"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ocean_House_Restaurant"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Seven_Brothers_Burgers"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ONO_Hawaiian_Foods"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Alan_Wong's_Restaurant"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Roy's_Restaurant"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steak_Shack"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Helena's_Hawaiian_Food"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kono's_Restaurant"/>
+        
         <TouristOnto:season rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Summer</TouristOnto:season>
         <TouristOnto:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relaxation</TouristOnto:type>
     </owl:NamedIndividual>
