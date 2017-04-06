@@ -492,6 +492,18 @@
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Suba_Hotel"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Raffles_Dubai"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Grosvenor_House_Dubai"/>
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Okko"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Spice_and_Ice"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Totora"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cook_Hall_Dubai"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Loca"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cave"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fibber_Magee's"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SeaFU"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#AL_HAMBRA"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fuchsia"/>
+        
         <name>Dubai</name>
         <season>Fall</season>
         <type>Entertainment</type>
