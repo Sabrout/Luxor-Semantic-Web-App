@@ -442,6 +442,74 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
+
+    <!-- lox -->
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The Royal Bar-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Royal_Bar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amazing
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Royal Bar</TouristOnto:name>
+        <TouristOnto:openingHours>5:00 pm - 5 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">865</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#CENTRA-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#CENTRA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIT BACK, SIP A COCKTAIL AND SEE IT ALL IN GREAT COMPANY
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CENTRA</TouristOnto:name>
+        <TouristOnto:openingHours>5:00 pm - 5 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1100</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#FLIGHT-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#FLIGHT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walk across the walkway and enter the hotel. Walk down the stairs and Flight will be directly across the casino to the left of LAX Nightclub.
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FLIGHT</TouristOnto:name>
+        <TouristOnto:openingHours>5:00 pm - 4:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fellahs Tent-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fellahs_Tent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We had a fantastic time cruising up the Nile River. Our Egyptologist guide Achmed, did an excellent job guiding us thru the ancient ruins between Luxor and Aswan. Food was excellent, rooms were beautifully appointed. I'd highly recommend this trip. Ours was a 5 day trip, which was perfect.the beauty of doing this by boat is that you don't get overwhelmed trying to fit too much in a day. Lots of time for rest and relaxation on the boat. Our tour group was small and intimate. We met people from Lebanon, Egypt, USA, Argentina. A real international group. 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fellahs Tent</TouristOnto:name>
+        <TouristOnto:openingHours>5:00 pm - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+        </owl:NamedIndividual>
+
+         <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor Nile-->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor_Nile">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We had a fantastic time cruising up the Nile River. Our Egyptologist guide Achmed, did an excellent job guiding us thru the ancient ruins between Luxor and Aswan. Food was excellent, rooms were beautifully appointed. I'd highly recommend this trip. Ours was a 5 day trip, which was perfect.the beauty of doing this by boat is that you don't get overwhelmed trying to fit too much in a day. Lots of time for rest and relaxation on the boat. Our tour group was small and intimate. We met people from Lebanon, Egypt, USA, Argentina. A real international group. 
+        </TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxor Nile</TouristOnto:name>
+        <TouristOnto:openingHours>11:00 am - 5:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
+        </owl:NamedIndividual>
+
     <!-- Dubii -->
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai Garden Glow-->
@@ -972,9 +1040,21 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
 
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor -->
-
+    <!-- lox -->
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor_Nile"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fellahs_Tent"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#FLIGHT"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#CENTRA"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Royal_Bar"/>
+
+
+
+
+
+
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_East_and_West_Banks_of_Luxor"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour"/>
