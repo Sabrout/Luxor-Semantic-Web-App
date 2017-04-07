@@ -5493,24 +5493,124 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Time_Elevator_Rome_Experience"/>
     </owl:NamedIndividual>
     
-
-
-    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_chinese -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_chinese">
-        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
-        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Chinese</foaf:name>
-    </owl:NamedIndividual>
     
 
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_french -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_french">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">French</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Daniel"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Gabriel_Kreuther"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Per_Se"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Modern"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cave"/>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_american -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_american">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">American</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Per_Se"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Lincoln_Square_Steak"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Blue_Hill"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Orchids"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Seven_Brothers_Burgers"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Roy's_Restaurant"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kono's_Restaurant"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Cook_Hall_Dubai"/>
+    </owl:NamedIndividual>
+    
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_indian -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_indian">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
         <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Indian</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Spice_and_Ice"/>
     </owl:NamedIndividual>
     
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_peruvian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_peruvian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Peruvian</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Totora"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_mediterranean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_mediterranean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Mediterranean</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#La_Porta_Del_Principe"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Metamorfosi"/>
+    </owl:NamedIndividual>
+    
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_polynesian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_polynesian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Polynesian</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ONO_Hawaiian_Foods"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Helena's_Hawaiian_Food"/>
+    </owl:NamedIndividual>
+    
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_steakehouse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_steakehouse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Steakehouse</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steak_Shack"/>
+    </owl:NamedIndividual>
+    
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_fastfood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_fastfood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Fastfood</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bread_in"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto##L'uliveto_Shop"/>
+    </owl:NamedIndividual>
+    
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_asian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_asian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Asian</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Alan_Wong's_Restaurant"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SeaFU"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_bar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_bar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Bar</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#My_Ale"/>
+    </owl:NamedIndividual>
+    
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_spanish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_spanish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Spanish</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#AL_HAMBRA"/>
+    </owl:NamedIndividual>
+
 
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_italian -->
@@ -5518,18 +5618,36 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_italian">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
         <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Italian</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pizza_Suprema"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pisillo_Italian_Panini"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bleecker_Street_Pizza"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pizza_Roma-it"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SunRise_Restaurant"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Aisha_Restaurant"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#PanDivino"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_local -->
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_mexican -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_local">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_mexican">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
-        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Local</foaf:name>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Mexican</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Los_Tacos"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Loca"/>
     </owl:NamedIndividual>
     
 
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_japanese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_japanese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Japanese</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Okko"/>
+    </owl:NamedIndividual>
+    
 
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_oriental -->
 
@@ -5540,15 +5658,83 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
     
 
 
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_british -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_british">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">British</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Lantern_Room"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fibber_Magee's"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_middle_eastern -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_middle_eastern">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Middle Eastren</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Al-Sahaby_Lane_Restaurant"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sofra_Restaurant"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Africa_Restaurant"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_egyptian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_egyptian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Egyptian</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Snobs"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Africa_Restaurant"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Aisha_Restaurant"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Oasis_Palace"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_seafood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_seafood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Seafood</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ono_Seafood"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Ocean_House_Restaurant"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Alan_Wong's_Restaurant"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#La_Pergola"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#il_Picchio_Rosso"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Matermatuta"/>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_german -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_german">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">German</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Gerda's_Garden"/>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_european -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_european">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">European</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pipero_Roma"/>
+    </owl:NamedIndividual>
+
+
+
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_thai -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#food_thai">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
         <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Thai</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fuchsia"/>
     </owl:NamedIndividual>
     
-
-
     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_monuments -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_monuments">
