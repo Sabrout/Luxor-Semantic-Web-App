@@ -634,6 +634,44 @@ I will be back for sure with more guests in the future.</comments>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_East_and_West_Banks_of_Luxor"/>
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch"/>
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour"/>
+
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Full-Day_Tour_of_Luxor_From_Hurghada"/>
+
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Guided_Tour_to_Karnak_Temple_from_Luxor"/>
+
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Half_Day_Tour_to_West_Bank_Tombs_and_Temples_from_Luxor"/>
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_in_Luxor:_Valley_of_the_Kings,Hatshepsut_Temple,Karnak_and_Luxor_temples,_Colossi_of_Memnon"/>
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Luxor_Temple_Visit"/>
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Valley_of_the_Nobles_and_Valley_of_the_Artisans-Deir_el-Medina_from_Luxor"/>
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:Luxor_East_Bank,Karnak_and_Luxor_Temples"/>
+
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor_Nile"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fellahs_Tent"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#FLIGHT"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#CENTRA"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Royal_Bar"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_King's_Head_Pub"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Susanna_Hotel"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steigenberger_Nile_Palace_Luxor"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ACE-Animal_Care_in_Egypt"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Libreria_Aboudi_Bookstore"/>
+
+
+
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Iberotel_Luxor"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Nefertiti_Hotel"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pyramids_Luxor_Hotel"/>
@@ -691,6 +729,39 @@ I will be back for sure with more guests in the future.</comments>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunny_Chelsea_Getaway"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Sunny_Loft_in_Chelsea"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Brand_New_Spacious_Times_square"/>
+
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape_Entertainment"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Don't_Tell_Mama"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jekyll_and_Hyde_Restaurant"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Duplex"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Upright_Citizens_Brigade_Theatre"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steve_Cohen's_Chamber_Magic"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#National_Comedy_Theatre_New_York"
+        /> 
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Slipper_Room"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#B.B.King_Blues_Club_and_Grill"
+        />
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Joe's_Pub"
+        />
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NY_Urban_Pioneers_Private_Walking_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York_CityPASS"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_September_11_Memorial_and_Wall_Street_Tour_with_Pedestal_Access_to_the_Statue_of_Liberty"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour_of_the_American_Museum_of_Natural_History"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SANDEMANs_NEW_Europe-New_York"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small-Group_Tour_of_Statue_of_Liberty_and_Ellis_Island"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Statue_of_Liberty_and_Ellis_Island_Guided_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Sightseeing_Day_Pass_NYC"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Boroughs_Of_The_Dead:Macabre_New_York_City_Walking_Tours"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture_Clash:Immigrant_NYC_Running_Tour"/>
+
         <name>New York</name>
         <season>Spring</season>
         <type>Entertainment</type>
@@ -783,6 +854,28 @@ I will be back for sure with more guests in the future.</comments>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Residenza_Romana_Zucchelli"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Arrivederci_Roma_casa"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Unique_terrace_over_Rome"/>
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Camping_Village_Fabulous"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Opera_in_Roma"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#I_Virtuosi_dell'opera_di_Roma:La_Traviata"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Colosseum_Pub_Crawl"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape_Rome"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#BeerFalls"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Teatro_Salone_Margherita"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Auditorium-Parco_della_Musica"/>
+       <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Time_Elevator_Rome_Experience"/>
+
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City_Sightseeing_Transportation_and_Skip-The-Line_Roma_Pass"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Family-Friendly_Tour_to_the_Colosseum_and_the_Palatine_Hill"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jubilee_2016_From_Paganism_to_Christianity"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome_Trastevere_Tour_by_Segway"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip-the-lines_Pantheon_and_Santa_Maria_Sopra_Minerva_Guided_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Borghese_Gallery_Tour_with_Bernini_Caravaggio_and_Raphael"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:Vatican_Museums,St.Peter&apos;s_and_the_Most_Important_Basilicas_of_Rome"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:_Vatican_Museums,_St._Peter&apos;s_and_the_Most_Important_Basilicas_of_Rom"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip_the_Line:Ancient_Rome_and_Colosseum_Half-Day_Walking_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Tour:_Christian_Rome_and_Underground_Basilicas_Half-Day_Tour"/>
         <name>Rome</name>
         <season>Summer</season>
         <type>Historic</type>
@@ -1324,7 +1417,144 @@ Visited November 2016</comments>
 
 
     <!-- =========================================================================================== Historical =========================================================================================== -->
+    <!-- luxorr  -->
 
+        <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Half_Day_Tour_to_West_Bank_Tombs_and_Temples_from_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Half_Day_Tour_to_West_Bank_Tombs_and_Temples_from_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right next to the most famous sites in Luxor I was privileged to &quot;discover&quot; thanks to Mr. Nabil Ahmed, Egyptologist from Alexandria, from the esteemed Memphis Tours, this incredible recently restored magnificent and very large temple of incredible original structures with well preserved colorful and with 3000 years colors frescoes and carvings. It seem to be less visited by foreign visitors. It is a true must and in my view deserves to be a Number 3 attraction after Luxor and Karnak temples.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temple of Medinat Habu</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1029</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+
+    
+
+       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Guided_Tour_to_Karnak_Temple_from_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Guided_Tour_to_Karnak_Temple_from_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I was lucky to visit this wonder with a very knowledgeable private tour guide from my favorite Memphis Tours, real Alexandria University graduate and scholar, Nabil Ahmed. His heartfelt historical descriptions made the visit to the temple all more meaningful.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temple of Karnak</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">541</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+
+   <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Full-Day_Tour_of_Luxor_From_Hurghada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Full-Day_Tour_of_Luxor_From_Hurghada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pretty impressive structure as you approach it. Only one of the three floors is open and has anything worth viewing. But it is well worth the time to see.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temple of Hatshepsut at Deir el Bahari</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2347</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+
+ <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of the most important place in luxor you must see it . Lots of good condition status and things .three or more perfect mummies their .words can&amp;apos;t describe what you are going to see</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxor Museum</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">631</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+
+
+  <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Absolute must if you are visiting Luxor. Dina Danial, our Egyptologist guide, was truly outstanding. She was so knowledgeable and passionate about the ancient sites we visited that it made the day unique and wonderful. Ask for her if you can - she is exceptional. We found the tour incredibly interesting and learned so much. Particularly loved visiting the Tomb of Tutankhamen we paid extra for this as this had been a childhood dream. The lunch was local and authentic Egyptian - truly delicious! All in all, we would highly recommend this tour. It was informative, awe-inspiring and flexible to our needs.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valley of the Kings</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">902</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.9</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+
+
+     <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_East_and_West_Banks_of_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_East_and_West_Banks_of_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of three tombs you can visit with the general admission ticket. Two other tombs cost an extra fee.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomb of Ramses VI</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2038</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.4</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+   <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_in_Luxor:_Valley_of_the_Kings,Hatshepsut_Temple,Karnak_and_Luxor_temples,_Colossi_of_Memnon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_in_Luxor:_Valley_of_the_Kings,Hatshepsut_Temple,Karnak_and_Luxor_temples,_Colossi_of_Memnon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This place is astonishing.To see the substantial remains of a 3000yr old village of the talented people who have left the evidence of a lost civilisation through their singular artistic talent is quite moving.There are houses,streets and tombs of the residents on site.These people were extraordinary-the Michaelangelo,s of their age-the best craftsmen of their time.To see their village is amazing and humbling.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valley of the Artisans (Deir el-Medina)</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 12:00 am</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1938</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Luxor_Temple_Visit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Luxor_Temple_Visit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A complete site ... interesting. £80 entrance fee is worth. Gets hot wear a hat and sun block. No cafe. Photography allowed</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxor Temple Visit</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 6:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">631</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Valley_of_the_Nobles_and_Valley_of_the_Artisans-Deir_el-Medina_from_Luxor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Valley_of_the_Nobles_and_Valley_of_the_Artisans-Deir_el-Medina_from_Luxor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">There are some real hidden gems in the Valley of the Nobles. The tombs aren&apos;t as grand as those in the Valley of the Kings, but the artwork on the walls is extra special. There is more daily life scenes here, where Egyptologists really learned about the average Egyptians&apos; lives. You&apos;ll be the only tourists here, as the groups don&apos;t come. Don&apos;t miss the best ones, Ramose, Nakht, Sennefer...oh, just go to all of them! You might have to slip the guard 10 or 20 pounds, but it&apos;s worth it if they allow you to take a picture.
+        Visited February 2017</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valley of the Nobles</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 12:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1232</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.2</TouristOnto:rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:Luxor_East_Bank,Karnak_and_Luxor_Temples -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:Luxor_East_Bank,Karnak_and_Luxor_Temples">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
+        <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This can be seen from Luxor Temple or Karnak. It originally connected the two temples and is slowly being uncovered the entire way.</TouristOnto:comments>
+        <TouristOnto:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</TouristOnto:duration>
+        <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenue of Sphinxes</TouristOnto:name>
+        <TouristOnto:openingHours>8:30 am - 12:00 pm</TouristOnto:openingHours>
+        <TouristOnto:price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">851</TouristOnto:price>
+        <TouristOnto:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.6</TouristOnto:rate>
+    </owl:NamedIndividual>
     <!-- hawaii -->
 
      <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kauai Museum-->
@@ -1497,7 +1727,7 @@ Visited November 2016</comments>
   </owl:NamedIndividual>
 
       <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Historical_Tour:Tales_from _the_Past-->
-        <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Historical_Tour:Tales_from _the_Past">
+        <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Historical_Tour:Tales_from_the_Past">
       <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
       <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I visited few times in this house with my family and friends. It was very good experience for us. We could come to know how the people lived in those days before 100 years. This house was renovated one. Looks very nice. Particularly the interior construction works. Worth visiting . Dubai tour will not complete without visiting this place .
       </TouristOnto:comments>
@@ -1740,8 +1970,7 @@ Visited November 2016</comments>
     </owl:NamedIndividual>
 
         <!-- http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture Clash: Immigrant NYC Running Tour-->
-          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture_Clash:Immigrant_NYC_Running_Tour
-">
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture_Clash:Immigrant_NYC_Running_Tour">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical"/>
         <TouristOnto:comments rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The building has undergone a full restoration, keeping most of the wood features. There's a new AMAZING stained glass window designed by Kiki Smith which is worth the visit on its own. A docent will share many quirky details with you, about the neighborhood and the congregation. The sanctuary and the upstairs women's gallery are most inspiring.
         </TouristOnto:comments>
@@ -2012,6 +2241,33 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Super_Yacht_Dubai"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Desert_Safari_-_Day_Tours_Dubai"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Yellow_Boats_Dubai"/>
+
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dhow_Boat_Dinner_Cruise_in_Dubai"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Arabian_Nights_Tours_LLC"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Global_Village_and_Miracle_Garden_Tour"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Explorer_Pass"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fun_World_Family_Entertainment"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Al_Mansour_Dhow"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Platinum_Power_Pass_SEGA_Republic_at_The_Dubai Mall"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#WOW_Kids_Amusement_Arcade"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Magic_Planet"/>
+         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Garden_Glow"/>
+
+
+
+
+          <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Authentic_Emirati_Cultural_Meal_and_Talk_in_Old_Dubai"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Heritage_History_Culture_and_Shopping_Tour_Including_Dubai_Museum"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Museum_Gold_Souk_and_Water_Taxi"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Find_Treasure_At_The_Dubai_Museum"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Morning_or_Afternoon_Old_Dubai_Walking_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#See_Old_Dubai_At_Al_Fahidi_Historical_Neighbourhood"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Visit_The_Heritage_And_Diving_Village"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#A_Glimpse_of_History_on_Dubai&apos;s_Heritage_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Historical_Tour:Tales_from_the_Past"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Secrets_of_Arabia"/>
+
+
         <TouristOnto:season rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fall</TouristOnto:season>
         <TouristOnto:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entertainment</TouristOnto:type>
     </owl:NamedIndividual>      
@@ -2184,6 +2440,32 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
         <TouristOnto:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hawaii</TouristOnto:name>
+
+
+ <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Chief's_Luau_at_Sea_Life_Park"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Oahu_Casual_Sunset_Dinner_and_Show_Cruise"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Paradise_Cove_Luau"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Germaine's_Luau_on_Oahu"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Diamond_Head_Luau"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Drums_of_the_Pacific_Lu'au"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Warren_and_Annabelle's_Magic"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hale_Koa_Luau"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Island_Breeze_Luau"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Waikiki_Starlight_Luau"/>
+
+
+                   <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bishop_Museum_General_Admission"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deluxe_Arizona_Memorial_and_Historical_City_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii_Island_Experience"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kauai_Museum"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pearl_Harbor_Pass"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#USS_Arizona_Memorial_And_USS_Missouri_Group_Tour_from_Waikiki"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#US_Army_Museum_of_Hawaii"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kona_Tour:Coffee_Plantation,Kealakekua_Bay,Kaloko-Honokohau_Park_and_Bee_Farm"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Monarch&apos;s_Tour:Bishop_Museum_and_Iolani_Palace_Combo_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Old_Lahaina_Courthouse"/>
+
+
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Maui_Beach_Boys_Hawaii"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Maui_Wave_Riders_Hawaii"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Adventures_in_Paradise_Kayak_Snorkel_Hawaii"/>
@@ -2385,9 +2667,34 @@ Not to be missed: an 18 minute film on the first floor which is simply excellent
     </owl:NamedIndividual>
 
 
-
+     <!--entertainment -->
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor_Nile"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fellahs_Tent"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#FLIGHT"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#CENTRA"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Royal_Bar"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_King's_Head_Pub"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Susanna_Hotel"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steigenberger_Nile_Palace_Luxor"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ACE-Animal_Care_in_Egypt"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Libreria_Aboudi_Bookstore"/>
+        
+
+        <!-- historical -->
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_East_and_West_Banks_of_Luxor"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Full-Day_Tour_of_Luxor_From_Hurghada"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Guided_Tour_to_Karnak_Temple_from_Luxor"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Half_Day_Tour_to_West_Bank_Tombs_and_Temples_from_Luxor"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_in_Luxor:_Valley_of_the_Kings,Hatshepsut_Temple,Karnak_and_Luxor_temples,_Colossi_of_Memnon"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Luxor_Temple_Visit"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Valley_of_the_Nobles_and_Valley_of_the_Artisans-Deir_el-Medina_from_Luxor"/>
+        <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:Luxor_East_Bank,Karnak_and_Luxor_Temples"/>
+       
+        <!--sports 23tkd -->        
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Alaska_Balloons_Luxor"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hod_Hod_Soliman_Balloon_Luxor"/>
         <TouristOnto:has rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dream_Balloons_Luxor"/>
@@ -5065,6 +5372,11 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_cruise">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
         <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Cruise</foaf:name>
+           <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dhow_Boat_Dinner_Cruise_in_Dubai"/>
+           
+           <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Oahu_Casual_Sunset_Dinner_and_Show_Cruise"/>
+
+           <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor_Nile"/>
     </owl:NamedIndividual>
     
 
@@ -5074,6 +5386,47 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_night_life">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
         <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Night Life</foaf:name>
+          <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Arabian_Nights_Tours_LLC"/>
+
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#FLIGHT"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#CENTRA"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Royal_Bar"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_King's_Head_Pub"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Susanna_Hotel"/>
+
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#B.B.King_Blues_Club_and_Grill"
+        />
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Joe's_Pub"
+        />
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape_Entertainment"
+        />
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Don't_Tell_Mama"
+        />
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jekyll_and_Hyde_Restaurant"
+        />
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Duplex"
+        />
+        
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Slipper_Room"
+        />
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Opera_in_Roma"/>
+       
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape_Rome"/>
+        
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#BeerFalls"/>
+
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Escape"/>
+
+         
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Global_Village_and_Miracle_Garden_Tour"/>
+         
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fun_World_Family_Entertainment"/>
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#WOW_Kids_Amusement_Arcade"/>
+
+
     </owl:NamedIndividual>
     
 
@@ -5083,6 +5436,22 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_shows">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
         <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Shows</foaf:name>
+          <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Upright_Citizens_Brigade_Theatre"
+        />
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steve_Cohen's_Chamber_Magic"
+        />
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#National_Comedy_Theatre_New_York"
+        />
+
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#I_Virtuosi_dell'opera_di_Roma:La_Traviata"/>
+
+          <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Teatro_Salone_Margherita"/>
+       <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Auditorium-Parco_della_Musica"/>
+       <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Warren_and_Annabelle's_Magic"/>
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Paradise_Cove_Luau"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Germaine's_Luau_on_Oahu"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Diamond_Head_Luau"/>
+
     </owl:NamedIndividual>
     
 
@@ -5092,6 +5461,36 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#entertainment_sightseeing">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
         <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Sightseeing</foaf:name>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Chief's_Luau_at_Sea_Life_Park"/>
+       
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Fellahs_Tent"/>
+       
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Steigenberger_Nile_Palace_Luxor"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#ACE-Animal_Care_in_Egypt"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Libreria_Aboudi_Bookstore"/>
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Magic_Planet"/>
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Garden_Glow"/>
+       <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Explorer_Pass"/>
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Al_Mansour_Dhow"/>
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Platinum_Power_Pass_SEGA_Republic_at_The_Dubai Mall"/>
+            <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Island_Breeze_Luau"/>
+        
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Drums_of_the_Pacific_Lu'au"/>
+        
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hale_Koa_Luau"/>
+    
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Waikiki_Starlight_Luau"/>
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Camping_Village_Fabulous"/>
+       
+      
+      
+       <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Colosseum_Pub_Crawl"/>
+   
+      
+      
+       <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Time_Elevator_Rome_Experience"/>
     </owl:NamedIndividual>
     
 
@@ -5155,6 +5554,70 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_monuments">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
         <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Monuments</foaf:name>
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_East_and_West_Banks_of_Luxor"/>
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_to_Luxor_West_Bank_with_Private_Guide_and_Lunch"/>
+
+
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Full-Day_Tour_of_Luxor_From_Hurghada"/>
+
+
+        
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Valley_of_the_Nobles_and_Valley_of_the_Artisans-Deir_el-Medina_from_Luxor"/>
+
+       
+   
+
+
+
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#NY_Urban_Pioneers_Private_Walking_Tour"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York_CityPASS"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_September_11_Memorial_and_Wall_Street_Tour_with_Pedestal_Access_to_the_Statue_of_Liberty"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#SANDEMANs_NEW_Europe-New_York"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small-Group_Tour_of_Statue_of_Liberty_and_Ellis_Island"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Statue_of_Liberty_and_Ellis_Island_Guided_Tour"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#The_Sightseeing_Day_Pass_NYC"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Boroughs_Of_The_Dead:Macabre_New_York_City_Walking_Tours"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Culture_Clash:Immigrant_NYC_Running_Tour"/>
+
+       
+
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City_Sightseeing_Transportation_and_Skip-The-Line_Roma_Pass"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Family-Friendly_Tour_to_the_Colosseum_and_the_Palatine_Hill"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Jubilee_2016_From_Paganism_to_Christianity"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome_Trastevere_Tour_by_Segway"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip-the-lines_Pantheon_and_Santa_Maria_Sopra_Minerva_Guided_Tour"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Borghese_Gallery_Tour_with_Bernini_Caravaggio_and_Raphael"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Skip_the_Line:Ancient_Rome_and_Colosseum_Half-Day_Walking_Tour"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Small_Group_Tour:_Christian_Rome_and_Underground_Basilicas_Half-Day_Tour"/>
+        
+
+
+          <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Authentic_Emirati_Cultural_Meal_and_Talk_in_Old_Dubai"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Morning_or_Afternoon_Old_Dubai_Walking_Tour"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#See_Old_Dubai_At_Al_Fahidi_Historical_Neighbourhood"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Visit_The_Heritage_And_Diving_Village"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#A_Glimpse_of_History_on_Dubai&apos;s_Heritage_Tour"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Historical_Tour:Tales_from_the_Past"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Secrets_of_Arabia"/>
+
+
+
+           
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Deluxe_Arizona_Memorial_and_Historical_City_Tour"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii_Island_Experience"/>
+        
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Pearl_Harbor_Pass"/>
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#USS_Arizona_Memorial_And_USS_Missouri_Group_Tour_from_Waikiki"/>
+       
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kona_Tour:Coffee_Plantation,Kealakekua_Bay,Kaloko-Honokohau_Park_and_Bee_Farm"/>
+       
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Old_Lahaina_Courthouse"/>
+       
     </owl:NamedIndividual>
     
 
@@ -5164,6 +5627,28 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_museum">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
         <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Museum</foaf:name>
+         <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Museum_Gold_Souk_and_Water_Taxi"/>
+        
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Find_Treasure_At_The_Dubai_Museum"/>
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:Vatican_Museums,St.Peter&apos;s_and_the_Most_Important_Basilicas_of_Rome"/>
+        
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour:_Vatican_Museums,_St._Peter&apos;s_and_the_Most_Important_Basilicas_of_Rom"/>
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour_of_the_American_Museum_of_Natural_History"/>
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai_Heritage_History_Culture_and_Shopping_Tour_Including_Dubai_Museum"/>
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor_Museum_and_Mummification_Museum_Half_Day_Tour"/>
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Bishop_Museum_General_Admission"/>
+        
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Kauai_Museum"/>
+        
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#US_Army_Museum_of_Hawaii"/>
+        
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Monarch&apos;s_Tour:Bishop_Museum_and_Iolani_Palace_Combo_Tour"/>
+        
     </owl:NamedIndividual>
     
 
@@ -5173,6 +5658,18 @@ If you're visiting Greenwich Village I highly recommend that you try and make a 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#historical_temples">
         <rdf:type rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Interest"/>
         <foaf:name rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Temples</foaf:name>
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Guided_Tour_to_Karnak_Temple_from_Luxor"/>
+
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Half_Day_Tour_to_West_Bank_Tombs_and_Temples_from_Luxor"/>
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Full_Day_Tour_in_Luxor:_Valley_of_the_Kings,Hatshepsut_Temple,Karnak_and_Luxor_temples,_Colossi_of_Memnon"/>
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:_Luxor_Temple_Visit"/>
+
+        <TouristOnto:recommends rdf:resource="http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Private_Tour:Luxor_East_Bank,Karnak_and_Luxor_Temples"/>
+      
     </owl:NamedIndividual>
     
 
