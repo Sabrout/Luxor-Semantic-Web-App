@@ -1,0 +1,17 @@
+
+\\ Query 1
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>"
+SELECT ?city ?season WHERE { ?city onto:season ?season}
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>"
+SELECT ?city WHERE { ?city onto:season "Summer"}
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>"
+SELECT ?city WHERE { ?city onto:season "Winter"}
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>"
+SELECT ?city WHERE { ?city onto:season "Fall"}
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>"
+SELECT ?city WHERE { ?city onto:season "Spring"}
+
