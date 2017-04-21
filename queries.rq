@@ -53,9 +53,17 @@ SELECT ?attraction ?city ?has WHERE {?attraction rdf:type <http://www.semanticwe
 <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome> <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#has> ?attraction}
 
 // Query 4 comment: the same query works with Sports, but gives no results for Historical
+
 PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT ?attraction ?ranking WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical>.
 ?attraction onto:rate ?ranking} ORDER BY ?ranking
+
+// Query 5 comment: the same query works with Sports, but gives no results for Historical
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?attraction  WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical>.
+?attraction onto:rate 4.8}
 
 
