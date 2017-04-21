@@ -71,8 +71,15 @@ SELECT ?attraction  WHERE {?attraction rdf:type <http://www.semanticweb.org/moha
 // Query 7: same comment as 6
 
 // Query 8 comment: the same query works with Sports, but gives no results for Historical
+
 PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT ?attraction ?price  WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical>.
 ?attraction onto:price ?price}
 
+// Query 9 comment: the same query works with Sports, but gives no results for Historical
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?attraction ?price  WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical>.
+?attraction onto:price ?price} ORDER BY ?price
