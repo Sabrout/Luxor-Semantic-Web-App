@@ -15,3 +15,4 @@ SELECT ?city WHERE { ?city onto:season "Fall"}
 PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>"
 SELECT ?city WHERE { ?city onto:season "Spring"}
 
+  
