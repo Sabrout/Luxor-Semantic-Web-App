@@ -1,5 +1,5 @@
 
-\\ Query 1
+// Query 1
 PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>"
 SELECT ?city ?season WHERE { ?city onto:season ?season}
 
@@ -15,4 +15,39 @@ SELECT ?city WHERE { ?city onto:season "Fall"}
 PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>"
 SELECT ?city WHERE { ?city onto:season "Spring"}
 
-  
+// Query 2: No category
+
+// Query 3
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?attraction ?city ?has WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical>.
+?city <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#has> ?attraction.
+?city rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#City>}
+
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?attraction ?city ?has WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical>.
+<http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Hawaii> <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#has> ?attraction}
+
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?attraction ?city ?has WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical>.
+<http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Dubai> <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#has> ?attraction}
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?attraction ?city ?has WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical>.
+<http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Luxor> <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#has> ?attraction}
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?attraction ?city ?has WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical>.
+<http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#New_York> <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#has> ?attraction}
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?attraction ?city ?has WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical>.
+<http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Rome> <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#has> ?attraction}
