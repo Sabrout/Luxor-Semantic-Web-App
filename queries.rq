@@ -15,7 +15,20 @@ SELECT ?city WHERE { ?city onto:season "Fall"}
 PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>"
 SELECT ?city WHERE { ?city onto:season "Spring"}
 
-// Query 2: No category
+// Query 2
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>"
+SELECT ?city ?category WHERE { ?city onto:type ?category}
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>"
+SELECT ?city WHERE { ?city onto:type "Historic"}
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>"
+SELECT ?city WHERE { ?city onto:type "Entertainment"}
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>"
+SELECT ?city WHERE { ?city onto:type "Relaxation"}
+
 
 // Query 3
 
