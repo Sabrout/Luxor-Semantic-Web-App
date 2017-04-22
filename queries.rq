@@ -179,8 +179,18 @@ SELECT ?restaurant ?cuisine  WHERE {?restaurant rdf:type <http://www.semanticweb
 PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT ?restaurant  WHERE {?restaurant rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food>.
-?restaurant onto:cuisine "Seafood".}
+?restaurant onto:cuisine ?cuisine.
+FILTER(contains(?cuisine, "Seafood")).}
 
+// Query 22
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?restaurant  WHERE {?restaurant rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food>.
+?restaurant onto:cuisine ?cuisine.
+?restaurant onto:price ?price.
+FILTER(?price <= 100).
+FILTER(contains(?cuisine, \"American\"))}
 
 
 
