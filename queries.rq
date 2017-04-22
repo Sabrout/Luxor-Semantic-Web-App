@@ -140,7 +140,14 @@ SELECT ?waterSport ?price  WHERE {<http://www.semanticweb.org/mohamed/ontologies
 ?waterSport onto:price ?price.
 FILTER (?price < 1000)}
 
+// Query 14
 
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?sport ?user ?sportType WHERE {?user rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User>.
+?user <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#interestedIn> ?sportType.
+?sportType <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#recommends> ?sport.
+filter(contains(str(?sportType), \"sports\")).}
 
 
 
