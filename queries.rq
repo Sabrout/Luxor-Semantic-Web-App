@@ -80,18 +80,30 @@ SELECT ?attraction  WHERE {?attraction rdf:type <http://www.semanticweb.org/moha
 ?attraction <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#rate> ?ranking.
 FILTER(?ranking = 3.0)}
 
-// Query 6: delayed for questions
+// Query 6
 
-// Query 7: same comment as 6
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?attraction  WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical>.
+?attraction <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#openingHours> ?hours.
+FILTER(contains(?hours, "am")).}
 
-// Query 8 comment: the same query works with Sports, but gives no results for Historical
+// Query 7
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?attraction  WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical>.
+?attraction <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#openingHours> ?hours.
+FILTER(contains(?hours, "pm")).}
+
+// Query 8
 
 PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT ?attraction ?price  WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Historical>.
 ?attraction <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#price> ?price.}
 
-// Query 9 comment: the same query works with Sports, but gives no results for Historical
+// Query 9
 
 PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -175,11 +187,33 @@ SELECT ?entertainment ?user ?entertainmentType WHERE {?user rdf:type <http://www
 ?entertainmentType <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#recommends> ?entertainment.
 filter(contains(str(?entertainmentType), "entertainment")).}
 
-// Query 17 same comment as 6
+// Query 17
 
-// Query 18 same comment as 6
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?attraction  WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment>.
+?attraction <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#openingHours> ?hours.
+FILTER(contains(?hours, "am")).}
 
-// Query 19 same comment as 6
+// Query 18
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?attraction  WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment>.
+?attraction <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#openingHours> ?hours.
+FILTER(contains(?hours, \"am\")).
+?attraction <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#price> ?price.
+FILTER(?price < 100).}
+
+// Query 19
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?attraction  WHERE {?attraction rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Entertainment>.
+?attraction <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#openingHours> ?hours.
+FILTER(contains(?hours, \"am\")).
+?attraction <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#duration> ?duration.
+FILTER(?duration = 2).}
 
 // Query 20
 
