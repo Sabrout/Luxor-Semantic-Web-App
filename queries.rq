@@ -147,7 +147,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT ?sport ?user ?sportType WHERE {?user rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User>.
 ?user <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#interestedIn> ?sportType.
 ?sportType <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#recommends> ?sport.
-filter(contains(str(?sportType), \"sports\")).}
+filter(contains(str(?sportType), "sports")).}
 
 // Query 15
 PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
@@ -159,7 +159,28 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT ?entertainment ?user ?entertainmentType WHERE {?user rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#User>.
 ?user <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#interestedIn> ?entertainmentType.
 ?entertainmentType <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#recommends> ?entertainment.
-filter(contains(str(?entertainmentType), \"entertainment\")).}
+filter(contains(str(?entertainmentType), "entertainment")).}
+
+// Query 17 same comment as 6
+
+// Query 18 same comment as 6
+
+// Query 19 same comment as 6
+
+// Query 20
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?restaurant ?cuisine  WHERE {?restaurant rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food>.
+?restaurant onto:cuisine ?cuisine.}
+
+// Query 21
+
+PREFIX onto: <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?restaurant  WHERE {?restaurant rdf:type <http://www.semanticweb.org/mohamed/ontologies/2017/2/TouristOnto#Food>.
+?restaurant onto:cuisine "Seafood".}
+
 
 
 
