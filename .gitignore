@@ -4,3 +4,6 @@ catalog-v001.xml
 
 # Ignore the fuseki binaries
 apache-jena-fuseki-*
+
+# Ignore any logs
+*.log
