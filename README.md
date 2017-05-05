@@ -1,6 +1,11 @@
 # Luxor-Semantic-Web-App
 
-### Installing Dependencies:
+### Dependencies:
+
+- Java
+- Ruby ( to run the seed using `s-put` script, otherwise, you will need to manually seed or do it from the UI )
+
+### Installing Fuseki:
 Run `install.sh` to download and setup Fuseki server
 
 ### Running the server
